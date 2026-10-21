@@ -1,0 +1,3845 @@
+{
+  "catalog_program_count": 20,
+  "reviewed_on": "2026-10-21",
+  "classification_type": "editorial_not_museum_taxonomy",
+  "definitions": {
+    "Engineering": "Mechanisms, engineering or explicit problem-driven design; merely assembling an object is insufficient.",
+    "Sustainability and Energy": "Environmental systems, sustainable materials, adaptation or renewable/clean energy; generic mechanical energy transfer alone is excluded.",
+    "Science": "Explicit physical, natural, biological, earth or space science subjects or experiments.",
+    "Interdisciplinary Learning": "Explicit links across arts, mathematics, history, culture or social studies and another discipline; not every workshop is automatically classified."
+  },
+  "themes": [
+    "Engineering",
+    "Sustainability and Energy",
+    "Science",
+    "Interdisciplinary Learning"
+  ],
+  "scope": "Published grade coverage and editorial relevance only; no booking, fee or duration eligibility implied.",
+  "cells": [
+    {
+      "grade": 2,
+      "theme": "Engineering",
+      "count": 2,
+      "program_ids": [
+        "ewm-resourceful-schools",
+        "ewm-simple-machines"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Interchangeable mechanical parts and simple machines."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Models explore design responses to floods and disaster."
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "theme": "Sustainability and Energy",
+      "count": 2,
+      "program_ids": [
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-resourceful-schools"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Floating schools use solar power in an environmental adaptation context."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Ecology, ecosystems and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "theme": "Science",
+      "count": 3,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-simple-machines"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Force and motion and energy-transfer subjects."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Magnetism, force and motion, and ecology."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Transparent, translucent and opaque materials and light behavior."
+        }
+      ]
+    },
+    {
+      "grade": 2,
+      "theme": "Interdisciplinary Learning",
+      "count": 4,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-cultures",
+        "ewm-resourceful-schools",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Architecture and cultures connect built environments with global communities."
+        },
+        {
+          "program_id": "ewm-cultures",
+          "official_url": "https://www.eliwhitney.org/cultures",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/cultures",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ],
+          "rationale": "Architecture, cultures, history, social studies and transportation."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Art, art history, cultures, light and social studies."
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "theme": "Engineering",
+      "count": 6,
+      "program_ids": [
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-mill",
+        "ewm-resourceful-schools",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Interchangeable mechanical parts and simple machines."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Engineering and robotics."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Models explore design responses to floods and disaster."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Engineering and mechanics."
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "theme": "Sustainability and Energy",
+      "count": 3,
+      "program_ids": [
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-resourceful-schools",
+        "ewm-sustainable-birdhouse"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Floating schools use solar power in an environmental adaptation context."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Ecology, ecosystems and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "theme": "Science",
+      "count": 10,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-catapult",
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-electromagnet",
+        "ewm-inventive-arm",
+        "ewm-mill",
+        "ewm-rocks-connecticut",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines",
+        "ewm-sustainable-birdhouse"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Force and motion and energy-transfer subjects."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Anatomy and evolution support biological/scientific inquiry."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Birds, migration and natural science."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Magnetism, force and motion, and ecology."
+        },
+        {
+          "program_id": "ewm-electromagnet",
+          "official_url": "https://www.eliwhitney.org/electromagnet",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/electromagnet",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/electromagnet"
+            }
+          ],
+          "rationale": "Electricity, magnetism, force and motion."
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ],
+          "rationale": "Geology and natural science."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Mechanics and energy transfer."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Transparent, translucent and opaque materials and light behavior."
+        }
+      ]
+    },
+    {
+      "grade": 3,
+      "theme": "Interdisciplinary Learning",
+      "count": 6,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-catapult",
+        "ewm-cultures",
+        "ewm-mill",
+        "ewm-resourceful-schools",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "History combined with engineering and physical science."
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Architecture and cultures connect built environments with global communities."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "History, Industrial Revolution and social studies with engineering."
+        },
+        {
+          "program_id": "ewm-cultures",
+          "official_url": "https://www.eliwhitney.org/cultures",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/cultures",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ],
+          "rationale": "Architecture, cultures, history, social studies and transportation."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Art, art history, cultures, light and social studies."
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "theme": "Engineering",
+      "count": 10,
+      "program_ids": [
+        "ewm-bridges",
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-resourceful-schools",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Interchangeable mechanical parts and simple machines."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-bridges",
+          "official_url": "https://www.eliwhitney.org/bridges",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/bridges",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Engineering and robotics."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Models explore design responses to floods and disaster."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Engineering and mechanics."
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "theme": "Sustainability and Energy",
+      "count": 5,
+      "program_ids": [
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-resourceful-schools",
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Alternative/clean energy, conservation and sustainable design."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Alternative/clean energy, solar power and sustainable design."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Floating schools use solar power in an environmental adaptation context."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Ecology, ecosystems and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "theme": "Science",
+      "count": 15,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-ecosystems-magnetic-pendulum",
+        "ewm-electromagnet",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-rocks-connecticut",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines",
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Force and motion and energy-transfer subjects."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Anatomy and evolution support biological/scientific inquiry."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Birds, migration and natural science."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Solar panels and a motor are connected and tested."
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ],
+          "rationale": "Magnetism, force and motion, and ecology."
+        },
+        {
+          "program_id": "ewm-electromagnet",
+          "official_url": "https://www.eliwhitney.org/electromagnet",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/electromagnet",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/electromagnet"
+            }
+          ],
+          "rationale": "Electricity, magnetism, force and motion."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Light, lenses, perception and the eye."
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ],
+          "rationale": "Geology and natural science."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Mechanics and energy transfer."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Transparent, translucent and opaque materials and light behavior."
+        }
+      ]
+    },
+    {
+      "grade": 4,
+      "theme": "Interdisciplinary Learning",
+      "count": 7,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-cultures",
+        "ewm-mill",
+        "ewm-resourceful-schools",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "History combined with engineering and physical science."
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "official_url": "https://www.eliwhitney.org/resourceful-schools",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ],
+          "rationale": "Architecture and cultures connect built environments with global communities."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Art and art history connect with optics."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "History, Industrial Revolution and social studies with engineering."
+        },
+        {
+          "program_id": "ewm-cultures",
+          "official_url": "https://www.eliwhitney.org/cultures",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/cultures",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ],
+          "rationale": "Architecture, cultures, history, social studies and transportation."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Art, art history, cultures, light and social studies."
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "theme": "Engineering",
+      "count": 9,
+      "program_ids": [
+        "ewm-bridges",
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Interchangeable mechanical parts and simple machines."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-bridges",
+          "official_url": "https://www.eliwhitney.org/bridges",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/bridges",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Engineering and robotics."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Engineering and mechanics."
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "theme": "Sustainability and Energy",
+      "count": 3,
+      "program_ids": [
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Alternative/clean energy, conservation and sustainable design."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Alternative/clean energy, solar power and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "theme": "Science",
+      "count": 15,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-electromagnet",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-orrery",
+        "ewm-rocks-connecticut",
+        "ewm-rubber-band-car",
+        "ewm-simple-machines",
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-simple-machines",
+          "official_url": "https://www.eliwhitney.org/simple-machines",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ],
+          "rationale": "Force and motion and energy-transfer subjects."
+        },
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Anatomy and evolution support biological/scientific inquiry."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Birds, migration and natural science."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Solar panels and a motor are connected and tested."
+        },
+        {
+          "program_id": "ewm-electromagnet",
+          "official_url": "https://www.eliwhitney.org/electromagnet",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/electromagnet",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/electromagnet"
+            }
+          ],
+          "rationale": "Electricity, magnetism, force and motion."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Light, lenses, perception and the eye."
+        },
+        {
+          "program_id": "ewm-orrery",
+          "official_url": "https://www.eliwhitney.org/orrery",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/orrery",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/orrery"
+            }
+          ],
+          "rationale": "Earth, Moon, seasons and the solar system."
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ],
+          "rationale": "Geology and natural science."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Mechanics and energy transfer."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Transparent, translucent and opaque materials and light behavior."
+        }
+      ]
+    },
+    {
+      "grade": 5,
+      "theme": "Interdisciplinary Learning",
+      "count": 6,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-cultures",
+        "ewm-mill",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "History combined with engineering and physical science."
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Art and art history connect with optics."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "History, Industrial Revolution and social studies with engineering."
+        },
+        {
+          "program_id": "ewm-cultures",
+          "official_url": "https://www.eliwhitney.org/cultures",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/cultures",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ],
+          "rationale": "Architecture, cultures, history, social studies and transportation."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Art, art history, cultures, light and social studies."
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "theme": "Engineering",
+      "count": 8,
+      "program_ids": [
+        "ewm-bridges",
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-rubber-band-car",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-bridges",
+          "official_url": "https://www.eliwhitney.org/bridges",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/bridges",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Engineering and robotics."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Engineering and mechanics."
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "theme": "Sustainability and Energy",
+      "count": 3,
+      "program_ids": [
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Alternative/clean energy, conservation and sustainable design."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Alternative/clean energy, solar power and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "theme": "Science",
+      "count": 14,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-electromagnet",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-orrery",
+        "ewm-rocks-connecticut",
+        "ewm-rubber-band-car",
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Anatomy and evolution support biological/scientific inquiry."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Birds, migration and natural science."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Solar panels and a motor are connected and tested."
+        },
+        {
+          "program_id": "ewm-electromagnet",
+          "official_url": "https://www.eliwhitney.org/electromagnet",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/electromagnet",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/electromagnet"
+            }
+          ],
+          "rationale": "Electricity, magnetism, force and motion."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Light, lenses, perception and the eye."
+        },
+        {
+          "program_id": "ewm-orrery",
+          "official_url": "https://www.eliwhitney.org/orrery",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/orrery",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/orrery"
+            }
+          ],
+          "rationale": "Earth, Moon, seasons and the solar system."
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ],
+          "rationale": "Geology and natural science."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Mechanics and energy transfer."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Transparent, translucent and opaque materials and light behavior."
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "theme": "Interdisciplinary Learning",
+      "count": 6,
+      "program_ids": [
+        "ewm-art-and-light",
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-cultures",
+        "ewm-mill",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "History combined with engineering and physical science."
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Art and art history connect with optics."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "History, Industrial Revolution and social studies with engineering."
+        },
+        {
+          "program_id": "ewm-cultures",
+          "official_url": "https://www.eliwhitney.org/cultures",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/cultures",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ],
+          "rationale": "Architecture, cultures, history, social studies and transportation."
+        },
+        {
+          "program_id": "ewm-art-and-light",
+          "official_url": "https://www.eliwhitney.org/art-and-light",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ],
+          "rationale": "Art, art history, cultures, light and social studies."
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "theme": "Engineering",
+      "count": 8,
+      "program_ids": [
+        "ewm-bridges",
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-rubber-band-car",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-bridges",
+          "official_url": "https://www.eliwhitney.org/bridges",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/bridges",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Engineering is a published subject."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Engineering and design/invention."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Engineering and robotics."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Engineering and invention."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Engineering and mechanics."
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "theme": "Sustainability and Energy",
+      "count": 3,
+      "program_ids": [
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Alternative/clean energy, conservation and sustainable design."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Alternative/clean energy, solar power and sustainable design."
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "theme": "Science",
+      "count": 12,
+      "program_ids": [
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-inventive-arm",
+        "ewm-marble-roller-coaster",
+        "ewm-mill",
+        "ewm-orrery",
+        "ewm-rocks-connecticut",
+        "ewm-rubber-band-car",
+        "ewm-solar-sunflower",
+        "ewm-sustainable-birdhouse",
+        "ewm-sustainable-energy-wind-power",
+        "ewm-whitney-relay"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "official_url": "https://www.eliwhitney.org/whitney-relay",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "official_url": "https://www.eliwhitney.org/rubber-band-car",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "official_url": "https://www.eliwhitney.org/inventive-arm",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ],
+          "rationale": "Anatomy and evolution support biological/scientific inquiry."
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ],
+          "rationale": "Force and motion and energy transfer."
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ],
+          "rationale": "Birds, migration and natural science."
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "official_url": "https://www.eliwhitney.org/solar-sunflower",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ],
+          "rationale": "Solar panels and a motor are connected and tested."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Light, lenses, perception and the eye."
+        },
+        {
+          "program_id": "ewm-orrery",
+          "official_url": "https://www.eliwhitney.org/orrery",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/orrery",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/orrery"
+            }
+          ],
+          "rationale": "Earth, Moon, seasons and the solar system."
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ],
+          "rationale": "Geology and natural science."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "Mechanics and energy transfer."
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "theme": "Interdisciplinary Learning",
+      "count": 4,
+      "program_ids": [
+        "ewm-camera-obscura",
+        "ewm-catapult",
+        "ewm-mill",
+        "ewm-tangrams"
+      ],
+      "entries": [
+        {
+          "program_id": "ewm-catapult",
+          "official_url": "https://www.eliwhitney.org/catapult",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/catapult",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ],
+          "rationale": "History combined with engineering and physical science."
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "official_url": "https://www.eliwhitney.org/tangrams",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ],
+          "rationale": "Geometry and shapes combined with color, patterns and design."
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "official_url": "https://www.eliwhitney.org/camera-obscura",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ],
+          "rationale": "Art and art history connect with optics."
+        },
+        {
+          "program_id": "ewm-mill",
+          "official_url": "https://www.eliwhitney.org/mill",
+          "grade_evidence": {
+            "field": "/grade_levels",
+            "source_id": "program_page",
+            "locator": "Grade Level",
+            "status": "verified",
+            "note": "Museum grade tokens preserved exactly.",
+            "url": "https://www.eliwhitney.org/mill",
+            "accessed_on": "2026-10-21"
+          },
+          "theme_evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ],
+          "rationale": "History, Industrial Revolution and social studies with engineering."
+        }
+      ]
+    }
+  ],
+  "uncertain_assignments": []
+}

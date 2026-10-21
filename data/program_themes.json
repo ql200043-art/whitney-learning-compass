@@ -1,0 +1,575 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_on": "2026-10-21",
+  "classification_type": "editorial_not_museum_taxonomy",
+  "themes": [
+    "Engineering",
+    "Sustainability and Energy",
+    "Science",
+    "Interdisciplinary Learning"
+  ],
+  "definitions": {
+    "Engineering": "Mechanisms, engineering or explicit problem-driven design; merely assembling an object is insufficient.",
+    "Sustainability and Energy": "Environmental systems, sustainable materials, adaptation or renewable/clean energy; generic mechanical energy transfer alone is excluded.",
+    "Science": "Explicit physical, natural, biological, earth or space science subjects or experiments.",
+    "Interdisciplinary Learning": "Explicit links across arts, mathematics, history, culture or social studies and another discipline; not every workshop is automatically classified."
+  },
+  "assignments": [
+    {
+      "program_id": "ewm-simple-machines",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Interchangeable mechanical parts and simple machines.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy-transfer subjects.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/simple-machines"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-catapult",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering is a published subject.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ]
+        },
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "History combined with engineering and physical science.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/catapult"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-bridges",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and design/invention.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-sustainable-energy-wind-power",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering is a published subject.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ]
+        },
+        {
+          "theme": "Sustainability and Energy",
+          "status": "supported_editorial",
+          "rationale": "Alternative/clean energy, conservation and sustainable design.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-tangrams",
+      "themes": [
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "Geometry and shapes combined with color, patterns and design.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/tangrams"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-whitney-relay",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and design/invention.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/whitney-relay"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-rubber-band-car",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and invention.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rubber-band-car"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-inventive-arm",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and robotics.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Anatomy and evolution support biological/scientific inquiry.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/inventive-arm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-marble-roller-coaster",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and invention.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Force and motion and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/marble-roller-coaster"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-sustainable-birdhouse",
+      "themes": [
+        {
+          "theme": "Sustainability and Energy",
+          "status": "supported_editorial",
+          "rationale": "Sustainably harvested and reused building materials; species and siting considerations.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Birds, migration and natural science.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-solar-sunflower",
+      "themes": [
+        {
+          "theme": "Sustainability and Energy",
+          "status": "supported_editorial",
+          "rationale": "Alternative/clean energy, solar power and sustainable design.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Solar panels and a motor are connected and tested.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/solar-sunflower"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-resourceful-schools",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Models explore design responses to floods and disaster.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ]
+        },
+        {
+          "theme": "Sustainability and Energy",
+          "status": "supported_editorial",
+          "rationale": "Floating schools use solar power in an environmental adaptation context.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ]
+        },
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "Architecture and cultures connect built environments with global communities.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/resourceful-schools"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-ecosystems-magnetic-pendulum",
+      "themes": [
+        {
+          "theme": "Sustainability and Energy",
+          "status": "supported_editorial",
+          "rationale": "Ecology, ecosystems and sustainable design.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Magnetism, force and motion, and ecology.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-electromagnet",
+      "themes": [
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Electricity, magnetism, force and motion.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/electromagnet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-camera-obscura",
+      "themes": [
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Light, lenses, perception and the eye.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ]
+        },
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "Art and art history connect with optics.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/camera-obscura"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-orrery",
+      "themes": [
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Earth, Moon, seasons and the solar system.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/orrery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-rocks-connecticut",
+      "themes": [
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Geology and natural science.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/rocks-connecticut"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-mill",
+      "themes": [
+        {
+          "theme": "Engineering",
+          "status": "supported_editorial",
+          "rationale": "Engineering and mechanics.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ]
+        },
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Mechanics and energy transfer.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ]
+        },
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "History, Industrial Revolution and social studies with engineering.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/mill"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-cultures",
+      "themes": [
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "Architecture, cultures, history, social studies and transportation.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/cultures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "ewm-art-and-light",
+      "themes": [
+        {
+          "theme": "Science",
+          "status": "supported_editorial",
+          "rationale": "Transparent, translucent and opaque materials and light behavior.",
+          "evidence": [
+            {
+              "field": "/description",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ]
+        },
+        {
+          "theme": "Interdisciplinary Learning",
+          "status": "supported_editorial",
+          "rationale": "Art, art history, cultures, light and social studies.",
+          "evidence": [
+            {
+              "field": "/subjects",
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/art-and-light"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

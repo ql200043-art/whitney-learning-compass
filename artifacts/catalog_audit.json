@@ -1,0 +1,51 @@
+{
+  "stage": 2,
+  "catalog_programs": 20,
+  "new_programs": 15,
+  "source_review_date": "2026-10-21",
+  "source_urls": [
+    "https://www.eliwhitney.org/simple-machines",
+    "https://www.eliwhitney.org/catapult",
+    "https://www.eliwhitney.org/bridges",
+    "https://www.eliwhitney.org/sustainable-energy-wind-power",
+    "https://www.eliwhitney.org/tangrams",
+    "https://www.eliwhitney.org/whitney-relay",
+    "https://www.eliwhitney.org/rubber-band-car",
+    "https://www.eliwhitney.org/inventive-arm",
+    "https://www.eliwhitney.org/marble-roller-coaster",
+    "https://www.eliwhitney.org/sustainable-birdhouse",
+    "https://www.eliwhitney.org/solar-sunflower",
+    "https://www.eliwhitney.org/resourceful-schools",
+    "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+    "https://www.eliwhitney.org/electromagnet",
+    "https://www.eliwhitney.org/camera-obscura",
+    "https://www.eliwhitney.org/orrery",
+    "https://www.eliwhitney.org/rocks-connecticut",
+    "https://www.eliwhitney.org/mill",
+    "https://www.eliwhitney.org/cultures",
+    "https://www.eliwhitney.org/art-and-light"
+  ],
+  "integrity": "passed",
+  "pilot_preservation": {
+    "ewm-simple-machines": true,
+    "ewm-catapult": true,
+    "ewm-bridges": true,
+    "ewm-sustainable-energy-wind-power": true,
+    "ewm-tangrams": true
+  },
+  "unknown_field_counts": {
+    "/accessibility_notes": 20,
+    "/booking_availability": 20,
+    "/duration/listed_text": 2,
+    "/duration/minutes": 2,
+    "/group_size/max_students": 20,
+    "/group_size/min_students": 20,
+    "/price/currency_code": 20,
+    "/published_standards": 20,
+    "/verification/source_updated_on": 20
+  },
+  "field_evidence_entries": 280,
+  "uncertain_theme_assignments": 0,
+  "catalog_sha256": "3a686069bf7e151b3defc5474b5be96932dd3247df1755999ccb66086d99cda6",
+  "no_model_calls": true
+}
