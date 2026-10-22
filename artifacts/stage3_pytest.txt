@@ -1,0 +1,6 @@
+Command: PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider --basetemp=.test-tmp --junitxml=artifacts/stage3_pytest.xml
+
+........................................................................ [ 35%]
+........................................................................ [ 70%]
+...........................................................              [100%]
+203 passed in 1.82s

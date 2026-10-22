@@ -1,0 +1,32 @@
+{
+  "run_id": "4ac88173-1e0b-431f-8eba-5b58dd8e35e1",
+  "timestamp": "2026-10-22T04:48:05.015858+00:00",
+  "execution_kind": "real_portkey",
+  "agent": "connectivity_smoke",
+  "model": "gpt-6-luna",
+  "model_requests": [
+    {
+      "timestamp": "2026-10-22T04:48:05.131443+00:00",
+      "requested_model": "gpt-6-luna",
+      "reported_model": null,
+      "http_status": null,
+      "input_tokens": null,
+      "cached_input_tokens": null,
+      "output_tokens": null
+    }
+  ],
+  "tools": [],
+  "status": "failed",
+  "error": {
+    "code": "workflow_failed",
+    "http_status": 500,
+    "message": "The workflow could not complete safely.",
+    "exception_type": "ModelAPIError"
+  },
+  "usage": {
+    "input_tokens": null,
+    "cached_input_tokens": null,
+    "output_tokens": null
+  },
+  "latency_seconds": 0.119
+}

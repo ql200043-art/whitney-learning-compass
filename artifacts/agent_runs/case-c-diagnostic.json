@@ -1,0 +1,1139 @@
+{
+  "timestamp": "2026-10-22T05:04:30.883938+00:00",
+  "execution_kind": "real_portkey",
+  "case": "c",
+  "request": {
+    "grades": [
+      4
+    ],
+    "student_count": 24,
+    "learning_goal": "Explore structural engineering and bridges; verified capacity for the class is mandatory.",
+    "max_program_fee": 400,
+    "budget_currency": "USD",
+    "assume_usd": true,
+    "max_duration_minutes": 90,
+    "mandatory_operational": {
+      "capacity": true
+    }
+  },
+  "http_status": 502,
+  "response": {
+    "error": {
+      "code": "invalid_model_output",
+      "message": "Independent output validation rejected the result.",
+      "run_id": "1c6a7094-806e-4566-8a54-983793fd935a"
+    }
+  },
+  "run_trace": {
+    "run_id": "1c6a7094-806e-4566-8a54-983793fd935a",
+    "workflow_id": "b86669ee-9405-4673-aae1-d98c9153e00d",
+    "timestamp": "2026-10-22T05:04:29.037572+00:00",
+    "agent": "Program Advisor",
+    "execution_kind": "real_portkey",
+    "model": "gpt-6-luna",
+    "model_requests": [
+      {
+        "timestamp": "2026-10-22T05:04:29.089561+00:00",
+        "requested_model": "gpt-6-luna",
+        "reported_model": "gpt-6-luna-2026-09-22",
+        "http_status": 200,
+        "input_tokens": 699,
+        "cached_input_tokens": 0,
+        "output_tokens": 15
+      },
+      {
+        "timestamp": "2026-10-22T05:04:30.389558+00:00",
+        "requested_model": "gpt-6-luna",
+        "reported_model": "gpt-6-luna-2026-09-22",
+        "http_status": 200,
+        "input_tokens": 4630,
+        "cached_input_tokens": 0,
+        "output_tokens": 23
+      },
+      {
+        "timestamp": "2026-10-22T05:04:30.636011+00:00",
+        "requested_model": "gpt-6-luna",
+        "reported_model": "gpt-6-luna-2026-09-22",
+        "http_status": 200,
+        "input_tokens": 5814,
+        "cached_input_tokens": 4504,
+        "output_tokens": 161
+      }
+    ],
+    "model_tool_calls": [
+      {
+        "tool": "search_matching_programs",
+        "tool_call_id": "call_uR7GqZHAwAYdDlSVO3RUXXjn",
+        "arguments": {}
+      },
+      {
+        "tool": "get_program_details",
+        "tool_call_id": "call_VkaPPedP4t6YH7l2IrdkvCgQ",
+        "arguments": {
+          "program_id": "ewm-bridges"
+        }
+      },
+      {
+        "tool": "final_result",
+        "tool_call_id": "call_D15En5VyRDwlkXHa1fl35fc3",
+        "arguments": {
+          "structured_output": "recorded in validated response"
+        }
+      }
+    ],
+    "tools": [
+      {
+        "timestamp": "2026-10-22T05:04:30.386163+00:00",
+        "tool": "search_matching_programs",
+        "arguments": {},
+        "result": [
+          {
+            "program_id": "ewm-art-and-light",
+            "official_name": "Art and Light",
+            "description": "Students build and decorate an artist-inspired light, investigating color and pattern along with transparent, translucent, and opaque materials.",
+            "subjects": [
+              "Art",
+              "Art History",
+              "Cultures",
+              "Light",
+              "Social Studies"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-art-and-light",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-art-and-light",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-bridges",
+            "official_name": "Bridges",
+            "description": "Students construct two glue-free bridge models, a keystone bridge and a Leonardo da Vinci puzzle bridge, to explore structural solutions for spanning a gap.",
+            "subjects": [
+              "Design and Invention",
+              "Engineering"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Published duration is missing or unverified.",
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": null,
+              "minutes": null,
+              "requested_limit": "90",
+              "check_status": "unknown"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-bridges",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-bridges",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-camera-obscura",
+            "official_name": "Camera Obscura",
+            "description": "Students construct a box that focuses light, compare it with the eye, and rearrange its components to project an image into a darkened room.",
+            "subjects": [
+              "Art",
+              "Art History",
+              "Lenses",
+              "Light",
+              "Perception",
+              "The Eye"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-camera-obscura",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-camera-obscura",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-catapult",
+            "official_name": "Catapult",
+            "description": "Students experiment with a rubber-band-powered catapult, varying band count and the position of the supplied ping-pong ball to explore force and motion.",
+            "subjects": [
+              "Design",
+              "Energy Transfer",
+              "Engineering",
+              "Force and Motion",
+              "History"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-catapult",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-catapult",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-ecosystems-magnetic-pendulum",
+            "official_name": "Ecosystems: Magnetic Pendulum",
+            "description": "Students model an insect's or bird's ecosystem with a magnetic pendulum, using attraction and repulsion to represent resources, shelter, predators, and hazards.",
+            "subjects": [
+              "Ecology",
+              "Ecosystems",
+              "Force and Motion",
+              "Magnetism",
+              "Natural History",
+              "Sustainable Design"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-ecosystems-magnetic-pendulum",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-ecosystems-magnetic-pendulum",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-electromagnet",
+            "official_name": "Electromagnet",
+            "description": "Students wind a wire coil, suspend a bar magnet inside it, and use a battery to explore polarity, magnetic strength, and the operation of motors.",
+            "subjects": [
+              "Electricity",
+              "Force and Motion",
+              "Magnetism"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-electromagnet",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-electromagnet",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-inventive-arm",
+            "official_name": "Inventive Arm",
+            "description": "Students build a model hand from modular wood, wire, and rubber bands, then adjust its configuration to perform different manipulation tasks.",
+            "subjects": [
+              "Anatomy",
+              "Design",
+              "Engineering",
+              "Evolution",
+              "Invention",
+              "Robotics",
+              "Simple Machines"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-inventive-arm",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-inventive-arm",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-marble-roller-coaster",
+            "official_name": "Marble Roller Coaster",
+            "description": "Students design and test a two-rail marble roller coaster, including banked curves that keep the marble on its track.",
+            "subjects": [
+              "Balance",
+              "Design",
+              "Energy Transfer",
+              "Engineering",
+              "Force and Motion",
+              "Invention"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-marble-roller-coaster",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-marble-roller-coaster",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-rocks-connecticut",
+            "official_name": "Rocks of Connecticut",
+            "description": "Students build a display box and sort, test, and identify seven Connecticut rocks and minerals using their distinguishing properties.",
+            "subjects": [
+              "Connecticut",
+              "Geology",
+              "Natural History",
+              "Natural Science"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-rocks-connecticut",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-rocks-connecticut",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-rubber-band-car",
+            "official_name": "Rubber Band Car",
+            "description": "Students build rubber-band-powered cars, measure their performance, and revise their designs while investigating motion and making predictions.",
+            "subjects": [
+              "Design",
+              "Energy Transfer",
+              "Engineering",
+              "Force and Motion",
+              "Invention"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Published duration is missing or unverified.",
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": null,
+              "minutes": null,
+              "requested_limit": "90",
+              "check_status": "unknown"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-rubber-band-car",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-rubber-band-car",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-simple-machines",
+            "official_name": "Simple Machines",
+            "description": "Students assemble a machine from interchangeable parts and explore how screws, threads, levers, and pulleys affect mechanical work.",
+            "subjects": [
+              "Design",
+              "Design and Invention",
+              "Force and Motion",
+              "Invention",
+              "Simple Machines",
+              "Transfer of Energy"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-simple-machines",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-simple-machines",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-solar-sunflower",
+            "official_name": "Solar Sunflower",
+            "description": "Students connect solar panels to a motor, test a solar-powered sunflower, and decorate it with color and movement.",
+            "subjects": [
+              "Alternative/Clean Energy",
+              "Solar Power",
+              "Sustainable Design"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-solar-sunflower",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-solar-sunflower",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-sustainable-birdhouse",
+            "official_name": "Sustainable Birdhouse",
+            "description": "Students construct a birdhouse using sustainably harvested pine and reused plywood, considering species-specific measurements, siting, and material choices.",
+            "subjects": [
+              "Birds",
+              "Migration",
+              "Natural History",
+              "Natural Science"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-sustainable-birdhouse",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-sustainable-birdhouse",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-sustainable-energy-wind-power",
+            "official_name": "Sustainable Energy: Wind Power",
+            "description": "Students build an adjustable-vane windmill and use it to lift weight, investigating vane settings, gearing, and the relationship between speed and power.",
+            "subjects": [
+              "Alternative/Clean Energy",
+              "Clean Energy",
+              "Design",
+              "Energy Conservation",
+              "Engineering",
+              "Environment",
+              "Force and Motion",
+              "Sustainable Design",
+              "Transfer of Energy"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$15.00 per student",
+                "amount": 15,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "360.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-sustainable-energy-wind-power",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-sustainable-energy-wind-power",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-tangrams",
+            "official_name": "Tangrams",
+            "description": "Students color tangram pieces and arrange them into patterns, exploring geometry, shapes, color, and spatial relationships through creative problem solving.",
+            "subjects": [
+              "Color",
+              "Design",
+              "Geometry",
+              "Patterns",
+              "Shapes"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$14.00 per student",
+                "amount": 14,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "336.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-tangrams",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-tangrams",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          },
+          {
+            "program_id": "ewm-whitney-relay",
+            "official_name": "The Whitney Relay",
+            "description": "Students arrange ramps, marbles, blocks, and connecting parts into a chain reaction, exploring mechanics, energy transfer, and teamwork.",
+            "subjects": [
+              "Design",
+              "Design and Invention",
+              "Engineering",
+              "Force and Motion",
+              "Strategic Planning",
+              "Team Building",
+              "Transfer of Energy"
+            ],
+            "eligibility_status": "unknown",
+            "reasons": [
+              "Requires museum confirmation; the catalog does not establish this operational condition."
+            ],
+            "program_fee": {
+              "published": {
+                "listed_text": "$10.00 per student",
+                "amount": 10,
+                "currency_symbol": "$",
+                "currency_code": null,
+                "basis": "per_student"
+              },
+              "subtotal": "240.00",
+              "currency": "USD",
+              "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+              "student_count": 24,
+              "additional_trip_costs": null,
+              "total_trip_cost": null
+            },
+            "duration": {
+              "listed_text": "1.50 hours",
+              "minutes": 90,
+              "requested_limit": "90",
+              "check_status": "pass"
+            },
+            "evidence_refs": [
+              {
+                "program_id": "ewm-whitney-relay",
+                "field": "/description",
+                "source_id": "program_page"
+              },
+              {
+                "program_id": "ewm-whitney-relay",
+                "field": "/subjects",
+                "source_id": "program_page"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-10-22T05:04:30.630347+00:00",
+        "tool": "get_program_details",
+        "arguments": {
+          "program_id": "ewm-bridges"
+        },
+        "result": {
+          "id": "ewm-bridges",
+          "official_name": "Bridges",
+          "official_url": "https://www.eliwhitney.org/bridges",
+          "grade_levels": [
+            "4",
+            "5",
+            "6",
+            "7+"
+          ],
+          "in_scope_grade_levels": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "subjects": [
+            "Design and Invention",
+            "Engineering"
+          ],
+          "description": "Students construct two glue-free bridge models, a keystone bridge and a Leonardo da Vinci puzzle bridge, to explore structural solutions for spanning a gap.",
+          "price": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "duration": {
+            "listed_text": null,
+            "minutes": null
+          },
+          "published_standards": null,
+          "group_size": {
+            "min_students": null,
+            "max_students": null
+          },
+          "accessibility_notes": null,
+          "booking_availability": null,
+          "verification": {
+            "status": "verified_with_unknown_fields",
+            "verified_on": "2026-10-21",
+            "source_updated_on": null,
+            "notes": [
+              "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established."
+            ]
+          },
+          "sources": [
+            {
+              "source_id": "program_page",
+              "url": "https://www.eliwhitney.org/bridges",
+              "title": "Bridges | Eli Whitney Museum & Workshop",
+              "source_type": "official_program_page",
+              "access_method": "live_browser_review",
+              "accessed_on": "2026-10-21"
+            }
+          ],
+          "field_evidence": {
+            "/official_name": {
+              "source_id": "program_page",
+              "locator": "Page heading (H1)",
+              "status": "verified",
+              "note": "Exact official program name."
+            },
+            "/official_url": {
+              "source_id": "program_page",
+              "locator": "Official detail-page address; linked from school-program catalog",
+              "status": "verified",
+              "note": "Exact linked official destination reviewed in a live browser."
+            },
+            "/grade_levels": {
+              "source_id": "program_page",
+              "locator": "Grade Level",
+              "status": "verified",
+              "note": "Museum grade tokens preserved exactly."
+            },
+            "/in_scope_grade_levels": {
+              "source_id": "program_page",
+              "locator": "Grade Level",
+              "status": "normalized",
+              "note": "Intersect published tokens with Grades 2–7; token 7+ supports Grade 7 within this scope. No upper grade limit inferred."
+            },
+            "/subjects": {
+              "source_id": "program_page",
+              "locator": "School Program Subject",
+              "status": "verified",
+              "note": "Published labels preserved; duplicate layout renderings are not duplicate subjects."
+            },
+            "/description": {
+              "source_id": "program_page",
+              "locator": "Description",
+              "status": "paraphrased",
+              "note": "Concise factual activity summary; no additional learning outcomes or guarantees inferred."
+            },
+            "/price": {
+              "source_id": "program_page",
+              "locator": "School Program Price",
+              "status": "normalized",
+              "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained."
+            },
+            "/price/currency_code": {
+              "source_id": "program_page",
+              "locator": "School Program Price",
+              "status": "unknown",
+              "note": "The label uses $ without an explicit ISO currency code; no code inferred."
+            },
+            "/duration": {
+              "source_id": "program_page",
+              "locator": "Reviewed program details; no School Program Time displayed",
+              "status": "unknown",
+              "note": "No duration published in the reviewed page; do not borrow another program's time."
+            },
+            "/published_standards": {
+              "source_id": "program_page",
+              "locator": "Reviewed program details",
+              "status": "unknown",
+              "note": "No program-specific standards codes or statements displayed in the reviewed page. This does not establish absence of alignment."
+            },
+            "/group_size": {
+              "source_id": "program_page",
+              "locator": "Reviewed program details",
+              "status": "unknown",
+              "note": "No program-specific minimum or maximum student count displayed."
+            },
+            "/accessibility_notes": {
+              "source_id": "program_page",
+              "locator": "Reviewed program details",
+              "status": "unknown",
+              "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability."
+            },
+            "/booking_availability": {
+              "source_id": "program_page",
+              "locator": "Book A Program link; reviewed program details",
+              "status": "unknown",
+              "note": "A booking link is present, but it does not verify any date or available capacity."
+            },
+            "/verification/source_updated_on": {
+              "source_id": "program_page",
+              "locator": "Reviewed page including footer",
+              "status": "unknown",
+              "note": "No program-specific update date displayed; copyright year is not an update date."
+            }
+          },
+          "unknown_fields": [
+            {
+              "field": "/price/currency_code",
+              "reason": "not_explicitly_published",
+              "next_step": "Confirm the currency code before a currency-sensitive budget check."
+            },
+            {
+              "field": "/duration/listed_text",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Confirm session length with the museum."
+            },
+            {
+              "field": "/duration/minutes",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Confirm session length before evaluating a hard time limit."
+            },
+            {
+              "field": "/published_standards",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Check for program-specific published standards or seek museum clarification; do not infer codes."
+            },
+            {
+              "field": "/group_size/min_students",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Confirm any minimum group size with the museum if required."
+            },
+            {
+              "field": "/group_size/max_students",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Confirm workshop capacity with the museum if required."
+            },
+            {
+              "field": "/accessibility_notes",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Confirm the class's relevant access requirements with the museum."
+            },
+            {
+              "field": "/booking_availability",
+              "reason": "requires_confirmation",
+              "next_step": "Confirm dates and availability with the museum before planning a booking."
+            },
+            {
+              "field": "/verification/source_updated_on",
+              "reason": "not_published_on_reviewed_page",
+              "next_step": "Keep null unless the museum publishes a program-specific update date."
+            }
+          ]
+        }
+      }
+    ],
+    "input_validation": "passed",
+    "output_validation": "failed",
+    "status": "failed",
+    "retries": 0,
+    "cost": null,
+    "cost_note": "Course gateway pricing not verified; no cost inferred.",
+    "pydantic_usage": {
+      "input_tokens": 11143,
+      "cache_write_tokens": 5688,
+      "cache_read_tokens": 4504,
+      "output_tokens": 199,
+      "input_audio_tokens": 0,
+      "cache_audio_read_tokens": 0,
+      "output_audio_tokens": 0,
+      "details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "rejected_output": {
+      "interpreted_goal": "Explore how bridge structures span gaps and how design choices contribute to structural solutions; the class’s verified capacity is a required condition.",
+      "choices": [
+        {
+          "program_id": "ewm-bridges",
+          "category": "provisional",
+          "educational_reasoning": "The described construction of two bridge models directly connects to structural engineering and spanning gaps. Students could compare the models’ structural approaches, but the class capacity is not published, so this cannot be treated as a confirmed fit for the mandatory operational condition.",
+          "evidence": [
+            {
+              "program_id": "ewm-bridges",
+              "field": "/description",
+              "source_id": "program_page"
+            },
+            {
+              "program_id": "ewm-bridges",
+              "field": "/group_size/max_students",
+              "source_id": "program_page"
+            }
+          ]
+        }
+      ]
+    },
+    "validation_failure": "Invalid or unverified evidence reference",
+    "error": {
+      "code": "invalid_model_output",
+      "message": "Independent output validation rejected the result.",
+      "exception_type": "OutputRejected"
+    },
+    "latency_seconds": 1.84,
+    "model_request_count": 3,
+    "usage": {
+      "input_tokens": 11143,
+      "cached_input_tokens": 4504,
+      "output_tokens": 199
+    }
+  }
+}

@@ -1,0 +1,8 @@
+pydantic-ai-slim[openai]==1.107.7
+fastapi==0.142.2
+uvicorn==0.54.0
+python-dotenv==1.2.2
+openai==3.36.1
+httpx==0.28.1
+pydantic==2.14.1
+

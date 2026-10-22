@@ -1,56 +1,110 @@
 # Whitney Learning Compass
 
-Stage 2: a curated official program catalog and a local deterministic matching engine. Independent MGT 409 educational prototype; not an official museum product.
+Independent MGT 409 educational prototype for the Eli Whitney Museum & Workshop. Stage 3 adds two PydanticAI agents and a local FastAPI backend to the preserved Stage 2 catalog and matching engine. Not an official museum product or booking service. No frontend is implemented.
 
-**Review status:** Stage 2 implemented and tested; Stage 3 agents, API and frontend are not implemented.
+## Setup
+
+Use Python 3.11 or later; validated here with Python 3.14. From the project root:
+
+~~~sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock
+~~~
+
+The lock file pins the complete validated runtime/development environment. Direct runtime requirements are in requirements.txt; requirements-dev.txt includes test dependencies. On Windows use .venv\Scripts\python.exe.
+
+For live inference, provide the course key through the process environment or a local .env file based on [.env.example](.env.example). Never put secrets into requests, screenshots, artifacts or Git. Precedence: existing process environment → project .env → parent .env, filling only absent values. A selected blank/invalid key is not silently replaced. PORTKEY_VIRTUAL_KEY is optional course-provided routing.
+
+The only model path is gpt-6-luna through https://api.portkey.ai/v1/chat/completions with reasoning_effort=none. Headers include x-portkey-api-key and x-portkey-provider=openai. No direct-provider/model fallback exists.
 
 ## Run locally
 
-Python 3.11 or later is required. Validated here with Python 3.14 and pytest 9.1.1. The matching module itself uses only the Python standard library and needs no API key or network access.
+~~~sh
+.venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8008 --no-access-log
+~~~
 
-From this project directory:
+API schema: http://127.0.0.1:8008/docs. Health/catalog work without credentials. Keep this prototype on localhost with one worker; it has no production user authentication or persistent workflow database. Browser-origin requests are blocked pending Stage 4 integration.
 
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements-dev.txt
-.venv/bin/python -m pytest -q -p no:cacheprovider --basetemp=.test-tmp --junitxml=artifacts/pytest.xml
-.venv/bin/python -m matching.audit
-```
+| Endpoint | Purpose |
+| --- | --- |
+| GET /api/health | Local process health, not provider readiness. |
+| GET /api/programs | Validated local catalog with evidence and unknowns. |
+| POST /api/recommend | Teacher intake → deterministic checks → Advisor tools → validated choices. |
+| POST /api/journey | Explicit human selection → revalidation → Designer → validated plan. |
+| GET /api/runs/{run_id} | Redacted execution metadata; requires X-Workflow-Token. |
 
-On Windows, use `.venv\Scripts\python.exe` in place of `.venv/bin/python`. The audit writes local catalog integrity, coverage and matching demonstration artifacts; it does not access museum pages or models.
+Recommendation request:
 
-## Match a teacher request
+~~~json
+{
+  "grades": [4],
+  "student_count": 24,
+  "learning_goal": "Understand force, motion, and engineering design through hands-on experiments.",
+  "max_program_fee": 400,
+  "budget_currency": "USD",
+  "assume_usd": true,
+  "max_duration_minutes": 90,
+  "preferences": [],
+  "required_standards": [],
+  "mandatory_operational": {}
+}
+~~~
 
-```python
-from matching import load_catalog, match_catalog
+Response: workflow_id, workflow_token, run_id, eligible recommendations, separately labeled provisional_options, and all deterministic eligibility_results. At most three choices are generated, with no forced minimum. Backend code supplies museum facts, fees, duration, warnings and sources. The model supplies educational reasoning.
 
-results = match_catalog(load_catalog(), {
-    "grades": [4],
-    "student_count": 24,
-    "max_program_fee": 400,
-    "budget_currency": "USD",
-    "assume_usd": True,
-    "max_duration_minutes": 90,
-    "preferences": ["force and motion"],
-})
-eligible = [r for r in results if r["eligibility_status"] == "pass"]
-catapult = next(r for r in results if r["program_id"] == "ewm-catapult")
-print(catapult["eligibility_status"], catapult["program_fee"]["subtotal"])
-# Actual saved demonstration: pass 336.00
-```
+After reviewing the choices, explicitly select an offered ID. Send the returned token in the X-Workflow-Token header with:
 
-A pass is program eligibility under the displayed assumptions, **not a confirmed booking**. Use `mandatory_operational={"capacity": True}` when verified capacity is mandatory; unverified capacity then produces unknown unless another constraint fails. The engine returns every catalog record with reasons, and never pads the result to three programs.
+~~~json
+{
+  "workflow_id": "<UUID returned by /api/recommend>",
+  "program_id": "ewm-catapult",
+  "teacher_selected": true,
+  "acknowledge_unknown": false
+}
+~~~
 
-## Review artifacts
+Use acknowledge_unknown=true only after accepting unresolved mandatory requirements for a provisional draft. Rejected/unoffered IDs are blocked. Each workflow permits one journey attempt and expires after one hour; restarting invalidates in-memory workflows. Failed journey attempts consume that allowance.
 
-- [Authoritative PRD](docs/project_scope.md): approved Stage 1.1 policy; original stage-history wording retained.
-- [Matching rules and API contract](docs/matching_rules.md).
-- [Official research ledger](docs/catalog_research.md).
-- [Grade × Theme coverage](docs/catalog_coverage.md).
-- [Stage 2 validation](docs/stage2_validation.md).
-- [Actual matching demonstrations](artifacts/matching_demonstrations.json).
-- [Actual pytest output](artifacts/pytest.txt) and [JUnit results](artifacts/pytest.xml).
+Journeys separate museum_facts from ai_teaching_suggestions, include before/during/after phases, and retain unanswered operational questions. booking_confirmed is always false. A USD-assumption eligibility pass does not certify booking or total trip cost.
 
-`data/programs.json` preserves the original `id` field; engine output names it `program_id`. Source facts and editorial themes remain separate. See the [data dictionary](docs/data_dictionary.md) for schema and documented Stage 2 clarifications.
+## Offline automated tests
 
-No project inference calls, booking/payment functions, runtime scraping, agents, API endpoints, UI, report.html or slides.html are included.
+~~~sh
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider --basetemp=.test-tmp --junitxml=artifacts/stage3_pytest.xml
+~~~
+
+No credentials are required. FunctionModel and mock HTTP responses are labeled simulated; backend tests disable real model requests. Original Stage 2 tests remain unchanged. This command does not overwrite historical Stage 2 pytest artifacts.
+
+The deterministic engine remains available through matching.load_catalog(), match_catalog() and match_program(). Its optional python -m matching.audit command regenerates Stage 2 audit/coverage files without inference; it was not needed to change preserved Stage 2 evidence during Stage 3.
+
+## Explicit live demonstrations
+
+These commands spend course model usage; tests and server startup never run them automatically.
+
+~~~sh
+.venv/bin/python -m scripts.smoke
+.venv/bin/python -m scripts.live_demo recommend --case a --label my-case-a-advisor
+# Stop, review recommendations, and obtain an explicit teacher selection.
+.venv/bin/python -m scripts.live_demo journey --case a --label my-case-a-journey --program-id ewm-catapult --teacher-selected
+.venv/bin/python -m scripts.live_demo recommend --case b --label my-case-b
+.venv/bin/python -m scripts.live_demo recommend --case c --label my-case-c
+~~~
+
+Use the journey example only if Catapult was returned and selected. Case B uses a $200 program-fee budget. Case C requires verified capacity. --in-process runs recommendation-only diagnostics through the FastAPI ASGI interface with real Portkey inference; it does not retain a resumable workflow after exit.
+
+Use unique labels: existing evidence cannot be overwritten. Sanitized class-level demo requests/responses/traces go to artifacts/agent_runs/. Private workflow tokens remain in ignored .runtime/ files. Review new artifacts for personal information before publication. Ordinary calls persist redacted execution metadata in .runtime/runs/; educator input remains in bounded in-memory workflows.
+
+Errors return an error object with code, message and optional run_id. Invalid input: 422; invalid workflow/token: 404; consumed/changed workflow: 409; execution limit: 429; missing configuration: 503; provider/output failure: 502; timeout: 504. Raw provider bodies and exception traces are not returned.
+
+## Review evidence
+
+- [Authoritative PRD](docs/project_scope.md), retaining its original stage-history wording.
+- [Stage 3 validation](docs/stage3_validation.md): actual runs, usage, safety tests, failures and limitations.
+- [Stage 2 validation](docs/stage2_validation.md): original checkpoint.
+- [Matching rules](docs/matching_rules.md) and [data dictionary](docs/data_dictionary.md).
+- [Catalog research](docs/catalog_research.md) and [coverage](docs/catalog_coverage.md).
+- [Actual Stage 3 run artifacts](artifacts/agent_runs/).
+
+Generated prose has deterministic safety/claim guards, but they are conservative heuristics, not proof of every sentence's factual entailment or educational quality. Educator review remains required. Teacher impact evaluation and full Tokenomics experiments remain future work.
+
+No React frontend, deployment, booking, payments, email, runtime scraping, report.html or slides.html is included. Stage 4 requires separate authorization.

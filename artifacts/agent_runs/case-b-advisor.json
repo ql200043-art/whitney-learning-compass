@@ -1,0 +1,4187 @@
+{
+  "timestamp": "2026-10-22T05:02:14.897363+00:00",
+  "execution_kind": "real_portkey",
+  "case": "b",
+  "request": {
+    "grades": [
+      4
+    ],
+    "student_count": 24,
+    "learning_goal": "Explore force and motion with a catapult or similar engineering activity.",
+    "max_program_fee": 200,
+    "budget_currency": "USD",
+    "assume_usd": true,
+    "max_duration_minutes": 90
+  },
+  "http_status": 200,
+  "response": {
+    "workflow_id": "2052be5f-5dc3-496e-a3c1-f2e4c16e2939",
+    "workflow_token": "[REDACTED]",
+    "run_id": "8266830d-9003-430e-b797-5c16e0c41fcf",
+    "interpreted_goal": "Explore how forces affect motion through a catapult-like or related engineering investigation, considering how design choices may influence an object's movement.",
+    "recommendations": [],
+    "provisional_options": [],
+    "eligibility_results": [
+      {
+        "program_id": "ewm-art-and-light",
+        "official_name": "Art and Light",
+        "official_url": "https://www.eliwhitney.org/art-and-light",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/art-and-light",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/art-and-light",
+            "title": "Art and Light | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-bridges",
+        "official_name": "Bridges",
+        "official_url": "https://www.eliwhitney.org/bridges",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "unknown",
+            "reason": "Published duration is missing or unverified.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "Reviewed program details; no School Program Time displayed",
+                "status": "unknown",
+                "note": "No duration published in the reviewed page; do not borrow another program's time.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": null,
+          "minutes": null,
+          "requested_limit": "90",
+          "check_status": "unknown"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/bridges",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+          "Published duration is missing or unverified."
+        ],
+        "data_quality_warnings": [
+          "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established.",
+          "/price/currency_code: not_explicitly_published",
+          "/duration/listed_text: not_published_on_reviewed_page",
+          "/duration/minutes: not_published_on_reviewed_page",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/bridges",
+            "title": "Bridges | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-camera-obscura",
+        "official_name": "Camera Obscura",
+        "official_url": "https://www.eliwhitney.org/camera-obscura",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/camera-obscura",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/camera-obscura",
+            "title": "Camera Obscura | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-catapult",
+        "official_name": "Catapult",
+        "official_url": "https://www.eliwhitney.org/catapult",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; workshop time only.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/catapult",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established.",
+          "The museum's safety statement is conditional on using its supplied ping-pong ball; this record does not establish a general safety guarantee.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/catapult",
+            "title": "Catapult | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-cultures",
+        "official_name": "Global Architecture & Transportation",
+        "official_url": "https://www.eliwhitney.org/cultures",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 432.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "fail",
+            "reason": "Published duration 120 minutes exceeds limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "2.00 hours × 60 = 120 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$18.00 per student",
+            "amount": 18,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "432.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "2.00 hours",
+          "minutes": 120,
+          "requested_limit": "90",
+          "check_status": "fail"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/cultures",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 432.00 USD exceeds budget 200.00 USD.",
+          "Published duration 120 minutes exceeds limit 90."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/cultures",
+            "title": "Global Architecture & Transportation | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-ecosystems-magnetic-pendulum",
+        "official_name": "Ecosystems: Magnetic Pendulum",
+        "official_url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
+            "title": "Ecosystems: Magnetic Pendulum | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-electromagnet",
+        "official_name": "Electromagnet",
+        "official_url": "https://www.eliwhitney.org/electromagnet",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/electromagnet",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "The official page links teaching PDFs hosted on eliwhitney.oneeach.org. The Program Overview PDF could not be retrieved by the web tool; no specific standard was verified. These linked documents remain pending review.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: linked_documents_unverified",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/electromagnet",
+            "title": "Electromagnet | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-inventive-arm",
+        "official_name": "Inventive Arm",
+        "official_url": "https://www.eliwhitney.org/inventive-arm",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/inventive-arm",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/inventive-arm",
+            "title": "Inventive Arm | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-marble-roller-coaster",
+        "official_name": "Marble Roller Coaster",
+        "official_url": "https://www.eliwhitney.org/marble-roller-coaster",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/marble-roller-coaster",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/marble-roller-coaster",
+            "title": "Marble Roller Coaster | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-mill",
+        "official_name": "The Mill",
+        "official_url": "https://www.eliwhitney.org/mill",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "fail",
+            "reason": "Published duration 120 minutes exceeds limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "2.00 hours × 60 = 120 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$15.00 per student",
+            "amount": 15,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "360.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "2.00 hours",
+          "minutes": 120,
+          "requested_limit": "90",
+          "check_status": "fail"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/mill",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD.",
+          "Published duration 120 minutes exceeds limit 90."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/mill",
+            "title": "The Mill | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-orrery",
+        "official_name": "Orrery",
+        "official_url": "https://www.eliwhitney.org/orrery",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "fail",
+            "reason": "Grade not supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$15.00 per student",
+            "amount": 15,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "360.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/orrery",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Grade not supported by published labels.",
+          "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/orrery",
+            "title": "Orrery | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-resourceful-schools",
+        "official_name": "Resourceful Schools",
+        "official_url": "https://www.eliwhitney.org/resourceful-schools",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 432.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "fail",
+            "reason": "Published duration 120 minutes exceeds limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "2.00 hours × 60 = 120 minutes; published workshop time only. Description separately recommends two sessions; delivery interpretation remains unconfirmed.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$18.00 per student",
+            "amount": 18,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "432.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "2.00 hours",
+          "minutes": 120,
+          "requested_limit": "90",
+          "check_status": "fail"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/resourceful-schools",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 432.00 USD exceeds budget 200.00 USD.",
+          "Published duration 120 minutes exceeds limit 90."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "The time field publishes 2.00 hours, while the description recommends two sessions. Their scheduling, fee coverage, and whether two hours is combined or per session require confirmation. No 240-minute duration or doubled fee has been inferred.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/resourceful-schools",
+            "title": "Resourceful Schools | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-rocks-connecticut",
+        "official_name": "Rocks of Connecticut",
+        "official_url": "https://www.eliwhitney.org/rocks-connecticut",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/rocks-connecticut",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/rocks-connecticut",
+            "title": "Rocks of Connecticut | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-rubber-band-car",
+        "official_name": "Rubber Band Car",
+        "official_url": "https://www.eliwhitney.org/rubber-band-car",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "unknown",
+            "reason": "Published duration is missing or unverified.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "Reviewed program details; no School Program Time displayed",
+                "status": "unknown",
+                "note": "No workshop time displayed on the reviewed page.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": null,
+          "minutes": null,
+          "requested_limit": "90",
+          "check_status": "unknown"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/rubber-band-car",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+          "Published duration is missing or unverified."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page",
+          "/duration/listed_text: not_published_on_reviewed_page",
+          "/duration/minutes: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/rubber-band-car",
+            "title": "Rubber Band Car | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-simple-machines",
+        "official_name": "Simple Machines",
+        "official_url": "https://www.eliwhitney.org/simple-machines",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; workshop time only.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/simple-machines",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/simple-machines",
+            "title": "Simple Machines | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-solar-sunflower",
+        "official_name": "Solar Sunflower",
+        "official_url": "https://www.eliwhitney.org/solar-sunflower",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/solar-sunflower",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/solar-sunflower",
+            "title": "Solar Sunflower | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-sustainable-birdhouse",
+        "official_name": "Sustainable Birdhouse",
+        "official_url": "https://www.eliwhitney.org/sustainable-birdhouse",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/sustainable-birdhouse",
+            "title": "Sustainable Birdhouse | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-sustainable-energy-wind-power",
+        "official_name": "Sustainable Energy: Wind Power",
+        "official_url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; workshop time only.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$15.00 per student",
+            "amount": 15,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "360.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 360.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established.",
+          "The web-fetch tool returned a cache miss, but the official page was successfully accessed and verified directly in a live browser.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
+            "title": "Sustainable Energy: Wind Power | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-tangrams",
+        "official_name": "Tangrams",
+        "official_url": "https://www.eliwhitney.org/tangrams",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; workshop time only.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$14.00 per student",
+            "amount": 14,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "336.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/tangrams",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 336.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Manual live official-page review completed on 2026-10-21. Published facts are verified as displayed; booking, delivery, and future price validity are not established.",
+          "A web-extracted view exposed an additional grade line ending at 6. The current live page's Grade Level links include K, 1, 2, 3, 4, 5, 6, 7+; this direct live evidence controls the recorded grade tokens.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: not_published_on_reviewed_page",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/tangrams",
+            "title": "Tangrams | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      },
+      {
+        "program_id": "ewm-whitney-relay",
+        "official_name": "The Whitney Relay",
+        "official_url": "https://www.eliwhitney.org/whitney-relay",
+        "eligibility_status": "fail",
+        "classification": "rejected",
+        "hard_constraints": [
+          {
+            "constraint": "grade:4",
+            "status": "pass",
+            "reason": "Grade supported by published labels.",
+            "evidence": [
+              {
+                "field": "/grade_levels",
+                "source_id": "program_page",
+                "locator": "Grade Level",
+                "status": "verified",
+                "note": "Museum grade tokens preserved exactly.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          },
+          {
+            "constraint": "program_fee_budget",
+            "status": "fail",
+            "reason": "Program-fee subtotal 240.00 USD exceeds budget 200.00 USD.",
+            "evidence": [
+              {
+                "field": "/price",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "normalized",
+                "note": "Numeric amount and per_student basis parsed from the preserved price label; dollar symbol retained.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              },
+              {
+                "field": "/price/currency_code",
+                "source_id": "program_page",
+                "locator": "School Program Price",
+                "status": "unknown",
+                "note": "The label uses $ without an explicit ISO currency code; no code inferred.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+          },
+          {
+            "constraint": "duration",
+            "status": "pass",
+            "reason": "Published duration 90 minutes is within limit 90.",
+            "evidence": [
+              {
+                "field": "/duration",
+                "source_id": "program_page",
+                "locator": "School Program Time",
+                "status": "normalized",
+                "note": "1.50 hours × 60 = 90 minutes; published workshop time only.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ],
+            "assumption": null
+          }
+        ],
+        "program_fee": {
+          "published": {
+            "listed_text": "$10.00 per student",
+            "amount": 10,
+            "currency_symbol": "$",
+            "currency_code": null,
+            "basis": "per_student"
+          },
+          "subtotal": "240.00",
+          "currency": "USD",
+          "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+          "student_count": 24,
+          "additional_trip_costs": null,
+          "total_trip_cost": null
+        },
+        "duration": {
+          "listed_text": "1.50 hours",
+          "minutes": 90,
+          "requested_limit": "90",
+          "check_status": "pass"
+        },
+        "topic_score": 0,
+        "matched_preferences": [],
+        "matched_subjects": [],
+        "operational_confirmation": [
+          {
+            "item": "accessibility",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/accessibility_notes",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific accommodation details displayed; general museum access information is not sufficient to infer suitability.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "additional_charges",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "availability",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/booking_availability",
+                "source_id": "program_page",
+                "locator": "Book A Program link; reviewed program details",
+                "status": "unknown",
+                "note": "A booking link is present, but it does not verify any date or available capacity.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "booking_conditions",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          },
+          {
+            "item": "capacity",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": [
+              {
+                "field": "/group_size",
+                "source_id": "program_page",
+                "locator": "Reviewed program details",
+                "status": "unknown",
+                "note": "No program-specific minimum or maximum student count displayed.",
+                "url": "https://www.eliwhitney.org/whitney-relay",
+                "accessed_on": "2026-10-21"
+              }
+            ]
+          },
+          {
+            "item": "special_delivery",
+            "status": "requires_confirmation",
+            "mandatory": false,
+            "requirement": null,
+            "reason": "Requires museum confirmation; the catalog does not establish this operational condition.",
+            "published_constraint_status": "unknown",
+            "evidence": []
+          }
+        ],
+        "booking_confirmed": false,
+        "reasons": [
+          "Program-fee subtotal 240.00 USD exceeds budget 200.00 USD."
+        ],
+        "data_quality_warnings": [
+          "Stage 2: full official detail page reviewed directly in a live browser on 2026-10-21. Verification concerns published facts, not booking confirmation.",
+          "Current Grade Level links are 4, 5, 6, 7+. Linked materials have headings for Grades 3–5 and 6–8; resource headings are not used to expand eligibility. No program-specific standard was verified in accessible content. Linked Program Information PDFs were inaccessible through web retrieval; the first browser attempt timed out and subsequent browser access was blocked by an extension UI.",
+          "/price/currency_code: not_explicitly_published",
+          "/published_standards: linked_documents_unverified",
+          "/group_size/min_students: not_published_on_reviewed_page",
+          "/group_size/max_students: not_published_on_reviewed_page",
+          "/accessibility_notes: not_published_on_reviewed_page",
+          "/booking_availability: requires_confirmation",
+          "/verification/source_updated_on: not_published_on_reviewed_page"
+        ],
+        "evidence": [
+          {
+            "source_id": "program_page",
+            "url": "https://www.eliwhitney.org/whitney-relay",
+            "title": "The Whitney Relay | Eli Whitney Museum & Workshop",
+            "source_type": "official_program_page",
+            "access_method": "live_browser_review",
+            "accessed_on": "2026-10-21"
+          }
+        ]
+      }
+    ],
+    "message": "No fully eligible recommendation was returned. Any provisional options require confirmation.",
+    "requires_teacher_selection": true,
+    "booking_confirmed": false
+  },
+  "run_trace": {
+    "run_id": "8266830d-9003-430e-b797-5c16e0c41fcf",
+    "workflow_id": "2052be5f-5dc3-496e-a3c1-f2e4c16e2939",
+    "timestamp": "2026-10-22T05:02:10.410315+00:00",
+    "agent": "Program Advisor",
+    "execution_kind": "real_portkey",
+    "model": "gpt-6-luna",
+    "model_requests": [
+      {
+        "timestamp": "2026-10-22T05:02:10.449679+00:00",
+        "requested_model": "gpt-6-luna",
+        "reported_model": "gpt-6-luna-2026-09-22",
+        "http_status": 200,
+        "input_tokens": 695,
+        "cached_input_tokens": 0,
+        "output_tokens": 15
+      },
+      {
+        "timestamp": "2026-10-22T05:02:13.001931+00:00",
+        "requested_model": "gpt-6-luna",
+        "reported_model": "gpt-6-luna-2026-09-22",
+        "http_status": 200,
+        "input_tokens": 723,
+        "cached_input_tokens": 0,
+        "output_tokens": 45
+      }
+    ],
+    "model_tool_calls": [
+      {
+        "tool": "search_matching_programs",
+        "tool_call_id": "call_dJeanTmpuvEQ2HbcGGsmdTrj",
+        "arguments": {}
+      },
+      {
+        "tool": "final_result",
+        "tool_call_id": "call_71c14pRbs3yiojBC3C33WcxD",
+        "arguments": {
+          "structured_output": "recorded in validated response"
+        }
+      }
+    ],
+    "tools": [
+      {
+        "timestamp": "2026-10-22T05:02:12.997582+00:00",
+        "tool": "search_matching_programs",
+        "arguments": {},
+        "result": []
+      }
+    ],
+    "input_validation": "passed",
+    "output_validation": "passed",
+    "status": "passed",
+    "retries": 0,
+    "cost": null,
+    "cost_note": "Course gateway pricing not verified; no cost inferred.",
+    "pydantic_usage": {
+      "input_tokens": 1418,
+      "cache_write_tokens": 0,
+      "cache_read_tokens": 0,
+      "output_tokens": 60,
+      "input_audio_tokens": 0,
+      "cache_audio_read_tokens": 0,
+      "output_audio_tokens": 0,
+      "details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "final_program_ids": [],
+    "latency_seconds": 4.471,
+    "model_request_count": 2,
+    "usage": {
+      "input_tokens": 1418,
+      "cached_input_tokens": 0,
+      "output_tokens": 60
+    }
+  }
+}
