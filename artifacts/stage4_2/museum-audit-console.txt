@@ -1,0 +1,504 @@
+[
+  {
+    "url": "https://www.eliwhitney.org/",
+    "elements": [
+      {
+        "label": "Header",
+        "selector": "#header",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(245, 245, 245)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Navigation surface",
+        "selector": "#dmenu",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(168, 181, 186)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Navigation link",
+        "selector": "#dmenu a[href=\"/visit\"]",
+        "normal": {
+          "color": "rgb(35, 38, 36)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(35, 38, 36)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "hover": {
+          "color": "rgb(35, 38, 36)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(35, 38, 36)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 4,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Home event surface",
+        "selector": ".events",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(214, 172, 111)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Body",
+        "selector": "body",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.eliwhitney.org/workshop/school-programs",
+    "elements": [
+      {
+        "label": "Header",
+        "selector": "#header",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(245, 245, 245)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Navigation surface",
+        "selector": "#dmenu",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(168, 181, 186)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Title banner",
+        "selector": "#pTitle",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(120, 154, 91)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Title text",
+        "selector": "#pTitle h1",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(255, 255, 255)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 4,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Image banner",
+        "selector": "#inner-banner-image",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "url(\"https://www.eliwhitney.org/sites/eliwhitney/files/EliWhitney_School%20Programs%202000x350.jpg\")",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 0,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Book a Program",
+        "selector": ".view-filters > button",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(149, 47, 43)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(149, 47, 43)",
+          "border-top-width": "1px",
+          "border-top-style": "solid",
+          "box-shadow": "none"
+        },
+        "hover": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(120, 154, 91)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(120, 154, 91)",
+          "border-top-width": "1px",
+          "border-top-style": "solid",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Filter panel",
+        "selector": ".view-filters",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(168, 181, 186)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Filter form",
+        "selector": "#views-exposed-form-school-programs-new-page-1",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 0,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Filter input",
+        "selector": "#views-exposed-form-school-programs-new-page-1 input[type=\"text\"]",
+        "normal": {
+          "color": "rgb(33, 37, 41)",
+          "background-color": "rgb(255, 255, 255)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(149, 47, 43)",
+          "border-top-width": "2px",
+          "border-top-style": "solid",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Program card",
+        "selector": ".view-content .views-row",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgb(238, 243, 245)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Program title link",
+        "selector": ".views-row .title a",
+        "normal": {
+          "color": "rgb(149, 47, 43)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(149, 47, 43)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "hover": {
+          "color": "rgb(149, 47, 43)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(149, 47, 43)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Kindergarten badge",
+        "selector": ".views-row .key span[class=\"K\"]",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(158, 129, 186)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(255, 255, 255)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Grade 4 badge",
+        "selector": ".views-row .key span[class=\"4\"]",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(120, 154, 91)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(255, 255, 255)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Grade 2 badge",
+        "selector": ".views-row .key span[class=\"2\"]",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(94, 157, 209)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(255, 255, 255)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Body",
+        "selector": "body",
+        "normal": {
+          "color": "rgb(65, 70, 66)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(65, 70, 66)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://www.eliwhitney.org/catapult",
+    "elements": [
+      {
+        "label": "Detail booking button",
+        "selector": "a[href=\"/form/school-programs-booking\"] button",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(149, 47, 43)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(149, 47, 43)",
+          "border-top-width": "1px",
+          "border-top-style": "solid",
+          "box-shadow": "none"
+        },
+        "hover": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgb(120, 154, 91)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(120, 154, 91)",
+          "border-top-width": "1px",
+          "border-top-style": "solid",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 2,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Detail title",
+        "selector": "h1",
+        "normal": {
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(255, 255, 255)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 4,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      },
+      {
+        "label": "Detail grade link",
+        "selector": "a[href$=\"target_id=344\"]",
+        "normal": {
+          "color": "rgb(120, 154, 91)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(120, 154, 91)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "hover": {
+          "color": "rgb(120, 154, 91)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "background-image": "none",
+          "opacity": "1",
+          "border-top-color": "rgb(120, 154, 91)",
+          "border-top-width": "0px",
+          "border-top-style": "none",
+          "box-shadow": "none"
+        },
+        "matchingDeclarations": 1,
+        "blocked": [
+          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+          "https://use.typekit.net/glb2vwf.css"
+        ]
+      }
+    ]
+  }
+]

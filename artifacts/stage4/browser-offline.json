@@ -1,0 +1,104 @@
+{
+  "timestamp": "2026-10-23T00:12:27.186Z",
+  "execution_kind": "offline_browser_replay",
+  "note": "Saved live responses replayed through mocked API routes; not new Portkey inference. Automated accessibility scanning does not establish complete WCAG conformance.",
+  "audits": [
+    {
+      "screen": "intake desktop",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "intake mobile",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "discovery",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "screen": "comparison",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "editable journey",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 32
+        }
+      ]
+    },
+    {
+      "screen": "review",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 3
+        }
+      ]
+    },
+    {
+      "screen": "review mobile",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 3
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "intake mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "editable suggestions fully visible without internal clipping",
+      "passed": true
+    },
+    {
+      "name": "review mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "print hides navigation and controls",
+      "passed": true
+    },
+    {
+      "name": "exactly two mocked POSTs; no actual provider access",
+      "passed": true
+    }
+  ]
+}

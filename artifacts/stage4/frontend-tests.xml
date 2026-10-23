@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="57" failures="0" errors="0" time="2.678153792">
+    <testsuite name="src/App.test.tsx" timestamp="2026-10-23T00:12:04.239Z" hostname="MacBook-Pro-62.local" tests="16" failures="0" errors="0" skipped="0" time="2.609696459">
+        <testcase classname="src/App.test.tsx" name="shows branding and validates intake without model calls" time="0.091871125">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="supports a mixed-grade class and exposes assumptions" time="0.083378333">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="renders factual cards, three-way comparison, and waits for explicit selection" time="0.200814542">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="requires a second deliberate action after selecting a real program" time="0.203305791">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="requires acknowledgment for provisional selection" time="0.196252583">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="shows no-match results with actual failures and no selection" time="0.148358875">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="renders all phases, allows edits that persist through review, and keeps facts read-only" time="0.380412292">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="separates safety, booking questions, and sources; prints without new inference" time="0.204140708">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="creates an editable copy-only inquiry and leaves observations blank" time="0.303389792">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="does not expose capabilities in DOM or persistent browser storage" time="0.154020125">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="handles expired workflow and preserves a restart path" time="0.174645959">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="prevents duplicate recommendations during a pending call" time="0.037919792">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="handles backend unavailability without starting inference" time="0.008114542">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="prevents duplicate Designer submissions while a request is pending" time="0.158091875">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="does not allow a second program selection to start another plan in a consumed workflow" time="0.217816875">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="displays a controlled provider error without leaking an upstream body" time="0.04653375">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/ProgramDetails.test.tsx" timestamp="2026-10-23T00:12:04.240Z" hostname="MacBook-Pro-62.local" tests="4" failures="0" errors="0" skipped="0" time="0.057518666">
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps Bridges duration visibly unpublished" time="0.015155375">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps Resourceful Schools session ambiguity as a confirmation question and important note" time="0.002869542">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps the verification date out of the safety section" time="0.0351855">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="shows review date, source link, and unpublished standards under verification" time="0.003564708">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/api.test.ts" timestamp="2026-10-23T00:12:04.241Z" hostname="MacBook-Pro-62.local" tests="13" failures="0" errors="0" skipped="0" time="0.006711709">
+        <testcase classname="src/api.test.ts" name="posts the real teacher schema only through the local API" time="0.003537416">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="passes capability only in the journey header, with explicit selection" time="0.000687834">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="does not expose server response text in an error" time="0.000337042">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for missing_configuration" time="0.000181542">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for provider_timeout" time="0.000105458">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for workflow_not_found" time="0.000061958">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for workflow_consumed" time="0.000053917">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for catalog_changed" time="0.000116625">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for invalid_model_output" time="0.000068292">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for invalid_input" time="0.000091709">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for execution_limit" time="0.000051709">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for network" time="0.000045042">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="handles offline/network failure" time="0.000708834">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/presentation.test.ts" timestamp="2026-10-23T00:12:04.241Z" hostname="MacBook-Pro-62.local" tests="24" failures="0" errors="0" skipped="0" time="0.004226958">
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 2" time="0.000980792">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 7" time="0.000104709">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades &quot;K&quot;" time="0.000075916">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 3" time="0.00008425">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;grades&quot;:[]}" time="0.000096625">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;grades&quot;:[&quot;7+&quot;]}" time="0.000053833">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;student_count&quot;:0}" time="0.000056667">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;student_count&quot;:2.5}" time="0.000046708">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_program_fee&quot;:-1}" time="0.000061542">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_program_fee&quot;:1.234}" time="0.000081583">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;assume_usd&quot;:false}" time="0.000044625">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_duration_minutes&quot;:0}" time="0.0000355">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_duration_minutes&quot;:1441}" time="0.000031708">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;learning_goal&quot;:&quot;a&quot;}" time="0.000031084">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;learning_goal&quot;:&quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;}" time="0.000028917">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; allows optional limits and interests to be absent" time="0.000046459">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; separates supplied-ball safety from operational questions" time="0.000267708">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; makes an inquiry without fabricated availability or contact details" time="0.000183833">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; excludes a failed candidate from selection, even if mislabeled" time="0.000664917">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; never pads fewer than three results" time="0.000143875">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL javascript:alert(1)" time="0.000072875">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL https://evil.example" time="0.00017925">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL http://www.eliwhitney.org/catapult" time="0.000025959">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; allows actual official HTTPS sources" time="0.000071917">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+{
+  "modified_existing_files": [
+    "frontend/src/App.tsx",
+    "frontend/src/components/Intake.tsx",
+    "frontend/src/components/ProgramDetails.tsx",
+    "frontend/src/styles.css"
+  ],
+  "unchanged_baseline_files": 215,
+  "baseline_files": 219,
+  "outside_project_before": {
+    "count": 195879,
+    "sha256": "502548d79f9a4d9e43de49d72f6a3b24df7170fd9fd08a5e30ec92b319da7ba9"
+  },
+  "outside_project_after": {
+    "count": 195879,
+    "sha256": "502548d79f9a4d9e43de49d72f6a3b24df7170fd9fd08a5e30ec92b319da7ba9"
+  },
+  "outside_project_metadata_unchanged": true,
+  "catalog_count": 20,
+  "catalog_unchanged": true,
+  "credential_scan_matches": [],
+  "credential_scan_scope": "New/modified files checked against local process/project/parent credential values; no values recorded",
+  "git_head": "251e3143cc15f9178faf871422934840d7be2b3c",
+  "branch": "main",
+  "remotes": [],
+  "git_diff_check": "passed",
+  "broken_doc_links": [],
+  "model_inference_calls": 0
+}

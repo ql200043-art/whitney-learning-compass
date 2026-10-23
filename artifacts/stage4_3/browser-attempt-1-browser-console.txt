@@ -1,0 +1,17 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: 1440 Discover focus ring
+    at check (file:///Users/qiaoliang/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Downloads/%E4%B9%94%E8%89%AF%20Yale/MGT%20409%20AI%20Foundation%20for%20Managers/AI%20Foundations/Final%20Project/whitney-learning-compass/frontend/scripts/browser-stage4-3.mjs:25:10)
+    at actionStates (file:///Users/qiaoliang/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Downloads/%E4%B9%94%E8%89%AF%20Yale/MGT%20409%20AI%20Foundation%20for%20Managers/AI%20Foundations/Final%20Project/whitney-learning-compass/frontend/scripts/browser-stage4-3.mjs:221:3)
+    at async file:///Users/qiaoliang/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/Downloads/%E4%B9%94%E8%89%AF%20Yale/MGT%20409%20AI%20Foundation%20for%20Managers/AI%20Foundations/Final%20Project/whitney-learning-compass/frontend/scripts/browser-stage4-3.mjs:363:5 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.20.0

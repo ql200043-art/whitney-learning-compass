@@ -1,0 +1,24 @@
+
+> whitney-learning-compass@0.4.0 test
+> vitest run --reporter=default --reporter=junit --outputFile=../artifacts/stage4_3/frontend-tests.xml
+
+
+ RUN  v5.0.5 /Users/qiaoliang/Library/Mobile Documents/com~apple~CloudDocs/Downloads/乔良 Yale/MGT 409 AI Foundation for Managers/AI Foundations/Final Project/whitney-learning-compass/frontend
+
+ ✓ src/api.test.ts (13 tests) 9ms
+ ✓ src/presentation.test.ts (24 tests) 8ms
+ ✓ src/ProgramDetails.test.tsx (4 tests) 82ms
+ ✓ src/stage4_3.test.tsx (7 tests) 321ms
+ ✓ src/stage4_2.test.tsx (16 tests) 1385ms
+ ✓ src/stage4_1.test.tsx (18 tests) 1543ms
+ ✓ src/App.test.tsx (16 tests) 3184ms
+   ✓ renders factual cards, three-way comparison, and waits for explicit selection 314ms
+   ✓ renders all phases, allows edits that persist through review, and keeps facts read-only 461ms
+   ✓ creates an editable copy-only inquiry and leaves observations blank 308ms
+
+ Test Files  7 passed (7)
+      Tests  98 passed (98)
+   Start at  16:31:03
+   Duration  4.04s (tests 55%, environment 30%, setup 8%, transform 4%, import 2%)
+
+JUNIT report written to /Users/qiaoliang/Library/Mobile Documents/com~apple~CloudDocs/Downloads/乔良 Yale/MGT 409 AI Foundation for Managers/AI Foundations/Final Project/whitney-learning-compass/artifacts/stage4_3/frontend-tests.xml

@@ -1,0 +1,581 @@
+{
+  "timestamp": "2026-10-23T19:52:09.409Z",
+  "execution_kind": "Offline POST replay; actual local UI and backend health/catalog; no Portkey",
+  "checks": [
+    "Body text contrast",
+    "Supporting text contrast",
+    "Small label contrast",
+    "Button contrast",
+    "Link contrast",
+    "Input text contrast",
+    "Input border contrast",
+    "Focus indicator contrast",
+    "Disabled step contrast",
+    "Status pass contrast",
+    "Status unknown contrast",
+    "Status fail contrast",
+    "1440 Quick Start does not infer",
+    "1440 preset USD remains unchecked",
+    "1440 explicit numeric input modes",
+    "1440 USD consent blocks submission",
+    "1440 intake no horizontal overflow",
+    "1440 intake no overlapping entry fields",
+    "1440 intake controls at least 44px",
+    "1440 intake axe"
+  ],
+  "requests": [
+    {
+      "width": 1440,
+      "path": "/api/recommend",
+      "body": {
+        "grades": [
+          4
+        ],
+        "student_count": 24,
+        "learning_goal": "I want my fourth-grade students to explore force, motion, and engineering design through hands-on experiments.",
+        "max_program_fee": 400,
+        "budget_currency": "USD",
+        "assume_usd": true,
+        "max_duration_minutes": 90,
+        "preferences": [
+          "Force and motion",
+          "engineering design",
+          "experimentation"
+        ],
+        "required_standards": [],
+        "mandatory_operational": {}
+      },
+      "kind": "offline replay"
+    }
+  ],
+  "audits": [
+    {
+      "screen": "1440 intake",
+      "violations": [],
+      "manual_review_needed": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "screen": "1440 intake",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "controls": [
+        {
+          "name": "01Teaching Goal",
+          "width": 175,
+          "height": 46
+        },
+        {
+          "name": "02Discover & Compare",
+          "width": 175,
+          "height": 46
+        },
+        {
+          "name": "03Your Selection",
+          "width": 175,
+          "height": 46
+        },
+        {
+          "name": "04Learning Journey",
+          "width": 175,
+          "height": 46
+        },
+        {
+          "name": "05Review & Export",
+          "width": 175,
+          "height": 46
+        },
+        {
+          "name": "Load Explore Force & Motion example",
+          "width": 277,
+          "height": 123.5
+        },
+        {
+          "name": "Load Discover Sustainable Energy example",
+          "width": 277,
+          "height": 123.5
+        },
+        {
+          "name": "Load Geometry Through Creative Design example",
+          "width": 277,
+          "height": 123.5
+        },
+        {
+          "name": "Clear example",
+          "width": 91.65625,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "number",
+          "width": 210,
+          "height": 48
+        },
+        {
+          "name": "I want my fourth-grade students to explore fo",
+          "width": 855,
+          "height": 123
+        },
+        {
+          "name": "Use force & motion example",
+          "width": 181.9375,
+          "height": 44
+        },
+        {
+          "name": "text",
+          "width": 855,
+          "height": 48
+        },
+        {
+          "name": "Maximum program-fee budget",
+          "width": 418.5,
+          "height": 48
+        },
+        {
+          "name": "Maximum workshop duration",
+          "width": 418.5,
+          "height": 48
+        },
+        {
+          "name": "checkbox",
+          "width": 855,
+          "height": 71.78125
+        },
+        {
+          "name": "Specific standards & mandatory operational ne",
+          "width": 855,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 855,
+          "height": 44
+        },
+        {
+          "name": "date",
+          "width": 855,
+          "height": 50
+        },
+        {
+          "name": "text",
+          "width": 855,
+          "height": 48
+        },
+        {
+          "name": "text",
+          "width": 855,
+          "height": 48
+        },
+        {
+          "name": "checkbox",
+          "width": 855,
+          "height": 44
+        },
+        {
+          "name": "checkbox",
+          "width": 855,
+          "height": 44
+        },
+        {
+          "name": "Discover Programs ↗",
+          "width": 199.296875,
+          "height": 47
+        }
+      ],
+      "fields": [
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": -309.796875,
+            "width": 210,
+            "height": 48,
+            "top": -309.796875,
+            "right": 511,
+            "bottom": -261.796875,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": -69.3125,
+            "width": 855,
+            "height": 123,
+            "top": -69.3125,
+            "right": 1156,
+            "bottom": 53.6875,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 180.46875,
+            "width": 855,
+            "height": 48,
+            "top": 180.46875,
+            "right": 1156,
+            "bottom": 228.46875,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 440.953125,
+            "width": 418.5,
+            "height": 48,
+            "top": 440.953125,
+            "right": 719.5,
+            "bottom": 488.953125,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 737.5,
+            "y": 440.953125,
+            "width": 418.5,
+            "height": 48,
+            "top": 440.953125,
+            "right": 1156,
+            "bottom": 488.953125,
+            "left": 737.5
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 885.28125,
+            "width": 855,
+            "height": 48,
+            "top": 885.28125,
+            "right": 1156,
+            "bottom": 933.28125,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 1047.671875,
+            "width": 855,
+            "height": 50,
+            "top": 1047.671875,
+            "right": 1156,
+            "bottom": 1097.671875,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 1148.0625,
+            "width": 855,
+            "height": 48,
+            "top": 1148.0625,
+            "right": 1156,
+            "bottom": 1196.0625,
+            "left": 301
+          }
+        },
+        {
+          "font": 15,
+          "rect": {
+            "x": 301,
+            "y": 1246.453125,
+            "width": 855,
+            "height": 48,
+            "top": 1246.453125,
+            "right": 1156,
+            "bottom": 1294.453125,
+            "left": 301
+          }
+        }
+      ],
+      "overlaps": []
+    }
+  ],
+  "contrasts": [
+    {
+      "label": "Body text",
+      "selector": "body",
+      "property": "color",
+      "foreground": [
+        38,
+        61,
+        56
+      ],
+      "background": [
+        246,
+        245,
+        239
+      ],
+      "threshold": 4.5,
+      "ratio": 10.64
+    },
+    {
+      "label": "Supporting text",
+      "selector": ".quick-start > p",
+      "property": "color",
+      "foreground": [
+        93,
+        108,
+        101
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 4.5,
+      "ratio": 5.48
+    },
+    {
+      "label": "Small label",
+      "selector": ".optional",
+      "property": "color",
+      "foreground": [
+        106,
+        118,
+        108
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 4.5,
+      "ratio": 4.7
+    },
+    {
+      "label": "Button",
+      "selector": ".primary",
+      "property": "color",
+      "foreground": [
+        255,
+        254,
+        247
+      ],
+      "background": [
+        33,
+        79,
+        68
+      ],
+      "threshold": 4.5,
+      "ratio": 9.16
+    },
+    {
+      "label": "Link",
+      "selector": ".text-button",
+      "property": "color",
+      "foreground": [
+        52,
+        100,
+        79
+      ],
+      "background": [
+        240,
+        242,
+        233
+      ],
+      "threshold": 4.5,
+      "ratio": 6.03
+    },
+    {
+      "label": "Input text",
+      "selector": "input[type=\"number\"]",
+      "property": "color",
+      "foreground": [
+        38,
+        59,
+        49
+      ],
+      "background": [
+        255,
+        254,
+        251
+      ],
+      "threshold": 4.5,
+      "ratio": 11.88
+    },
+    {
+      "label": "Input border",
+      "selector": "input[type=\"number\"]",
+      "property": "borderTopColor",
+      "foreground": [
+        112,
+        128,
+        119
+      ],
+      "background": [
+        255,
+        254,
+        251
+      ],
+      "threshold": 3,
+      "ratio": 4.13
+    },
+    {
+      "label": "Focus indicator",
+      "selector": ".example-option",
+      "property": "outlineColor",
+      "foreground": [
+        149,
+        47,
+        43
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 3,
+      "ratio": 7.65
+    },
+    {
+      "label": "Disabled step",
+      "selector": ".sidebar button:disabled",
+      "property": "color",
+      "foreground": [
+        91,
+        109,
+        99
+      ],
+      "background": [
+        240,
+        242,
+        233
+      ],
+      "threshold": 4.5,
+      "ratio": 4.87
+    },
+    {
+      "label": "Status pass",
+      "property": "color",
+      "foreground": [
+        40,
+        86,
+        55
+      ],
+      "background": [
+        229,
+        238,
+        224
+      ],
+      "threshold": 4.5,
+      "ratio": 7.12
+    },
+    {
+      "label": "Status unknown",
+      "property": "color",
+      "foreground": [
+        116,
+        85,
+        29
+      ],
+      "background": [
+        246,
+        233,
+        198
+      ],
+      "threshold": 4.5,
+      "ratio": 5.68
+    },
+    {
+      "label": "Status fail",
+      "property": "color",
+      "foreground": [
+        138,
+        63,
+        48
+      ],
+      "background": [
+        245,
+        228,
+        221
+      ],
+      "threshold": 4.5,
+      "ratio": 6.01
+    }
+  ],
+  "errors": [],
+  "network_origins": [
+    "http://127.0.0.1:5173"
+  ]
+}

@@ -1,0 +1,13 @@
+
+> whitney-learning-compass@0.4.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 36 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.61 kB │ gzip:  0.37 kB
+dist/assets/index-D69pAKPW.css   20.52 kB │ gzip:  5.52 kB
+dist/assets/index-CfoWei6z.js   243.84 kB │ gzip: 75.57 kB
+✓ built in 342ms

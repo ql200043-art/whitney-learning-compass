@@ -1,0 +1,90 @@
+{
+  "executed_on": "2026-10-22 America/New_York",
+  "stage3_checkpoint": "251e3143cc15f9178faf871422934840d7be2b3c",
+  "branch": "main",
+  "remote_count": 0,
+  "python": {
+    "tests": 222,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "frontend": {
+    "tests": 57,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "catalog": {
+    "count": 20,
+    "sha256": "3a686069bf7e151b3defc5474b5be96932dd3247df1755999ccb66086d99cda6"
+  },
+  "protected_changes": [],
+  "outside_project_metadata": {
+    "files": 195878,
+    "before_sha256": "3c792d89b2ee5122e4fc8ac066ccde2213868659cfa14e697a4cb427c9ab2f08",
+    "after_sha256": "3c792d89b2ee5122e4fc8ac066ccde2213868659cfa14e697a4cb427c9ab2f08",
+    "note": "Actual earlier before/after walk compared path,size,mtime_ns,mode; not file-content hashes.",
+    "temporary_cache_cleanup": "Two task-created npm-cache files briefly appeared in a new parent temporary directory due to a formatter working-directory error. Removed only those files and empty directories; final fresh inventory matches baseline."
+  },
+  "pdf": {
+    "learning-plan-live.pdf": {
+      "pages": 5,
+      "required_content_present": true,
+      "excluded_controls_absent": true
+    },
+    "learning-plan-final-offline.pdf": {
+      "pages": 5,
+      "required_content_present": true,
+      "excluded_controls_absent": true
+    }
+  },
+  "ignore_rules": {
+    ".env": true,
+    ".env.local": true,
+    ".runtime/test.json": true,
+    ".venv/a": true,
+    "frontend/node_modules/a": true,
+    "frontend/dist/a": true,
+    "__pycache__/a.pyc": true,
+    ".test-tmp/a": true
+  },
+  "safe_env_example_visible": true,
+  "documentation": {
+    "files_checked": 11,
+    "local_links_checked": 74,
+    "issues": []
+  },
+  "security": {
+    "configured_secret_matches": [],
+    "unredacted_exported_workflow_tokens": [],
+    "proof_file_absent": true,
+    "credentials_scanned_without_printing": true
+  },
+  "offline_browser": {
+    "screens": 8,
+    "detected_violations": 0,
+    "checks": [
+      {
+        "name": "intake mobile no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "editable suggestions fully visible without internal clipping",
+        "passed": true
+      },
+      {
+        "name": "review mobile no horizontal overflow",
+        "passed": true
+      },
+      {
+        "name": "print hides navigation and controls",
+        "passed": true
+      },
+      {
+        "name": "exactly two mocked POSTs; no actual provider access",
+        "passed": true
+      }
+    ]
+  }
+}

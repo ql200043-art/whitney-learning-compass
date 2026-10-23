@@ -8,3 +8,18 @@ __pycache__/
 .DS_Store
 .runtime/
 *.log
+
+# Stage 4 local frontend/build artifacts
+node_modules/
+dist/
+.vite/
+.vitest/
+coverage/
+.browser-cache/
+
+# Checkpoint exclusions: redundant or faulty local captures (see docs/stage4_checkpoint.md).
+/artifacts/stage4/attempt-1-comparison-live.png
+/artifacts/stage4/attempt-1-recommendations-live.png
+/artifacts/stage4/attempt-1-selection-live.png
+/artifacts/stage4_2/after-mobile-viewport.png
+/artifacts/stage4_2/before-mobile.png

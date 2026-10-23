@@ -1,0 +1,376 @@
+{
+  "timestamp": "2026-10-23T00:02:32.584Z",
+  "execution_kind": "offline_browser_replay",
+  "note": "Saved live responses replayed through mocked API routes; not new Portkey inference. Automated accessibility scanning does not establish complete WCAG conformance.",
+  "audits": [
+    {
+      "screen": "intake desktop",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".workshop-art > span"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.38 (foreground color: #7d896f, background color: #f6f5ef, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".form-section:nth-child(2) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".form-section:nth-child(3) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".form-section:nth-child(4) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "summary > span"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #6f796c, background color: #fffef9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "intake mobile",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".form-section:nth-child(2) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".form-section:nth-child(3) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".form-section:nth-child(4) > .section-heading > .number"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #627458, background color: #edf0e6, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "summary > span"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #6f796c, background color: #fffef9, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "discovery",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": []
+    },
+    {
+      "screen": "comparison",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "selection",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 1
+        }
+      ]
+    },
+    {
+      "screen": "editable journey",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".during > .phase-marker[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #84652f, background color: #f2e6ce, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 32
+        }
+      ]
+    },
+    {
+      "screen": "review",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".sidebar-fine"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #687466, background color: #f0f2e9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".during > .phase-marker[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #84652f, background color: #f2e6ce, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 3
+        }
+      ]
+    },
+    {
+      "screen": "review mobile",
+      "violations": [
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "nodes": [
+            {
+              "target": [
+                ".focus-anchor"
+              ],
+              "summary": "Fix all of the following:\n  aria-label attribute cannot be used on a div with no valid role attribute."
+            }
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".during > .phase-marker[aria-hidden=\"true\"]"
+              ],
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #84652f, background color: #f2e6ce, font size: 6.8pt (9px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "node_count": 3
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "intake mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "review mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "print hides navigation and controls",
+      "passed": true
+    },
+    {
+      "name": "exactly two mocked POSTs; no actual provider access",
+      "passed": true
+    }
+  ]
+}

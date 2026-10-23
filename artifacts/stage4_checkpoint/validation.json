@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-23",
+  "parent_commit": "251e3143cc15f9178faf871422934840d7be2b3c",
+  "branch": "main",
+  "python": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 222,
+    "failed": 0,
+    "seconds": 2.62
+  },
+  "frontend": {
+    "command": "npm --prefix frontend test",
+    "passed": 98,
+    "failed": 0,
+    "files": 7,
+    "seconds": 3.79
+  },
+  "typescript": {
+    "command": "npm --prefix frontend run typecheck",
+    "result": "passed"
+  },
+  "build": {
+    "command": "npm --prefix frontend run build",
+    "result": "passed",
+    "modules": 38
+  },
+  "security_review_of_initial_staged_payload": {
+    "staged_files_reviewed": 225,
+    "text_files_scanned": 102,
+    "pdfs_text_extracted": 5,
+    "screenshots_ocr_reviewed": 118,
+    "ocr_failures": [],
+    "configured_credentials_or_runtime_capability_matches": [],
+    "suspicious_secret_pattern_files": [],
+    "unredacted_workflow_token_files": [],
+    "forbidden_paths": [],
+    "safe_workflow_values": "Only explicit redaction markers and inert offline-test capabilities permitted in exported JSON",
+    "scan_note": "Staged blobs, extracted PDF text and local screenshot OCR; secret values never logged. OCR is an additional check, not a proof of absence."
+  },
+  "approved_backend_and_catalog_and_matching_hashes_unchanged_during_checkpoint": true,
+  "excluded_local_captures": 5,
+  "notes": "The two checkpoint receipt files are additionally inspected in the final staged review. Historical evidence is unchanged; only .gitignore and these receipts were edited during checkpoint preparation.",
+  "model_inference_calls": 0,
+  "pushes": 0
+}

@@ -1,0 +1,330 @@
+{
+  "scope": "Stage 4.2 changes against captured Stage 4.1 working tree; this manifest excludes its own hash",
+  "files": [
+    {
+      "path": "README.md",
+      "change": "modified",
+      "sha256": "aa0eaee78e9aee7db616ffe576650b8c688a054db22709573367e99f03784d44"
+    },
+    {
+      "path": "artifacts/stage4_2/after-desktop.png",
+      "change": "created",
+      "sha256": "df60352a048fd0c6171d3d97ddd932b636715f0a269813dde223f3ed5a6d1033"
+    },
+    {
+      "path": "artifacts/stage4_2/after-mobile-viewport.png",
+      "change": "created",
+      "sha256": "04cb9427561c48c345134e0ccef7209f687c5f7f8720419633f50d5a420b51c5"
+    },
+    {
+      "path": "artifacts/stage4_2/after-mobile.png",
+      "change": "created",
+      "sha256": "2f5e64827f8b9fbd3fe4d54163028eefb80c2fb8d0f0ff525e3fb27e5bb86d30"
+    },
+    {
+      "path": "artifacts/stage4_2/before-desktop.png",
+      "change": "created",
+      "sha256": "06e9a5eeb1f6b186836b2e91f3ecaec4eb68c8194856e71ea7cb7820d126cdcb"
+    },
+    {
+      "path": "artifacts/stage4_2/before-mobile.png",
+      "change": "created",
+      "sha256": "3a9fd6e7f68b6b80f74ad26af50d1b26ae3804ae0f84c3b44fcb38b51453a434"
+    },
+    {
+      "path": "artifacts/stage4_2/browser-attempt-1-console.txt",
+      "change": "created",
+      "sha256": "4b7716974b10d5744ea80e3e3c2185fe5587a8a9d7b5977f692b176464d138b4"
+    },
+    {
+      "path": "artifacts/stage4_2/browser-attempt-1-regression.json",
+      "change": "created",
+      "sha256": "06874f8f489875d1dcad3fb8b4d6acbea59495c5dadd86436334d3c4319aa7b4"
+    },
+    {
+      "path": "artifacts/stage4_2/browser-console.txt",
+      "change": "created",
+      "sha256": "744c320caaa25112a16eeaf289f7c66bc10a12649befe3bce26c4ddc545341a3"
+    },
+    {
+      "path": "artifacts/stage4_2/browser-regression.json",
+      "change": "created",
+      "sha256": "e99c0d1d33271498fff3d775c0e8a17f27d9df380dcfd205032500ff2625a779"
+    },
+    {
+      "path": "artifacts/stage4_2/build.txt",
+      "change": "created",
+      "sha256": "7f1cc6abf601d9fc8dea3fae2c66104c0d4976d94ddacd9ab946fee29a0c03c3"
+    },
+    {
+      "path": "artifacts/stage4_2/comparison-1440.png",
+      "change": "created",
+      "sha256": "bb9b5735db1711af6d635636ff47e3d0160c190cd20c157357306b22f5c91d6f"
+    },
+    {
+      "path": "artifacts/stage4_2/comparison-320.png",
+      "change": "created",
+      "sha256": "5e611b23e9fab80d9e6c6df50c0fb5c8ad3d5b9fb6b8d7213f92afb1bb332090"
+    },
+    {
+      "path": "artifacts/stage4_2/comparison-390-viewport.png",
+      "change": "created",
+      "sha256": "3eaae03c7da5c0b1e8254cd2819d565bae5245b741916e400daaff7a6579150c"
+    },
+    {
+      "path": "artifacts/stage4_2/comparison-390.png",
+      "change": "created",
+      "sha256": "62d536b58892ed915bde3b6cb540d6f65d61e6ffc84cd7888e3e060afbf99737"
+    },
+    {
+      "path": "artifacts/stage4_2/comparison-fees-390.png",
+      "change": "created",
+      "sha256": "03efe1c9a7d60fb454e2cd4f0b1ee4328efea2433777797a8843d382475bab59"
+    },
+    {
+      "path": "artifacts/stage4_2/editing-390.png",
+      "change": "created",
+      "sha256": "f646ab9b2c804e7a2dbbeddcf66f90bc87935c2c0ad92065075ec0367d4ac90a"
+    },
+    {
+      "path": "artifacts/stage4_2/error-390-viewport.png",
+      "change": "created",
+      "sha256": "1f8d26454cfc4faf2b7ef60e86db4be93854f8f53ef9eb66324e6ee28ced5ca5"
+    },
+    {
+      "path": "artifacts/stage4_2/error-390.png",
+      "change": "created",
+      "sha256": "abe7d111f9d4e12a5350f3c5c8efb17542d30afb823821d8a34f00986eddd0b7"
+    },
+    {
+      "path": "artifacts/stage4_2/frontend-tests.txt",
+      "change": "created",
+      "sha256": "3e6b52c6971b427c60cdc1e12563f6cf12026c4c19a6b44d4ecaa65cbc2b53c5"
+    },
+    {
+      "path": "artifacts/stage4_2/frontend-tests.xml",
+      "change": "created",
+      "sha256": "e3d332e43e7853b639ebb900631b915b72743006d0389b46aacc6a493fa9108f"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-1440.png",
+      "change": "created",
+      "sha256": "aafbe03db849cc86da22f42203dac6c1e9897d723729c9fb2243b79bac0af4a0"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-320.png",
+      "change": "created",
+      "sha256": "5f0cbde484d76cf22a36c3f826d5cc0f79b5a790240f48a909190ec134dae251"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-360.png",
+      "change": "created",
+      "sha256": "b2761a0e71b3f90b0de66e25264bfbbf7f73ea7453922cab32070e70894cbe7d"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-390-viewport.png",
+      "change": "created",
+      "sha256": "04cb9427561c48c345134e0ccef7209f687c5f7f8720419633f50d5a420b51c5"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-390.png",
+      "change": "created",
+      "sha256": "278333e84222d99823f6b224bc34ef32ab7be57b706472c3482d526c8efe3b31"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-430.png",
+      "change": "created",
+      "sha256": "001a10277ee99f2f94fa2e053347bebc24425771c535496c7708c1b931db171d"
+    },
+    {
+      "path": "artifacts/stage4_2/intake-768.png",
+      "change": "created",
+      "sha256": "00f17f70a6f660c3d83d8678f54f1189a39ed93c558ac48e8696b1f6da3c4869"
+    },
+    {
+      "path": "artifacts/stage4_2/integrity_checks.json",
+      "change": "created",
+      "sha256": "859f302a75a0f7eb2d75af242ca9617e6b5771513a56dff8dfae096e56637305"
+    },
+    {
+      "path": "artifacts/stage4_2/journey-1440.png",
+      "change": "created",
+      "sha256": "ee057f0feca76dbf390202475359a70a3c98030aac7c86899fa20e49f083d72e"
+    },
+    {
+      "path": "artifacts/stage4_2/journey-390-viewport.png",
+      "change": "created",
+      "sha256": "32c2d7149802de21ea4b1d1dfe83292e9a35963516059b72442b320b3b6e1abd"
+    },
+    {
+      "path": "artifacts/stage4_2/journey-390.png",
+      "change": "created",
+      "sha256": "1a83f8a0a30f360e4be9234384345a09644a154d12318dc0b7ce07a2eaa55d84"
+    },
+    {
+      "path": "artifacts/stage4_2/learning-plan.pdf",
+      "change": "created",
+      "sha256": "5b0a90879fb8c3902a7e73e29803faba31aa978ea3f1713c2cd2e0f793a8064d"
+    },
+    {
+      "path": "artifacts/stage4_2/learning-plan.txt",
+      "change": "created",
+      "sha256": "d453087ab5cf308580bd2e2184e215a4e693e2f261773b0f7d2376ebadafb1be"
+    },
+    {
+      "path": "artifacts/stage4_2/museum-audit-console.txt",
+      "change": "created",
+      "sha256": "5b3faeef0387f5f493e46cb271a77032e0e80ae87d787c0f62c256f1d367b87b"
+    },
+    {
+      "path": "artifacts/stage4_2/museum-computed-styles.json",
+      "change": "created",
+      "sha256": "b7c8fd431a659511280b3a842ca9587b59fcd9c287f73329b0a10b88cb7a4c01"
+    },
+    {
+      "path": "artifacts/stage4_2/pdf-checks.json",
+      "change": "created",
+      "sha256": "50a23d9d91556c35cde0507f12e7ee5b3352bd6f16359db482a310af835ae5a7"
+    },
+    {
+      "path": "artifacts/stage4_2/print-page-1.png",
+      "change": "created",
+      "sha256": "b3de29a4e9d37a7c3d06714ca53156d444e95982d2fe344cbfcbd95796daa51b"
+    },
+    {
+      "path": "artifacts/stage4_2/print-page-2.png",
+      "change": "created",
+      "sha256": "ced8e09a26abe7ef4a614644e810db54a19f696985e7a1d90f1df3edabe8f726"
+    },
+    {
+      "path": "artifacts/stage4_2/print-page-3.png",
+      "change": "created",
+      "sha256": "f9896b8b33847e99b292185349af499d3c63bee40f08641c64def3fd459b31f2"
+    },
+    {
+      "path": "artifacts/stage4_2/print-page-4.png",
+      "change": "created",
+      "sha256": "7cc1a045abe6bf7d7876fdb5cc7e6691da7421102f0a52e03fc776cb9274a616"
+    },
+    {
+      "path": "artifacts/stage4_2/print-page-5.png",
+      "change": "created",
+      "sha256": "a111c649946f3232754aa7fe18447edf6a27fd3d1d2f12afe60a9028fd4ae198"
+    },
+    {
+      "path": "artifacts/stage4_2/python-tests.txt",
+      "change": "created",
+      "sha256": "2e2104cf1aa22c0470c175d96ff9497195c4ff3a192d235b2e3a26c4c7e48754"
+    },
+    {
+      "path": "artifacts/stage4_2/python-tests.xml",
+      "change": "created",
+      "sha256": "94c4592911a8292e9df70fa5a0d05bf03406232424709230e87d0f92cdbecba4"
+    },
+    {
+      "path": "artifacts/stage4_2/recommendations-1440.png",
+      "change": "created",
+      "sha256": "26993c47ede54cb0cb00f3c99384bf6b2a23a391035140d2e8a6e7842ecde8e5"
+    },
+    {
+      "path": "artifacts/stage4_2/recommendations-390-viewport.png",
+      "change": "created",
+      "sha256": "01754825dc5ae207c567fb6a9ae656c88d67cd5250275dcba295789694804544"
+    },
+    {
+      "path": "artifacts/stage4_2/recommendations-390.png",
+      "change": "created",
+      "sha256": "ea1591537f1dab9d28c176f35b3add648d6d0a94da365c7161bdad82410c0f91"
+    },
+    {
+      "path": "artifacts/stage4_2/review-1440.png",
+      "change": "created",
+      "sha256": "1dc455dae6e4ed63886908660a3f712b79f09791b908cddfe3fd03ff6cdcafb5"
+    },
+    {
+      "path": "artifacts/stage4_2/review-390-viewport.png",
+      "change": "created",
+      "sha256": "88a77c397f015a8be7c5dc44041957b41af359f8a0e23b12e35703cba1cc53e3"
+    },
+    {
+      "path": "artifacts/stage4_2/review-390.png",
+      "change": "created",
+      "sha256": "d810a78f0ab1649c20b6ee16289bee21d3864bb41b5bc458eab1023ed1505e79"
+    },
+    {
+      "path": "artifacts/stage4_2/review-768.png",
+      "change": "created",
+      "sha256": "700b2ec5ef60f133fc6efb55815431681ab0443599c8f5a9e11fc98e5cbb74bd"
+    },
+    {
+      "path": "artifacts/stage4_2/selection-1440.png",
+      "change": "created",
+      "sha256": "6a03ce89cb858bcdb795f17f8dbde258043c584f91c62549294504121ce47fff"
+    },
+    {
+      "path": "artifacts/stage4_2/selection-390-viewport.png",
+      "change": "created",
+      "sha256": "82cd526a4c2b07f93e6d2175912b2a83c046f99f4baa74beb1cfef5c29380651"
+    },
+    {
+      "path": "artifacts/stage4_2/selection-390.png",
+      "change": "created",
+      "sha256": "a2712caaff45663595c2fb0f54845be9456baeb9181fcce777204ae743c85410"
+    },
+    {
+      "path": "artifacts/stage4_2/typecheck.txt",
+      "change": "created",
+      "sha256": "111da7ac24aecaa1938be0392912afa681dc118cc7fc129e87b89820c1498277"
+    },
+    {
+      "path": "docs/museum_visual_reference.md",
+      "change": "created",
+      "sha256": "8df3328fd3ece43d4cbf9dfcb49cb78b524b8874c5786139f36980e0cb41b3c7"
+    },
+    {
+      "path": "docs/stage4_2_validation.md",
+      "change": "created",
+      "sha256": "02aac5bc933f9489395ecd4a786c7b0fb80bc4c9a76b16fb1bb8e1fa861de9ce"
+    },
+    {
+      "path": "frontend/scripts/browser-stage4-2.mjs",
+      "change": "created",
+      "sha256": "9fa61796bfc29224817e7ca507dae8f8656a09b957e1104a7ca6b10190e90c1a"
+    },
+    {
+      "path": "frontend/scripts/museum-style-audit.mjs",
+      "change": "created",
+      "sha256": "8c63f795bfc71b21aab2951923dd719805bf8166e535ada25864215638f315f5"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "change": "modified",
+      "sha256": "c88b761504cfc6c707b8420123ebfa26cd238d86572908cb612f13e5ca53e3b7"
+    },
+    {
+      "path": "frontend/src/examples.ts",
+      "change": "created",
+      "sha256": "14f9c8a271d945f8d61543423e4848067e437abb11640333689f792efa10c5a9"
+    },
+    {
+      "path": "frontend/src/stage4_2.test.tsx",
+      "change": "created",
+      "sha256": "fa5f5b8b24f30b964564afc7f320ed1d748cd91a287030df01e95de4354038e7"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "change": "modified",
+      "sha256": "891dca99d4cd677ca14003afc3438b510edaaa952a628bc01a24ce50648b1607"
+    },
+    {
+      "path": "frontend/src/components/Intake.tsx",
+      "change": "modified",
+      "sha256": "cd9287a102cfd5e0d09b312b9d7e5535a0b2fc84c3d9fc8ab6685b70dee13610"
+    },
+    {
+      "path": "frontend/src/components/ProgramDetails.tsx",
+      "change": "modified",
+      "sha256": "75b4d1c0716ef5a93c5bca1191f40e5d0b75ae6fd652b8569ab609a07406f05a"
+    }
+  ]
+}

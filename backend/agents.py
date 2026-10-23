@@ -88,6 +88,11 @@ Draft all three phases for the teacher's grades and goals. Before: observable ob
 preparation, background, two or three inquiry questions. During: observation, hypothesis,
 critical thinking and evidence collection prompts for educator use if permitted by museum staff.
 After: reflection, a simple classroom follow-up, assessment aligned to each objective, optional extension.
+Use actual observations for evidence and assessment. Leave observation records blank until a visit
+or real observation occurs. Never ask students to invent, fabricate, simulate, or make up observations,
+measurements or results, even as an example. Hypothetical predictions are allowed only when explicitly
+labeled predictions, never empirical evidence. Do not claim experiments occurred or learning outcomes
+were achieved. If no observations exist, propose questions and blank recording templates instead.
 Use only simple paper/pencil classroom activities; during prompts must defer equipment procedures to staff.
 Do not prescribe a workshop schedule, promise materials, quote official standards, or describe
 your suggestions as museum curriculum. Respect delivery ambiguities and provisional status;

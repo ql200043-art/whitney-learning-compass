@@ -1,4 +1,5 @@
 """Validate IDs, evidence and generated prose; assemble facts from the catalog."""
+import re
 from .models import Candidate, ProgramFacts
 from .safety import OutputRejected, guard_suggestions
 from matching.catalog import evidence_for, resolve_pointer, CatalogError
@@ -47,5 +48,14 @@ def validate_journey(draft, program, tools):
         raise OutputRejected("Required selected-program tool not invoked")
     validate_refs(draft.evidence,program)
     guard_suggestions(draft.model_dump(exclude={"program_id","evidence"}))
+    # Narrow scientific-integrity guard in addition to the existing claim/safety checks.
+    # Heuristic defense; educator review still required for paraphrases and context.
+    text = str(draft.model_dump(exclude={"program_id", "evidence"})).lower()
+    pattern = r"(?:made[- ]up|fabricat\w*|invent\w*|simulat\w*|fictional|hypothetical)\b[^.!?;]{0,70}\b(?:observations?|measurements?|results?|findings)\b"
+    for match in re.finditer(pattern, text):
+        # Permit an explicit local prohibition, not a negation elsewhere in the plan.
+        prefix = text[max(0, match.start()-45):match.start()]
+        if not re.search(r"\b(?:do not|never)\s+(?:(?:supply|use|record|create|add)\s+)?$", prefix):
+            raise OutputRejected("Invented empirical evidence suggestion")
     return draft
 

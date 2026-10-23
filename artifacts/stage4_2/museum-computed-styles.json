@@ -1,0 +1,1781 @@
+{
+  "method": "Chrome DOM getComputedStyle; CSSOM matching declarations, not screenshot sampling",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "pages": [
+    {
+      "url": "https://www.eliwhitney.org/",
+      "inspected_at": "2026-10-23T19:53:20.159Z",
+      "elements": [
+        {
+          "label": "Header",
+          "selector": "#header",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 93,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(245, 245, 245)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".header",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(245, 245, 245)",
+                  "background-image": "none",
+                  "background": "none center center / 300px auto no-repeat rgb(245, 245, 245)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Navigation surface",
+          "selector": "#dmenu",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 50,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(168, 181, 186)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".main-menu",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(168, 181, 186)",
+                  "background-image": "initial",
+                  "background": "rgb(168, 181, 186)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Navigation link",
+          "selector": "#dmenu a[href=\"/visit\"]",
+          "normal": {
+            "layout": {
+              "width": 50.609375,
+              "height": 34,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(35, 38, 36)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(35, 38, 36)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "SECTION",
+                "id": "dmenu",
+                "class": "main-menu menu--main",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".main-menu .nav li a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(41, 44, 42)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 a, .oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 .nav.dropdown-menu.row-level-2.row .main-menu__dropdown.is-expanded .nav-level-3.col-md-12.col-lg-12 a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(35, 38, 36)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 a, .oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 .nav.dropdown-menu.row-level-2.row .main-menu__dropdown.is-expanded .nav-level-3.col-md-12.col-lg-12 a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(35, 38, 36)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": {
+            "layout": {
+              "width": 50.609375,
+              "height": 40,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(35, 38, 36)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(35, 38, 36)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "SECTION",
+                "id": "dmenu",
+                "class": "main-menu menu--main",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": "a:hover",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".main-menu .nav li a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(41, 44, 42)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".main-menu .nav li a:hover",
+                "condition": "",
+                "values": {
+                  "color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 a, .oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 .nav.dropdown-menu.row-level-2.row .main-menu__dropdown.is-expanded .nav-level-3.col-md-12.col-lg-12 a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(35, 38, 36)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 a, .oe-mega-main-menu .nav-level-1.nav.navbar-nav .dropdown.nav-level-2 .nav.dropdown-menu.row-level-2.row .main-menu__dropdown.is-expanded .nav-level-3.col-md-12.col-lg-12 a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(35, 38, 36)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          }
+        },
+        {
+          "label": "Home event surface",
+          "selector": ".events",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 698.5,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(214, 172, 111)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": ".events",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(214, 172, 111)",
+                  "background-image": "initial",
+                  "background": "rgb(214, 172, 111)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Body",
+          "selector": "body",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 1769.1875,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": "body",
+                "condition": "",
+                "values": {
+                  "color": "rgb(65, 70, 66)",
+                  "background-color": "transparent",
+                  "background-image": "initial",
+                  "background": "transparent"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_XICkMBgevIQ7RhA-PNAoP3KaEjs2nGaBRfFNGhq9U0I.css?delta=4&language=en&theme=eliwhitney_d10&include=eJxtj9EOwjAIRX9oWv0iQlucRFqWgs759W76oNn2Qsg5cANR8DUFUcxc-y6qunnDASK2xhp60YhyMJ9k1xcyw54Mxis7bX3VTF26UWbXBlwzVY-i6Rb--o6El_1KE-TzKfxSUq5rubqozNEYLixO7ZhwcNbaPbBFNIKvTFrKAplGC596LJrvQl8EJpzJrjrOk9WbioHT0zd2mB9tEO8i5La2kKYkFHbpGyCOjVs",
+                "selector": "body, input, textarea, select",
+                "condition": "",
+                "values": {
+                  "color": "rgb(0, 0, 0)",
+                  "background-color": "initial",
+                  "background-image": "none",
+                  "background": "none"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eliwhitney.org/workshop/school-programs",
+      "inspected_at": "2026-10-23T19:53:22.305Z",
+      "elements": [
+        {
+          "label": "Header",
+          "selector": "#header",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 93,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(245, 245, 245)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".header",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(245, 245, 245)",
+                  "background-image": "none",
+                  "background": "none center center / 300px auto no-repeat rgb(245, 245, 245)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Navigation surface",
+          "selector": "#dmenu",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 50,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(168, 181, 186)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".main-menu",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(168, 181, 186)",
+                  "background-image": "initial",
+                  "background": "rgb(168, 181, 186)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Title banner",
+          "selector": "#pTitle",
+          "normal": {
+            "layout": {
+              "width": 720,
+              "height": 93.5,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(120, 154, 91)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".path-workshop.withOutImage .t-outer .pTitle",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "background-image": "initial",
+                  "background": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Title text",
+          "selector": "#pTitle h1",
+          "normal": {
+            "layout": {
+              "width": 420.734375,
+              "height": 50,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(255, 255, 255)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "pTitle",
+                "class": "pTitle container",
+                "color": "rgb(120, 154, 91)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "h1",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "h1",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".withOutImage h1.title",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".path-workshop.withOutImage h1.title",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Image banner",
+          "selector": "#inner-banner-image",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 350,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "url(\"https://www.eliwhitney.org/sites/eliwhitney/files/EliWhitney_School%20Programs%202000x350.jpg\")",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": "background: url(\"/sites/eliwhitney/files/EliWhitney_School%20Programs%202000x350.jpg\") center center / cover no-repeat;",
+            "declarations": [],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Book a Program",
+          "selector": ".view-filters > button",
+          "normal": {
+            "layout": {
+              "width": 210.6875,
+              "height": 45,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(149, 47, 43)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(149, 47, 43)",
+              "border-top-width": "1px",
+              "border-top-style": "solid",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "view-filters",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": "margin: 0 auto 20px;display: block;",
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": {
+            "layout": {
+              "width": 210.6875,
+              "height": 45,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(120, 154, 91)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(120, 154, 91)",
+              "border-top-width": "1px",
+              "border-top-style": "solid",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "view-filters",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": "margin: 0 auto 20px;display: block;",
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".btn:hover, button:hover, .button:hover",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "border-top-color": "rgb(120, 154, 91)",
+                  "border-color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".btn:hover, button:hover, .button:hover",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "border-top-color": "rgb(120, 154, 91)",
+                  "border-color": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          }
+        },
+        {
+          "label": "Filter panel",
+          "selector": ".view-filters",
+          "normal": {
+            "layout": {
+              "width": 476.515625,
+              "height": 690,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(168, 181, 186)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": ".view-school-programs-new .view-filters",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(168, 181, 186)",
+                  "background-image": "initial",
+                  "background": "rgb(168, 181, 186)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Filter form",
+          "selector": "#views-exposed-form-school-programs-new-page-1",
+          "normal": {
+            "layout": {
+              "width": 378.515625,
+              "height": 495,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "view-filters",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Filter input",
+          "selector": "#views-exposed-form-school-programs-new-page-1 input[type=\"text\"]",
+          "normal": {
+            "layout": {
+              "width": 378.515625,
+              "height": 44,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(33, 37, 41)",
+              "background-color": "rgb(255, 255, 255)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(149, 47, 43)",
+              "border-top-width": "2px",
+              "border-top-style": "solid",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "view-filters",
+                "color": "rgb(168, 181, 186)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_XICkMBgevIQ7RhA-PNAoP3KaEjs2nGaBRfFNGhq9U0I.css?delta=4&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "body, input, textarea, select",
+                "condition": "",
+                "values": {
+                  "color": "rgb(0, 0, 0)",
+                  "background-color": "initial",
+                  "background-image": "none",
+                  "background": "none"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": "#views-exposed-form-school-programs-new-page-1 #edit-title",
+                "condition": "",
+                "values": {
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "2px",
+                  "border-top-style": "solid",
+                  "border": "2px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Program card",
+          "selector": ".view-content .views-row",
+          "normal": {
+            "layout": {
+              "width": 416.015625,
+              "height": 170,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgb(238, 243, 245)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "inline stylesheet",
+                "selector": ".view-school-programs-new .views-row",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(238, 243, 245)",
+                  "background-image": "initial",
+                  "background": "rgb(238, 243, 245)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Program title link",
+          "selector": ".views-row .title a",
+          "normal": {
+            "layout": {
+              "width": 210.0625,
+              "height": 24,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(149, 47, 43)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(149, 47, 43)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "views-row",
+                "color": "rgb(238, 243, 245)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".view-school-programs-new .views-row .views-field-nothing .title a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(149, 47, 43)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": {
+            "layout": {
+              "width": 210.0625,
+              "height": 24,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(149, 47, 43)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(149, 47, 43)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "views-row",
+                "color": "rgb(238, 243, 245)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "a:hover",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".view-school-programs-new .views-row .views-field-nothing .title a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(149, 47, 43)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          }
+        },
+        {
+          "label": "Kindergarten badge",
+          "selector": ".views-row .key span[class=\"K\"]",
+          "normal": {
+            "layout": {
+              "width": 41.8125,
+              "height": 35.5,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(158, 129, 186)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(255, 255, 255)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "views-row",
+                "color": "rgb(238, 243, 245)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "inline stylesheet",
+                "selector": ".views-field-field-grade-level-new .field-content a span, .key span",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".\\33 -5, .PreK, .PreK-K, .K",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(158, 129, 186)",
+                  "background-image": "initial",
+                  "background": "rgb(158, 129, 186)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Grade 4 badge",
+          "selector": ".views-row .key span[class=\"4\"]",
+          "normal": {
+            "layout": {
+              "width": 39.578125,
+              "height": 35.5,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(120, 154, 91)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(255, 255, 255)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "views-row",
+                "color": "rgb(238, 243, 245)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "inline stylesheet",
+                "selector": ".views-field-field-grade-level-new .field-content a span, .key span",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".\\37 -9, .\\33 -4, .\\33 , .\\34 ",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "background-image": "initial",
+                  "background": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Grade 2 badge",
+          "selector": ".views-row .key span[class=\"2\"]",
+          "normal": {
+            "layout": {
+              "width": 39.578125,
+              "height": 35.5,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(94, 157, 209)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(255, 255, 255)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "views-row",
+                "color": "rgb(238, 243, 245)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "inline stylesheet",
+                "selector": ".views-field-field-grade-level-new .field-content a span, .key span",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".\\36 -8, .\\31 -2, .\\31 , .\\32 ",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(94, 157, 209)",
+                  "background-image": "initial",
+                  "background": "rgb(94, 157, 209)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Body",
+          "selector": "body",
+          "normal": {
+            "layout": {
+              "width": 1440,
+              "height": 7752.6875,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(65, 70, 66)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(65, 70, 66)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "body",
+                "condition": "",
+                "values": {
+                  "color": "rgb(65, 70, 66)",
+                  "background-color": "transparent",
+                  "background-image": "initial",
+                  "background": "transparent"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_XICkMBgevIQ7RhA-PNAoP3KaEjs2nGaBRfFNGhq9U0I.css?delta=4&language=en&theme=eliwhitney_d10&include=eJxtTVsOAiEMvBBaPREpULHZQg2tbvD0Zv3RrP5MJvNMgs8Joli415BU3XzgLSYcgxUuOtqvWkUTysF8yt9WIzOsZHG9slPICxV2HZF7oe5JNC_wxQMJb8lOM5bzCT57ufS9ufu2aU4NEhqFB9Nq8MZj03IXegFffld0",
+                "selector": "body, input, textarea, select",
+                "condition": "",
+                "values": {
+                  "color": "rgb(0, 0, 0)",
+                  "background-color": "initial",
+                  "background-image": "none",
+                  "background": "none"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.eliwhitney.org/catapult",
+      "inspected_at": "2026-10-23T19:53:24.037Z",
+      "elements": [
+        {
+          "label": "Detail booking button",
+          "selector": "a[href=\"/form/school-programs-booking\"] button",
+          "normal": {
+            "layout": {
+              "width": 210.6875,
+              "height": 45,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(149, 47, 43)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(149, 47, 43)",
+              "border-top-width": "1px",
+              "border-top-style": "solid",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": {
+            "layout": {
+              "width": 210.6875,
+              "height": 45,
+              "display": "inline-block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgb(120, 154, 91)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(120, 154, 91)",
+              "border-top-width": "1px",
+              "border-top-style": "solid",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": ".btn:hover, button:hover, .button:hover",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "border-top-color": "rgb(120, 154, 91)",
+                  "border-color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".button, .btn, button",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)",
+                  "background-color": "rgb(149, 47, 43)",
+                  "background-image": "initial",
+                  "border-top-color": "rgb(149, 47, 43)",
+                  "border-top-width": "1px",
+                  "border-top-style": "solid",
+                  "background": "rgb(149, 47, 43)",
+                  "border": "1px solid rgb(149, 47, 43)",
+                  "border-color": "rgb(149, 47, 43)"
+                }
+              },
+              {
+                "href": "inline stylesheet",
+                "selector": ".btn:hover, button:hover, .button:hover",
+                "condition": "",
+                "values": {
+                  "background-color": "rgb(120, 154, 91)",
+                  "border-top-color": "rgb(120, 154, 91)",
+                  "border-color": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          }
+        },
+        {
+          "label": "Detail title",
+          "selector": "h1",
+          "normal": {
+            "layout": {
+              "width": 680,
+              "height": 50,
+              "display": "block",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(255, 255, 255)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(255, 255, 255)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [
+              {
+                "tag": "DIV",
+                "id": "pTitle",
+                "class": "pTitle container",
+                "color": "rgb(120, 154, 91)",
+                "image": "none",
+                "opacity": "1"
+              }
+            ],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": "h1",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": "h1",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": ".withImage .t-outer .pTitle h1",
+                "condition": "",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": ".withImage .t-outer .pTitle h1",
+                "condition": "screen and (min-width: 0px) and (max-width: 1024px)",
+                "values": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": null
+        },
+        {
+          "label": "Detail grade link",
+          "selector": "a[href$=\"target_id=344\"]",
+          "normal": {
+            "layout": {
+              "width": 43.578125,
+              "height": 21,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(120, 154, 91)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(120, 154, 91)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          },
+          "hover": {
+            "layout": {
+              "width": 43.578125,
+              "height": 21,
+              "display": "inline",
+              "visibility": "visible"
+            },
+            "computed": {
+              "color": "rgb(120, 154, 91)",
+              "background-color": "rgba(0, 0, 0, 0)",
+              "background-image": "none",
+              "opacity": "1",
+              "border-top-color": "rgb(120, 154, 91)",
+              "border-top-width": "0px",
+              "border-top-style": "none",
+              "box-shadow": "none"
+            },
+            "ancestry": [],
+            "inlineStyle": null,
+            "declarations": [
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": "a",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              },
+              {
+                "href": "https://www.eliwhitney.org/sites/eliwhitney/files/css/css_me6D-4LhDBy6DQq7C57XEQg11dJsuyzAO-dxQ7ywR9M.css?delta=3&language=en&theme=eliwhitney_d10&include=eJxdjVEOAiEMRC-Ei56IUGiwbqGGdl25vauJ0fAzeclM3oCIqfV4DxB7J_GFBSKf1AZTKw7mvqJqLKhhv5KhSytmMumBWsZmwJJW_8cOmd7LhiPky9n_fCm3uZy-bxslBHn6LyyHMbLToYbVQ1R0D8Jd_SeXKnljfAFfqFKU",
+                "selector": "a:hover",
+                "condition": "",
+                "values": {
+                  "color": "rgb(120, 154, 91)"
+                }
+              }
+            ],
+            "blockedStylesheets": [
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
+              "https://use.typekit.net/glb2vwf.css"
+            ],
+            "pseudoBefore": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            },
+            "pseudoAfter": {
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "content": "none"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

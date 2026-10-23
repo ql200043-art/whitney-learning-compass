@@ -1,0 +1,50 @@
+{
+  "plan-untouched": {
+    "pages": 5,
+    "links": [
+      {
+        "page": 5,
+        "uri": "https://www.eliwhitney.org/catapult"
+      },
+      {
+        "page": 5,
+        "uri": "https://www.eliwhitney.org/catapult"
+      }
+    ],
+    "source_review_occurrences": 1,
+    "museum_safety_statement_occurrences": 1,
+    "page_text_lengths": [
+      1165,
+      1397,
+      1563,
+      1718,
+      1867
+    ],
+    "no_internal_evidence_codes": true,
+    "editing_and_review_labels_correct": true
+  },
+  "plan-reviewed": {
+    "pages": 5,
+    "links": [
+      {
+        "page": 5,
+        "uri": "https://www.eliwhitney.org/catapult"
+      },
+      {
+        "page": 5,
+        "uri": "https://www.eliwhitney.org/catapult"
+      }
+    ],
+    "source_review_occurrences": 1,
+    "museum_safety_statement_occurrences": 1,
+    "page_text_lengths": [
+      1187,
+      1293,
+      1563,
+      1718,
+      1872
+    ],
+    "no_internal_evidence_codes": true,
+    "editing_and_review_labels_correct": true
+  }
+}

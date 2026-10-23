@@ -1,0 +1,25 @@
+{
+  "pages": 5,
+  "links": [
+    {
+      "page": 5,
+      "uri": "https://www.eliwhitney.org/catapult"
+    },
+    {
+      "page": 5,
+      "uri": "https://www.eliwhitney.org/catapult"
+    }
+  ],
+  "source_review_occurrences": 1,
+  "museum_safety_statement_occurrences": 1,
+  "all_phases": true,
+  "teacher_edits_and_review_retained": true,
+  "no_technical_or_navigation_content": true,
+  "page_text_lengths": [
+    1251,
+    1293,
+    1563,
+    1718,
+    1872
+  ]
+}

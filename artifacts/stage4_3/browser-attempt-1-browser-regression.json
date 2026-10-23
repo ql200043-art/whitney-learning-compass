@@ -1,0 +1,391 @@
+{
+  "timestamp": "2026-10-23T20:31:21.948Z",
+  "execution_kind": "Offline POST replay; actual local UI and backend health/catalog; no Portkey",
+  "checks": [
+    "1440 visible keyboard focus",
+    "Body text contrast",
+    "Supporting text contrast",
+    "Small label contrast",
+    "Button contrast",
+    "Link contrast",
+    "Input text contrast",
+    "Input border contrast",
+    "Example button boundary contrast",
+    "Focus indicator contrast",
+    "Disabled step contrast",
+    "Status pass contrast",
+    "Status unknown contrast",
+    "Status fail contrast",
+    "Grade 1 fill",
+    "Grade 1 text contrast",
+    "Grade 2 fill",
+    "Grade 2 text contrast",
+    "Grade 3 fill",
+    "Grade 3 text contrast",
+    "Grade 4 fill",
+    "Grade 4 text contrast",
+    "Grade 5 fill",
+    "Grade 5 text contrast",
+    "Grade 6 fill",
+    "Grade 6 text contrast",
+    "Grade K fill",
+    "Grade K text contrast",
+    "Grade 7+ fill",
+    "Grade 7+ text contrast",
+    "Grade PreK fill",
+    "Grade PreK text contrast",
+    "1440 Quick Start does not infer",
+    "1440 preset USD remains unchecked",
+    "1440 explicit numeric input modes",
+    "1440 USD consent blocks submission",
+    "1440 Discover normal background",
+    "1440 Discover normal label contrast",
+    "1440 Discover hover background",
+    "1440 Discover hover label contrast",
+    "1440 Discover active background",
+    "1440 Discover active label contrast",
+    "1440 Discover keyboard focus background",
+    "1440 Discover keyboard focus label contrast"
+  ],
+  "requests": [],
+  "audits": [],
+  "layouts": [],
+  "contrasts": [
+    {
+      "label": "Body text",
+      "selector": "body",
+      "property": "color",
+      "foreground": [
+        38,
+        61,
+        56
+      ],
+      "background": [
+        246,
+        245,
+        239
+      ],
+      "threshold": 4.5,
+      "ratio": 10.64
+    },
+    {
+      "label": "Supporting text",
+      "selector": ".quick-start > p",
+      "property": "color",
+      "foreground": [
+        93,
+        108,
+        101
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 4.5,
+      "ratio": 5.48
+    },
+    {
+      "label": "Small label",
+      "selector": ".optional",
+      "property": "color",
+      "foreground": [
+        106,
+        118,
+        108
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 4.5,
+      "ratio": 4.7
+    },
+    {
+      "label": "Button",
+      "selector": ".primary",
+      "property": "color",
+      "foreground": [
+        255,
+        254,
+        247
+      ],
+      "background": [
+        149,
+        47,
+        43
+      ],
+      "threshold": 4.5,
+      "ratio": 7.64
+    },
+    {
+      "label": "Link",
+      "selector": ".text-button",
+      "property": "color",
+      "foreground": [
+        52,
+        100,
+        79
+      ],
+      "background": [
+        240,
+        242,
+        233
+      ],
+      "threshold": 4.5,
+      "ratio": 6.03
+    },
+    {
+      "label": "Input text",
+      "selector": "input[type=\"number\"]",
+      "property": "color",
+      "foreground": [
+        38,
+        59,
+        49
+      ],
+      "background": [
+        255,
+        254,
+        251
+      ],
+      "threshold": 4.5,
+      "ratio": 11.88
+    },
+    {
+      "label": "Input border",
+      "selector": "input[type=\"number\"]",
+      "property": "borderTopColor",
+      "foreground": [
+        112,
+        128,
+        119
+      ],
+      "background": [
+        255,
+        254,
+        251
+      ],
+      "threshold": 3,
+      "ratio": 4.13
+    },
+    {
+      "label": "Example button boundary",
+      "selector": ".example-option",
+      "property": "borderLeftColor",
+      "foreground": [
+        112,
+        128,
+        119
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 3,
+      "ratio": 4.12
+    },
+    {
+      "label": "Focus indicator",
+      "selector": ".example-option",
+      "property": "outlineColor",
+      "foreground": [
+        149,
+        47,
+        43
+      ],
+      "background": [
+        255,
+        254,
+        249
+      ],
+      "threshold": 3,
+      "ratio": 7.65
+    },
+    {
+      "label": "Disabled step",
+      "selector": ".sidebar button:disabled",
+      "property": "color",
+      "foreground": [
+        91,
+        109,
+        99
+      ],
+      "background": [
+        240,
+        242,
+        233
+      ],
+      "threshold": 4.5,
+      "ratio": 4.87
+    },
+    {
+      "label": "Status pass",
+      "property": "color",
+      "foreground": [
+        40,
+        86,
+        55
+      ],
+      "background": [
+        229,
+        238,
+        224
+      ],
+      "threshold": 4.5,
+      "ratio": 7.12
+    },
+    {
+      "label": "Status unknown",
+      "property": "color",
+      "foreground": [
+        116,
+        85,
+        29
+      ],
+      "background": [
+        246,
+        233,
+        198
+      ],
+      "threshold": 4.5,
+      "ratio": 5.68
+    },
+    {
+      "label": "Status fail",
+      "property": "color",
+      "foreground": [
+        138,
+        63,
+        48
+      ],
+      "background": [
+        245,
+        228,
+        221
+      ],
+      "threshold": 4.5,
+      "ratio": 6.01
+    }
+  ],
+  "visualStates": [
+    {
+      "kind": "CSS grade sample",
+      "label": "1",
+      "expected": "rgb(94, 157, 209)",
+      "background": "rgb(94, 157, 209)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 5.47
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "2",
+      "expected": "rgb(94, 157, 209)",
+      "background": "rgb(94, 157, 209)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 5.47
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "3",
+      "expected": "rgb(120, 154, 91)",
+      "background": "rgb(120, 154, 91)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 4.98
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "4",
+      "expected": "rgb(120, 154, 91)",
+      "background": "rgb(120, 154, 91)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 4.98
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "5",
+      "expected": "rgb(214, 172, 111)",
+      "background": "rgb(214, 172, 111)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 7.57
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "6",
+      "expected": "rgb(214, 172, 111)",
+      "background": "rgb(214, 172, 111)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 7.57
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "K",
+      "expected": "rgb(158, 129, 186)",
+      "background": "rgb(158, 129, 186)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 4.78
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "7+",
+      "expected": "rgb(149, 47, 43)",
+      "background": "rgb(149, 47, 43)",
+      "color": "rgb(255, 254, 247)",
+      "ratio": 7.64
+    },
+    {
+      "kind": "CSS grade sample",
+      "label": "PreK",
+      "expected": "rgb(158, 129, 186)",
+      "background": "rgb(158, 129, 186)",
+      "color": "rgb(23, 37, 29)",
+      "ratio": 4.78
+    },
+    {
+      "label": "1440 Discover normal",
+      "background": "rgb(149, 47, 43)",
+      "color": "rgb(255, 254, 247)",
+      "outline": "rgb(255, 254, 247) none 3px",
+      "disabled": false,
+      "width": 199.296875,
+      "height": 47,
+      "ratio": 7.64
+    },
+    {
+      "label": "1440 Discover hover",
+      "background": "rgb(126, 39, 36)",
+      "color": "rgb(255, 254, 247)",
+      "outline": "rgb(255, 254, 247) none 3px",
+      "disabled": false,
+      "width": 199.296875,
+      "height": 47,
+      "ratio": 9.43
+    },
+    {
+      "label": "1440 Discover active",
+      "background": "rgb(105, 33, 30)",
+      "color": "rgb(255, 254, 247)",
+      "outline": "rgb(255, 254, 247) none 3px",
+      "disabled": false,
+      "width": 199.296875,
+      "height": 47,
+      "ratio": 11.31
+    },
+    {
+      "label": "1440 Discover keyboard focus",
+      "background": "rgb(149, 47, 43)",
+      "color": "rgb(255, 254, 247)",
+      "outline": "rgb(149, 47, 43) solid 3px",
+      "disabled": false,
+      "width": 199.296875,
+      "height": 47,
+      "ratio": 7.64
+    }
+  ],
+  "errors": [],
+  "network_origins": [
+    "http://127.0.0.1:5173"
+  ]
+}

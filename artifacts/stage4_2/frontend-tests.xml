@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="91" failures="0" errors="0" time="5.926493207">
+    <testsuite name="src/App.test.tsx" timestamp="2026-10-23T19:59:19.471Z" hostname="MacBook-Pro-62.local" tests="16" failures="0" errors="0" skipped="0" time="3.346071666">
+        <testcase classname="src/App.test.tsx" name="shows branding and validates intake without model calls" time="0.123718917">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="supports a mixed-grade class and exposes assumptions" time="0.11599425">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="renders factual cards, three-way comparison, and waits for explicit selection" time="0.271162416">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="requires a second deliberate action after selecting a real program" time="0.233818167">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="requires acknowledgment for provisional selection" time="0.231579042">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="shows no-match results with actual failures and no selection" time="0.180227792">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="renders all phases, allows edits that persist through review, and keeps facts read-only" time="0.49270575">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="separates safety, booking questions, and sources; prints without new inference" time="0.207000833">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="creates an editable copy-only inquiry and leaves observations blank" time="0.301371334">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="does not expose capabilities in DOM or persistent browser storage" time="0.220827417">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="handles expired workflow and preserves a restart path" time="0.364343833">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="prevents duplicate recommendations during a pending call" time="0.068981458">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="handles backend unavailability without starting inference" time="0.019265208">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="prevents duplicate Designer submissions while a request is pending" time="0.210128291">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="does not allow a second program selection to start another plan in a consumed workflow" time="0.244025125">
+        </testcase>
+        <testcase classname="src/App.test.tsx" name="displays a controlled provider error without leaking an upstream body" time="0.059518542">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/ProgramDetails.test.tsx" timestamp="2026-10-23T19:59:19.472Z" hostname="MacBook-Pro-62.local" tests="4" failures="0" errors="0" skipped="0" time="0.070313791">
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps Bridges duration visibly unpublished" time="0.020048583">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps Resourceful Schools session ambiguity as a confirmation question and important note" time="0.005841541">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="keeps the verification date out of the safety section" time="0.040243167">
+        </testcase>
+        <testcase classname="src/ProgramDetails.test.tsx" name="shows review date, source link, and unpublished standards under verification" time="0.003154542">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/api.test.ts" timestamp="2026-10-23T19:59:19.473Z" hostname="MacBook-Pro-62.local" tests="13" failures="0" errors="0" skipped="0" time="0.009948292">
+        <testcase classname="src/api.test.ts" name="posts the real teacher schema only through the local API" time="0.00505">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="passes capability only in the journey header, with explicit selection" time="0.001548833">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="does not expose server response text in an error" time="0.000332583">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for missing_configuration" time="0.000183">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for provider_timeout" time="0.000109542">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for workflow_not_found" time="0.000061167">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for workflow_consumed" time="0.000052542">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for catalog_changed" time="0.000063541">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for invalid_model_output" time="0.000063917">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for invalid_input" time="0.000085583">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for execution_limit" time="0.000052375">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="provides a safe recovery message for network" time="0.000141542">
+        </testcase>
+        <testcase classname="src/api.test.ts" name="handles offline/network failure" time="0.001486541">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/presentation.test.ts" timestamp="2026-10-23T19:59:19.473Z" hostname="MacBook-Pro-62.local" tests="24" failures="0" errors="0" skipped="0" time="0.005893208">
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 2" time="0.001135708">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 7" time="0.000135166">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades &quot;K&quot;" time="0.000085583">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; accepts concrete grades 3" time="0.000095209">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;grades&quot;:[]}" time="0.0001145">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;grades&quot;:[&quot;7+&quot;]}" time="0.000062542">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;student_count&quot;:0}" time="0.000054458">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;student_count&quot;:2.5}" time="0.000044584">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_program_fee&quot;:-1}" time="0.000061042">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_program_fee&quot;:1.234}" time="0.000087416">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;assume_usd&quot;:false}" time="0.000048416">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_duration_minutes&quot;:0}" time="0.000038125">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;max_duration_minutes&quot;:1441}" time="0.000032834">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;learning_goal&quot;:&quot;a&quot;}" time="0.000039083">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; rejects invalid intake {&quot;learning_goal&quot;:&quot;xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot;}" time="0.000034334">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="teacher input validation &gt; allows optional limits and interests to be absent" time="0.000055542">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; separates supplied-ball safety from operational questions" time="0.000382084">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; makes an inquiry without fabricated availability or contact details" time="0.000167875">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; excludes a failed candidate from selection, even if mislabeled" time="0.001174375">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; never pads fewer than three results" time="0.000256792">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL javascript:alert(1)" time="0.000105583">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL https://evil.example" time="0.000480584">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; blocks unsafe source URL http://www.eliwhitney.org/catapult" time="0.000030375">
+        </testcase>
+        <testcase classname="src/presentation.test.ts" name="source-grounded presentation &gt; allows actual official HTTPS sources" time="0.000084625">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/stage4_1.test.tsx" timestamp="2026-10-23T19:59:19.474Z" hostname="MacBook-Pro-62.local" tests="18" failures="0" errors="0" skipped="0" time="1.323608167">
+        <testcase classname="src/stage4_1.test.tsx" name="shows explicit examples while keeping optional inputs genuinely empty" time="0.1871735">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="submits entered 400 USD and 90 minutes and reflects actual limits and $336" time="0.192579625">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="submits deliberately blank limits as null without adopting placeholders" time="0.0850055">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="submits the latest edited limits rather than earlier values" time="0.162620959">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="clearing previously entered limits removes the constraints" time="0.112206042">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps Rubber Band Car provisional with a required duration" time="0.137577208">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps Bridges provisional with a required duration" time="0.119036959">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps unpublished duration visible for eligible Rubber Band Car without a time limit" time="0.00276925">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps unpublished duration visible for eligible Bridges without a time limit" time="0.00220675">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="has no raw identifiers in expanded teacher evidence and retains source hyperlinks" time="0.007737583">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="excludes missing duration from verified source fields" time="0.001660458">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="does not present conflicting evidence as verified even if a value exists" time="0.000645584">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps catalog checks collapsed, grouped and progressively expandable without dropping programs" time="0.023039625">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="uses plain-language grade checks without changing their status" time="0.000589917">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="keeps source date notes and supplied-ball safety in their correct sections" time="0.004833084">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="uses consistent English navigation labels" time="0.059479541">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="distinguishes untouched, reviewed, edited and reverted suggestions without further inference" time="0.222494333">
+        </testcase>
+        <testcase classname="src/stage4_1.test.tsx" name="prints operational questions once while keeping source limitations in Sources" time="0.001273458">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/stage4_2.test.tsx" timestamp="2026-10-23T19:59:19.475Z" hostname="MacBook-Pro-62.local" tests="16" failures="0" errors="0" skipped="0" time="1.170658083">
+        <testcase classname="src/stage4_2.test.tsx" name="loads Explore Force &amp; Motion into actual editable intake without inference or consent" time="0.224689166">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="loads Discover Sustainable Energy into actual editable intake without inference or consent" time="0.11438875">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="loads Geometry Through Creative Design into actual editable intake without inference or consent" time="0.112331583">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="replaces preset fields predictably and requires renewed USD acknowledgment" time="0.170964625">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="submits current edits only after deliberate validation and consent" time="0.150267375">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="clears example limits and goal to the ordinary starting state" time="0.074963792">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="allows optional preset limits to be cleared without silently reinstating them" time="0.08591875">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="never silently removes advanced mandatory requirements when switching examples" time="0.000773959">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="supports keyboard activation of Quick Start without submitting" time="0.034959209">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="exposes a compact step control while keeping later workflow steps disabled" time="0.057709792">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="keeps main facts and an official link outside collapsed additional source details" time="0.010739833">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="keeps ewm-rubber-band-car mandatory missing duration out of collapsed metadata" time="0.002538125">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="keeps ewm-bridges mandatory missing duration out of collapsed metadata" time="0.002468">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="retains mandatory capacity uncertainty prominently" time="0.002680417">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="presents mobile comparison by attribute with the same factual values and explicit selection" time="0.022255417">
+        </testcase>
+        <testcase classname="src/stage4_2.test.tsx" name="clears a stale consent error on acknowledgment without starting inference" time="0.102353917">
+        </testcase>
+    </testsuite>
+</testsuites>

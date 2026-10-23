@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-23T19:25:33.774435+00:00",
+  "modified_existing_files": [
+    "frontend/src/App.test.tsx",
+    "frontend/src/App.tsx",
+    "frontend/src/components/Intake.tsx",
+    "frontend/src/components/LearningPlan.tsx",
+    "frontend/src/components/ProgramDetails.tsx",
+    "frontend/src/presentation.ts",
+    "frontend/src/styles.css"
+  ],
+  "all_other_preexisting_project_files_hash_unchanged": true,
+  "outside_workspace_metadata_before": {
+    "count": 195879,
+    "sha256": "502548d79f9a4d9e43de49d72f6a3b24df7170fd9fd08a5e30ec92b319da7ba9"
+  },
+  "outside_workspace_metadata_after": {
+    "count": 195879,
+    "sha256": "502548d79f9a4d9e43de49d72f6a3b24df7170fd9fd08a5e30ec92b319da7ba9"
+  },
+  "secret_value_scan_hits": [],
+  "git_head_unchanged": "251e3143cc15f9178faf871422934840d7be2b3c",
+  "catalog_program_count": 20,
+  "no_inference_calls": true,
+  "historical_evidence_unchanged": true
+}

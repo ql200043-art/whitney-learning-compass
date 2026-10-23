@@ -15,9 +15,9 @@ def create_app(service=None):
 
     @app.middleware("http")
     async def local_safety(request:Request,call_next):
-        # Backend is intentionally local-only. No permissive CORS or browser-origin access.
-        if request.headers.get("origin"):
-            return JSONResponse({"error":{"code":"origin_not_allowed","message":"Browser clients are not enabled in Stage 3.","run_id":None}},status_code=403)
+        # Local frontend proxy only; no wildcard CORS or public browser access.
+        if request.headers.get("origin") not in (None, "http://127.0.0.1:5173", "http://localhost:5173", "http://127.0.0.1:8008", "http://localhost:8008"):
+            return JSONResponse({"error":{"code":"origin_not_allowed","message":"Only the configured local browser origins are permitted.","run_id":None}},status_code=403)
         if request.method=="POST":
             body=b""
             async for chunk in request.stream():

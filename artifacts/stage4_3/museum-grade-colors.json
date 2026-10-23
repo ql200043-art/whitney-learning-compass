@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-10-23T20:28:39.588Z",
+  "url": "https://www.eliwhitney.org/workshop/school-programs",
+  "method": "Chrome getComputedStyle on first catalog badge of each published label",
+  "grades": [
+    {
+      "label": "K",
+      "class": "K",
+      "locator": ".views-row .key span[class=\"K\"]",
+      "background": "rgb(158, 129, 186)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 41.8125,
+      "height": 35.5
+    },
+    {
+      "label": "1",
+      "class": "1",
+      "locator": ".views-row .key span[class=\"1\"]",
+      "background": "rgb(94, 157, 209)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "2",
+      "class": "2",
+      "locator": ".views-row .key span[class=\"2\"]",
+      "background": "rgb(94, 157, 209)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "4",
+      "class": "4",
+      "locator": ".views-row .key span[class=\"4\"]",
+      "background": "rgb(120, 154, 91)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "5",
+      "class": "5",
+      "locator": ".views-row .key span[class=\"5\"]",
+      "background": "rgb(214, 172, 111)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "6",
+      "class": "6",
+      "locator": ".views-row .key span[class=\"6\"]",
+      "background": "rgb(214, 172, 111)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "7+",
+      "class": "7+",
+      "locator": ".views-row .key span[class=\"7+\"]",
+      "background": "rgb(149, 47, 43)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 50.515625,
+      "height": 35.5
+    },
+    {
+      "label": "3",
+      "class": "3",
+      "locator": ".views-row .key span[class=\"3\"]",
+      "background": "rgb(120, 154, 91)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 39.578125,
+      "height": 35.5
+    },
+    {
+      "label": "PreK",
+      "class": "PreK",
+      "locator": ".views-row .key span[class=\"PreK\"]",
+      "background": "rgb(158, 129, 186)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "none",
+      "opacity": "1",
+      "border": "0px none rgb(255, 255, 255)",
+      "width": 67.359375,
+      "height": 35.5
+    }
+  ]
+}
