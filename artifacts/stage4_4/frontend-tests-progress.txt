@@ -1,0 +1,118 @@
+
+> whitney-learning-compass@0.4.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/qiaoliang/Library/Mobile Documents/com~apple~CloudDocs/Downloads/乔良 Yale/MGT 409 AI Foundation for Managers/AI Foundations/Final Project/whitney-learning-compass/frontend
+
+ ❯ src/draftStorage.test.ts (28 tests | 1 failed) 18ms
+   × pins offline identities to all actual catalog names and URLs 4ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/draftStorage.test.ts > pins offline identities to all actual catalog names and URLs
+AssertionError: expected { …(20) } to deeply equal { undefined: { …(2) } }
+
+- Expected
++ Received
+
+  {
+-   "undefined": {
++   "ewm-art-and-light": {
+      "name": "Art and Light",
+      "url": "https://www.eliwhitney.org/art-and-light",
++   },
++   "ewm-bridges": {
++     "name": "Bridges",
++     "url": "https://www.eliwhitney.org/bridges",
++   },
++   "ewm-camera-obscura": {
++     "name": "Camera Obscura",
++     "url": "https://www.eliwhitney.org/camera-obscura",
++   },
++   "ewm-catapult": {
++     "name": "Catapult",
++     "url": "https://www.eliwhitney.org/catapult",
++   },
++   "ewm-cultures": {
++     "name": "Global Architecture & Transportation",
++     "url": "https://www.eliwhitney.org/cultures",
++   },
++   "ewm-ecosystems-magnetic-pendulum": {
++     "name": "Ecosystems: Magnetic Pendulum",
++     "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum",
++   },
++   "ewm-electromagnet": {
++     "name": "Electromagnet",
++     "url": "https://www.eliwhitney.org/electromagnet",
++   },
++   "ewm-inventive-arm": {
++     "name": "Inventive Arm",
++     "url": "https://www.eliwhitney.org/inventive-arm",
++   },
++   "ewm-marble-roller-coaster": {
++     "name": "Marble Roller Coaster",
++     "url": "https://www.eliwhitney.org/marble-roller-coaster",
++   },
++   "ewm-mill": {
++     "name": "The Mill",
++     "url": "https://www.eliwhitney.org/mill",
++   },
++   "ewm-orrery": {
++     "name": "Orrery",
++     "url": "https://www.eliwhitney.org/orrery",
++   },
++   "ewm-resourceful-schools": {
++     "name": "Resourceful Schools",
++     "url": "https://www.eliwhitney.org/resourceful-schools",
++   },
++   "ewm-rocks-connecticut": {
++     "name": "Rocks of Connecticut",
++     "url": "https://www.eliwhitney.org/rocks-connecticut",
++   },
++   "ewm-rubber-band-car": {
++     "name": "Rubber Band Car",
++     "url": "https://www.eliwhitney.org/rubber-band-car",
++   },
++   "ewm-simple-machines": {
++     "name": "Simple Machines",
++     "url": "https://www.eliwhitney.org/simple-machines",
++   },
++   "ewm-solar-sunflower": {
++     "name": "Solar Sunflower",
++     "url": "https://www.eliwhitney.org/solar-sunflower",
++   },
++   "ewm-sustainable-birdhouse": {
++     "name": "Sustainable Birdhouse",
++     "url": "https://www.eliwhitney.org/sustainable-birdhouse",
++   },
++   "ewm-sustainable-energy-wind-power": {
++     "name": "Sustainable Energy: Wind Power",
++     "url": "https://www.eliwhitney.org/sustainable-energy-wind-power",
++   },
++   "ewm-tangrams": {
++     "name": "Tangrams",
++     "url": "https://www.eliwhitney.org/tangrams",
++   },
++   "ewm-whitney-relay": {
++     "name": "The Whitney Relay",
++     "url": "https://www.eliwhitney.org/whitney-relay",
+    },
+  }
+
+ ❯ src/draftStorage.test.ts:13:22
+     11| });
+     12| it("pins offline identities to all actual catalog names and URLs",()=>{
+     13|   expect(identities).toEqual(Object.fromEntries(catalog.programs.map(p…
+       |                      ^
+     14| });
+     15| it("explicit projection omits nested secrets, workflow identity, trace…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 9 passed (10)
+      Tests  1 failed | 149 passed (150)
+   Start at  17:07:08
+   Duration  3.88s (tests 53%, environment 32%, setup 8%, transform 3%, import 3%)
+

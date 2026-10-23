@@ -1,0 +1,82 @@
+{
+  "ewm-simple-machines": {
+    "name": "Simple Machines",
+    "url": "https://www.eliwhitney.org/simple-machines"
+  },
+  "ewm-catapult": {
+    "name": "Catapult",
+    "url": "https://www.eliwhitney.org/catapult"
+  },
+  "ewm-bridges": {
+    "name": "Bridges",
+    "url": "https://www.eliwhitney.org/bridges"
+  },
+  "ewm-sustainable-energy-wind-power": {
+    "name": "Sustainable Energy: Wind Power",
+    "url": "https://www.eliwhitney.org/sustainable-energy-wind-power"
+  },
+  "ewm-tangrams": {
+    "name": "Tangrams",
+    "url": "https://www.eliwhitney.org/tangrams"
+  },
+  "ewm-whitney-relay": {
+    "name": "The Whitney Relay",
+    "url": "https://www.eliwhitney.org/whitney-relay"
+  },
+  "ewm-rubber-band-car": {
+    "name": "Rubber Band Car",
+    "url": "https://www.eliwhitney.org/rubber-band-car"
+  },
+  "ewm-inventive-arm": {
+    "name": "Inventive Arm",
+    "url": "https://www.eliwhitney.org/inventive-arm"
+  },
+  "ewm-marble-roller-coaster": {
+    "name": "Marble Roller Coaster",
+    "url": "https://www.eliwhitney.org/marble-roller-coaster"
+  },
+  "ewm-sustainable-birdhouse": {
+    "name": "Sustainable Birdhouse",
+    "url": "https://www.eliwhitney.org/sustainable-birdhouse"
+  },
+  "ewm-solar-sunflower": {
+    "name": "Solar Sunflower",
+    "url": "https://www.eliwhitney.org/solar-sunflower"
+  },
+  "ewm-resourceful-schools": {
+    "name": "Resourceful Schools",
+    "url": "https://www.eliwhitney.org/resourceful-schools"
+  },
+  "ewm-ecosystems-magnetic-pendulum": {
+    "name": "Ecosystems: Magnetic Pendulum",
+    "url": "https://www.eliwhitney.org/ecosystems-magnetic-pendulum"
+  },
+  "ewm-electromagnet": {
+    "name": "Electromagnet",
+    "url": "https://www.eliwhitney.org/electromagnet"
+  },
+  "ewm-camera-obscura": {
+    "name": "Camera Obscura",
+    "url": "https://www.eliwhitney.org/camera-obscura"
+  },
+  "ewm-orrery": {
+    "name": "Orrery",
+    "url": "https://www.eliwhitney.org/orrery"
+  },
+  "ewm-rocks-connecticut": {
+    "name": "Rocks of Connecticut",
+    "url": "https://www.eliwhitney.org/rocks-connecticut"
+  },
+  "ewm-mill": {
+    "name": "The Mill",
+    "url": "https://www.eliwhitney.org/mill"
+  },
+  "ewm-cultures": {
+    "name": "Global Architecture & Transportation",
+    "url": "https://www.eliwhitney.org/cultures"
+  },
+  "ewm-art-and-light": {
+    "name": "Art and Light",
+    "url": "https://www.eliwhitney.org/art-and-light"
+  }
+}

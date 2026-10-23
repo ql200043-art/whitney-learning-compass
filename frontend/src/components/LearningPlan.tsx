@@ -1,7 +1,7 @@
 import { limitSummary, operationalLabels } from "../evidence";
 import { useLayoutEffect, useRef, useState } from "react";
 import type { TextareaHTMLAttributes } from "react";
-import type { Journey, Suggestions, Teacher } from "../types";
+import type { Journey, Teacher } from "../types";
 import {
   FactGrid,
   StatusBadge,
@@ -10,6 +10,9 @@ import {
   SourceContent,
 } from "./ProgramDetails";
 import { DISCLAIMER, gradeLabel } from "../presentation";
+import { teachingContent } from "../draftStorage";
+import type { LocalDraft, TeachingContent } from "../draftStorage";
+import { HistoricalNotice, HistoricalProgram, HistoricalSources } from "./DraftDetails";
 const names: Record<string, string> = {
   learning_objectives: "Learning objectives",
   classroom_preparation: "Classroom preparation",
@@ -66,6 +69,7 @@ function SuggestionInput(props: TextareaHTMLAttributes<HTMLTextAreaElement>) {
 
 export default function LearningPlan({
   journey,
+  saved,
   teacher,
   edited,
   onEdit,
@@ -78,10 +82,11 @@ export default function LearningPlan({
   review,
   onReview,
 }: {
-  journey: Journey;
+  journey?: Journey;
+  saved?: LocalDraft;
   teacher: Teacher;
-  edited: Suggestions;
-  onEdit: (s: Suggestions) => void;
+  edited: TeachingContent;
+  onEdit: (s: TeachingContent) => void;
   notes: string;
   onNotes: (s: string) => void;
   reviewed: boolean;
@@ -93,7 +98,7 @@ export default function LearningPlan({
 }) {
   const [copyMessage, setCopyMessage] = useState("");
   const changed =
-    JSON.stringify(edited) !== JSON.stringify(journey.ai_teaching_suggestions);
+    JSON.stringify(teachingContent(edited)) !== JSON.stringify(saved?.original ?? teachingContent(journey!.ai_teaching_suggestions));
   const setField = (
     phase: "before" | "during" | "after",
     key: string,
@@ -133,15 +138,18 @@ export default function LearningPlan({
       <header className="print-only print-heading">
         <strong>Whitney Learning Compass</strong>
         <p>From Curriculum Goals to Hands-On Discovery</p>
-        <h1>{journey.museum_facts.official_name} · Learning Plan</h1>
+        <h1>{saved?.program.name ?? journey?.museum_facts.official_name} · Learning Plan</h1>
       </header>
-      {journey.provisional && (
+      {saved && <HistoricalNotice savedAt={saved.edited_at} />}
+      {journey?.provisional && (
         <div className="note warning">
           <strong>Provisional planning draft.</strong> Mandatory requirements
           remain unresolved. This is not confirmed eligibility or a booking.
         </div>
       )}
+      {saved && <HistoricalProgram draft={saved} />}
       <section className="panel program-overview">
+        {journey && <>
         <div className="section-heading">
           <div>
             <span className="eyebrow">
@@ -153,6 +161,7 @@ export default function LearningPlan({
         </div>
         <p>{journey.museum_facts.description}</p>
         <FactGrid facts={journey.museum_facts} match={journey.eligibility} />
+        </>}
         <p>
           <strong>Your class:</strong> Grade(s) {gradeLabel(teacher.grades)} ·{" "}
           {teacher.student_count} students
@@ -196,8 +205,7 @@ export default function LearningPlan({
           <strong className="review-acknowledgment">Reviewed by Teacher</strong>
         )}
         <p>
-          {journey.suggestion_label} Edits stay in this browser tab and do not
-          trigger model calls. Save a printed copy before closing or refreshing.
+          {journey?.suggestion_label ?? "Editable teaching suggestions, not official museum curriculum."} Editing does not trigger model calls. Check the local saving status before leaving; printing provides a separate copy.
         </p>
       </div>
       <div className="journey-timeline">
@@ -284,6 +292,8 @@ export default function LearningPlan({
             "No observations recorded. To be completed by the educator after actual observation."}
         </p>
       </section>
+      {saved && <HistoricalSources draft={saved} />}
+      {journey && <>
       <ConfirmationSections
         facts={journey.museum_facts}
         match={journey.eligibility}
@@ -291,7 +301,7 @@ export default function LearningPlan({
         safety={journey.safety_notice}
       />
       <section className="panel sources-panel">
-        <SourceDetails facts={journey.museum_facts} refs={edited.evidence} />
+        <SourceDetails facts={journey.museum_facts} refs={journey.ai_teaching_suggestions.evidence} />
         <div className="print-only">
           <h3>Sources & Verification</h3>
           <SourceContent facts={journey.museum_facts} printable />
@@ -300,6 +310,7 @@ export default function LearningPlan({
           <p key={a}>{a}</p>
         ))}
       </section>
+      </>}
       <section className="panel review-tools no-print">
         <h2>Make it yours, then take it with you</h2>
         <label className="check-label">

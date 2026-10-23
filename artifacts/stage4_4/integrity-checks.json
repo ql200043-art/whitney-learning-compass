@@ -1,0 +1,31 @@
+{
+  "head": "668e372a525e197535c245c17cc35240a1f4a1e0",
+  "branch": "main",
+  "baseline_files_checked": 287,
+  "modified_existing_files": [
+    "README.md",
+    "frontend/src/App.tsx",
+    "frontend/src/styles.css",
+    "frontend/src/components/LearningPlan.tsx",
+    "frontend/src/test/setup.ts"
+  ],
+  "missing_baseline_files": [],
+  "protected_catalog_backend_matching_agents_tests_historical_evidence_unchanged": true,
+  "storage_forbidden_keys_and_synthetic_capability_absent": true,
+  "storage_keys": [
+    "schema_version",
+    "draft_id",
+    "created_at",
+    "edited_at",
+    "program",
+    "teacher",
+    "original",
+    "edited",
+    "notes",
+    "inquiry",
+    "reviewed"
+  ],
+  "new_dependencies": false,
+  "provider_inference_calls": 0,
+  "outside_project_write_actions": 0
+}

@@ -1,0 +1,21 @@
+{
+  "pages": 5,
+  "checks": {
+    "Saved Draft": true,
+    "Not Revalidated": true,
+    "Recovered objective": true,
+    "Recovered activity": true,
+    "Recovered offline edit": true,
+    "Not affiliated": true,
+    "https://www.eliwhitney.org/catapult": true
+  },
+  "clickable_official_link": true,
+  "link_annotations": 2,
+  "page_text_lengths": [
+    1593,
+    1296,
+    1507,
+    1454,
+    2294
+  ]
+}

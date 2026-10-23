@@ -2210,3 +2210,24 @@ tbody th {
     font-size: 9pt;
   }
 }
+
+/* Stage 4.4: local document controls use the existing paper-and-ink system. */
+.draft-recovery, .draft-toolbar { margin-bottom: 1.5rem; overflow-wrap: anywhere; }
+.draft-toolbar { padding: 1rem 1.35rem; }
+.draft-toolbar p:first-child { margin-top: 0; }
+.draft-actions { display: flex; flex-wrap: wrap; gap: .65rem 1rem; align-items: center; }
+.draft-actions button { min-height: 44px; white-space: normal; }
+.historical-notice { margin-bottom: 1.5rem; }
+.historical-notice p { margin-bottom: 0; }
+.saved-source-notes li { margin-bottom: .5rem; }
+@media (max-width: 480px) {
+  .draft-actions { align-items: stretch; }
+  .draft-actions button { flex: 1 1 100%; }
+}
+@media print {
+  .historical-notice { break-inside: avoid; font-size: 10pt; border: 1px solid #777; }
+  .saved-source-notes { display: block; }
+  .historical-sources p { margin: 0 0 6px; }
+  .historical-sources summary { min-height: 0; padding: 0; }
+  .historical-sources li { margin-bottom: 2px; }
+}

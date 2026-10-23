@@ -1,0 +1,203 @@
+{
+  "kind": "Actual localStorage snapshot from offline UI replay; not a live model result",
+  "draft": {
+    "schema_version": 1,
+    "draft_id": "2b467da6-6d79-4878-a7a9-91187f4688f5",
+    "created_at": "2026-10-23T21:12:45.123Z",
+    "edited_at": "2026-10-23T21:12:45.847Z",
+    "program": {
+      "id": "ewm-catapult",
+      "name": "Catapult",
+      "url": "https://www.eliwhitney.org/catapult",
+      "description": "Students experiment with a rubber-band-powered catapult, varying band count and the position of the supplied ping-pong ball to explore force and motion.",
+      "grades": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7+"
+      ],
+      "subjects": [
+        "Design",
+        "Energy Transfer",
+        "Engineering",
+        "Force and Motion",
+        "History"
+      ],
+      "fee": "$14.00 per student",
+      "duration_minutes": 90,
+      "subtotal": "336.00",
+      "currency": "USD",
+      "currency_assumption": "USD assumed for this Connecticut prototype; not explicitly published by the museum.",
+      "source_reviewed_at": "2026-10-21",
+      "eligibility_at_generation": "pass",
+      "provisional": false,
+      "mandatory_unknowns": [],
+      "museum_questions": [
+        "What accessibility accommodations can you arrange?",
+        "Are there any additional charges beyond the published per-student program fee?",
+        "What dates are available for this program?",
+        "What booking conditions and reservation steps apply?",
+        "Can you accommodate our class of 24 students?",
+        "Are there any special delivery or location arrangements to confirm?"
+      ],
+      "safety_notes": [
+        "Educator review required. Follow museum staff procedures; do not independently operate equipment or substitute projectiles. Use only approved activities and materials.",
+        "The museum's safety statement is conditional on using its supplied ping-pong ball; this record does not establish a general safety guarantee."
+      ],
+      "source_notes": [
+        "Currency code: Confirm the currency code before a currency-sensitive budget check.",
+        "Program-specific curriculum standards: Check for program-specific published standards or seek museum clarification; do not infer codes.",
+        "Minimum class size: Confirm any minimum group size with the museum if required.",
+        "Class capacity: Confirm workshop capacity with the museum if required.",
+        "Accessibility arrangements: Confirm the class's relevant access requirements with the museum.",
+        "Booking availability: Confirm dates and availability with the museum before planning a booking.",
+        "Museum page update date: Not published. Our source review date is shown above.",
+        "USD assumed for this Connecticut prototype; not explicitly published by the museum."
+      ],
+      "source_information": [
+        "program description (factual summary)",
+        "published grades",
+        "subjects",
+        "workshop fee",
+        "duration"
+      ],
+      "standards_published": false
+    },
+    "teacher": {
+      "grades": [
+        4
+      ],
+      "student_count": 24,
+      "learning_goal": "I want my fourth-grade students to explore force, motion, and engineering design through hands-on experiments.",
+      "max_program_fee": 400,
+      "budget_currency": "USD",
+      "assume_usd": true,
+      "max_duration_minutes": 90,
+      "preferences": [
+        "Force and motion",
+        "engineering design",
+        "experimentation"
+      ],
+      "required_standards": [],
+      "mandatory_operational": {}
+    },
+    "original": {
+      "before": {
+        "learning_objectives": [
+          "Students will identify how changing the number of rubber bands or the ping-pong ball’s position relates to the catapult’s motion, using observations from the program.",
+          "Students will describe one step in an engineering-design process by comparing a prediction with observed results and explaining a possible reason for any difference."
+        ],
+        "classroom_preparation": [
+          "Invite students to recall examples of pushes and pulls and how they can change an object’s motion.",
+          "Prepare a simple paper-and-pencil recording sheet with columns for trial or setup, prediction, actual observation, and possible explanation; leave observation fields blank until observations occur.",
+          "Review that any catapult use and handling during the program follow museum staff directions."
+        ],
+        "background_concepts": [
+          "A force is a push or pull that can change an object’s motion.",
+          "The catapult activity varies band count and the position of the supplied ping-pong ball; students can compare what they observe across those changes.",
+          "Engineering design involves making a prediction, observing a result, and using evidence to consider what to change or explain."
+        ],
+        "inquiry_questions": [
+          "How might changing the number of bands affect the catapult’s motion?",
+          "How might changing the ping-pong ball’s position affect what happens?",
+          "What evidence would help you compare two setups fairly?"
+        ]
+      },
+      "during": {
+        "observation_prompts": [
+          "If museum staff permit, attend to how the catapult’s motion appears to change when the band count or ball position changes; record only what is actually observed.",
+          "Use a blank table: setup/change | prediction | actual observation | possible explanation. Leave the actual-observation column empty until the event is observed.",
+          "Follow museum staff directions for all catapult handling and procedures; do not adjust or operate equipment independently."
+        ],
+        "hypothesis_questions": [
+          "Before a staff-directed comparison, what do you predict may happen if the band count changes? Label this as a prediction, not an observation.",
+          "What do you predict may happen if the ball’s position changes? What makes you think so?"
+        ],
+        "critical_thinking": [
+          "Which factor changed between the setups you observed, and what appeared to stay the same?",
+          "Does the observed result support your prediction, differ from it, or leave the question open? What specific observation informs your thinking?",
+          "What other factor might affect the motion, and what would you need to observe before drawing a conclusion?"
+        ],
+        "evidence_collection": [
+          "Record the setup and the directly observed result in words or a simple sketch; do not fill in results before observing them.",
+          "Keep predictions separate from observed evidence, and note when an observation is unavailable or unclear rather than guessing.",
+          "Ask museum staff before recording or comparing any details not included in the staff-directed activity."
+        ]
+      },
+      "after": {
+        "reflection_questions": [
+          "Which actual observation most helped you think about force and motion? Explain how it connects to the setup.",
+          "Where did an observation support or challenge your prediction? What evidence led you to that view?",
+          "What would you still want to observe before making a stronger claim about how a setup affects motion?"
+        ],
+        "follow_up_activity": "On paper, have students choose one observed comparison and make a labeled sketch of the setup, then write a claim about motion supported by an actual recorded observation. If no observation record is available, use the blank table to plan what they would look for next; do not supply invented results.",
+        "assessment": [
+          "Objective 1: Review each student’s explanation for a connection between a changed setup feature (band count or ball position) and motion, supported by an actual observation. If none is available, assess the student’s ability to state what evidence would be needed instead.",
+          "Objective 2: Check whether the student separates prediction from observed result and uses the observation to explain a possible outcome or difference; do not score hypothetical outcomes as empirical evidence."
+        ],
+        "extension_activity": "Students can add a paper-and-pencil design reflection: identify one feature they would want to compare next, state a clearly labeled prediction, and list the actual observation that would be needed to evaluate it."
+      }
+    },
+    "edited": {
+      "before": {
+        "learning_objectives": [
+          "Recovered objective: compare real observations with a prediction.",
+          "Students will describe one step in an engineering-design process by comparing a prediction with observed results and explaining a possible reason for any difference."
+        ],
+        "classroom_preparation": [
+          "Invite students to recall examples of pushes and pulls and how they can change an object’s motion.",
+          "Prepare a simple paper-and-pencil recording sheet with columns for trial or setup, prediction, actual observation, and possible explanation; leave observation fields blank until observations occur.",
+          "Review that any catapult use and handling during the program follow museum staff directions."
+        ],
+        "background_concepts": [
+          "A force is a push or pull that can change an object’s motion.",
+          "The catapult activity varies band count and the position of the supplied ping-pong ball; students can compare what they observe across those changes.",
+          "Engineering design involves making a prediction, observing a result, and using evidence to consider what to change or explain."
+        ],
+        "inquiry_questions": [
+          "How might changing the number of bands affect the catapult’s motion?",
+          "How might changing the ping-pong ball’s position affect what happens?",
+          "What evidence would help you compare two setups fairly?"
+        ]
+      },
+      "during": {
+        "observation_prompts": [
+          "If museum staff permit, attend to how the catapult’s motion appears to change when the band count or ball position changes; record only what is actually observed.",
+          "Use a blank table: setup/change | prediction | actual observation | possible explanation. Leave the actual-observation column empty until the event is observed.",
+          "Follow museum staff directions for all catapult handling and procedures; do not adjust or operate equipment independently."
+        ],
+        "hypothesis_questions": [
+          "Before a staff-directed comparison, what do you predict may happen if the band count changes? Label this as a prediction, not an observation.",
+          "What do you predict may happen if the ball’s position changes? What makes you think so?"
+        ],
+        "critical_thinking": [
+          "Which factor changed between the setups you observed, and what appeared to stay the same?",
+          "Does the observed result support your prediction, differ from it, or leave the question open? What specific observation informs your thinking?",
+          "What other factor might affect the motion, and what would you need to observe before drawing a conclusion?"
+        ],
+        "evidence_collection": [
+          "Recovered activity: leave measurements blank until the actual visit.",
+          "Keep predictions separate from observed evidence, and note when an observation is unavailable or unclear rather than guessing.",
+          "Ask museum staff before recording or comparing any details not included in the staff-directed activity."
+        ]
+      },
+      "after": {
+        "reflection_questions": [
+          "Which actual observation most helped you think about force and motion? Explain how it connects to the setup.",
+          "Where did an observation support or challenge your prediction? What evidence led you to that view?",
+          "What would you still want to observe before making a stronger claim about how a setup affects motion?"
+        ],
+        "follow_up_activity": "On paper, have students choose one observed comparison and make a labeled sketch of the setup, then write a claim about motion supported by an actual recorded observation. If no observation record is available, use the blank table to plan what they would look for next; do not supply invented results.",
+        "assessment": [
+          "Objective 1: Review each student’s explanation for a connection between a changed setup feature (band count or ball position) and motion, supported by an actual observation. If none is available, assess the student’s ability to state what evidence would be needed instead.",
+          "Objective 2: Check whether the student separates prediction from observed result and uses the observation to explain a possible outcome or difference; do not score hypothetical outcomes as empirical evidence."
+        ],
+        "extension_activity": "Students can add a paper-and-pencil design reflection: identify one feature they would want to compare next, state a clearly labeled prediction, and list the actual observation that would be needed to evaluate it."
+      }
+    },
+    "notes": "Teacher notes retained. No experiment has been conducted.",
+    "inquiry": "Please confirm capacity, availability and any additional fees for our class.",
+    "reviewed": false
+  }
+}

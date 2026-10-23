@@ -57,7 +57,17 @@ On phones, **Show steps** opens the available navigation; later stages remain lo
 
 The normal example uses Grade 4, 24 students, a $400 program-fee budget with USD acknowledgment, a 90-minute limit and a force/motion/design goal. Actual options vary; choose a returned candidate, never a fabricated ID.
 
-Edits and private workflow capabilities live only in tab memory. Refreshing, closing the tab, restarting the backend or letting the one-hour workflow expire requires a new search. Print your work before leaving. A failed journey attempt consumes the workflow; the interface provides a restart path. Ordinary comparison, editing, activity review, printing and copying never initiate inference. Teacher edits are not revalidated by AI and remain the educator's responsibility.
+Private workflow capabilities remain only in tab memory. Refreshing, closing the tab, restarting the backend or letting the one-hour workflow expire requires a new search for **new AI operations**. Saved instructional documents can be recovered locally as described below. A failed journey attempt consumes the workflow; the interface provides a restart path. Ordinary comparison, editing, activity review, printing and copying never initiate inference. Teacher edits are not revalidated by AI and remain the educator's responsibility.
+
+### Local learning-plan drafts
+
+After successful journey generation, the initial plan and subsequent edits autosave after **650 ms** without changes. Check **Saved on this device** before leaving. Before/During/After suggestions, teacher notes, review status and the inquiry draft are included. Saving errors are visible; print a copy if storage is unavailable.
+
+After reopening the same website, choose **Restore Draft** to edit, review or print the saved document without a backend or provider session. **Start Fresh** leaves the saved copy intact. **Delete Saved Draft** asks for confirmation, deletes only the saved browser copy and pauses saving; the open plan remains. Saving again requires **Save This Plan on This Device**. A different new plan requires explicit confirmation before replacing the one saved draft. If another tab changes it, saving pauses and offers a choice; use one editing tab at a time.
+
+Only an allowlisted, validated document is kept in browser `localStorage`: class requirements, original and edited teaching text, minimal historical program facts, source URL/date, notes and inquiry. No workflow capabilities, API credentials, backend run IDs or execution traces are stored. Do not enter student names, private records or secrets in free text. Draft storage is not encrypted, uploaded or shared with the museum. Clearing browser data removes it; private browsing and storage restrictions may prevent saving.
+
+This is **one draft per browser origin**, not a backup or cross-device service. Use the same hostname and port (`127.0.0.1:5173` differs from `localhost:5173`). The frontend must still be served locally to reopen it; no offline app cache is added. Restored facts and original eligibility are labeled **Saved Draft — Not Revalidated**, including in print. They are historical snapshots, not current museum information or booking confirmation. **Start New Plan** follows the normal intake, recommendation and explicit selection process; restoration never recreates expired server authorization. See [Stage 4.4 validation](docs/stage4_4_validation.md) for tests and limitations.
 
 API schema for developers: http://127.0.0.1:8008/docs.
 

@@ -1,0 +1,563 @@
+{
+  "executed_at": "2026-10-23T21:12:59.367Z",
+  "kind": "Actual Chrome interactions; all API replies offline replay, backend unavailability simulated; zero model calls",
+  "checks": [
+    "only known offline POST",
+    "only known offline POST",
+    "saved-1440 no horizontal overflow",
+    "saved-1440 accessible draft controls",
+    "saved-1440 axe",
+    "1440 all editable fields saved",
+    "1440 no capabilities/traces in storage",
+    "1440 single storage entry",
+    "1440 two deliberate POST replays",
+    "1440 optional recovery",
+    "recovery-1440 no horizontal overflow",
+    "recovery-1440 accessible draft controls",
+    "recovery-1440 axe",
+    "1440 recovered objective",
+    "1440 recovered during activity",
+    "1440 no active authorization controls",
+    "restored-1440 no horizontal overflow",
+    "restored-1440 accessible draft controls",
+    "restored-1440 axe",
+    "1440 edits retained in review",
+    "1440 local print action",
+    "historical notice printed",
+    "draft controls excluded from print",
+    "1440 no inference on restore/edit/print",
+    "only known offline POST",
+    "only known offline POST",
+    "new program cannot silently replace saved plan",
+    "replacement asks confirmation",
+    "canceled replacement preserves Catapult",
+    "confirmed replacement stores Simple Machines",
+    "other tab edit preserved",
+    "1440 canceled deletion preserves copy",
+    "1440 deletion explains in-memory retention",
+    "1440 stored copy deleted",
+    "1440 open document retained",
+    "1440 deletion survives debounce",
+    "1440 no recovery after delete/reload",
+    "1440 normal new intake available",
+    "1440 corrupt draft cannot restore",
+    "corrupt-1440 no horizontal overflow",
+    "corrupt-1440 accessible draft controls",
+    "1440 start fresh after corrupt storage",
+    "only known offline POST",
+    "only known offline POST",
+    "saved-390 no horizontal overflow",
+    "saved-390 accessible draft controls",
+    "saved-390 axe",
+    "390 all editable fields saved",
+    "390 no capabilities/traces in storage",
+    "390 single storage entry",
+    "390 two deliberate POST replays",
+    "390 optional recovery",
+    "recovery-390 no horizontal overflow",
+    "recovery-390 accessible draft controls",
+    "recovery-390 axe",
+    "390 recovered objective",
+    "390 recovered during activity",
+    "390 no active authorization controls",
+    "restored-390 no horizontal overflow",
+    "restored-390 accessible draft controls",
+    "restored-390 axe",
+    "390 edits retained in review",
+    "390 local print action",
+    "390 no inference on restore/edit/print",
+    "390 canceled deletion preserves copy",
+    "390 deletion explains in-memory retention",
+    "390 stored copy deleted",
+    "390 open document retained",
+    "390 deletion survives debounce",
+    "390 no recovery after delete/reload",
+    "390 normal new intake available",
+    "390 corrupt draft cannot restore",
+    "corrupt-390 no horizontal overflow",
+    "corrupt-390 accessible draft controls",
+    "390 start fresh after corrupt storage",
+    "only known offline POST",
+    "only known offline POST",
+    "saved-320 no horizontal overflow",
+    "saved-320 accessible draft controls",
+    "saved-320 axe",
+    "320 all editable fields saved",
+    "320 no capabilities/traces in storage",
+    "320 single storage entry",
+    "320 two deliberate POST replays",
+    "320 optional recovery",
+    "recovery-320 no horizontal overflow",
+    "recovery-320 accessible draft controls",
+    "recovery-320 axe",
+    "320 recovered objective",
+    "320 recovered during activity",
+    "320 no active authorization controls",
+    "restored-320 no horizontal overflow",
+    "restored-320 accessible draft controls",
+    "restored-320 axe",
+    "320 edits retained in review",
+    "320 local print action",
+    "320 no inference on restore/edit/print",
+    "320 canceled deletion preserves copy",
+    "320 deletion explains in-memory retention",
+    "320 stored copy deleted",
+    "320 open document retained",
+    "320 deletion survives debounce",
+    "320 no recovery after delete/reload",
+    "320 normal new intake available",
+    "320 corrupt draft cannot restore",
+    "corrupt-320 no horizontal overflow",
+    "corrupt-320 accessible draft controls",
+    "320 start fresh after corrupt storage",
+    "zero browser JavaScript errors"
+  ],
+  "layouts": [
+    {
+      "name": "saved-1440",
+      "viewport": 1440,
+      "width": 1440,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 294.59375,
+          "y": 229.390625,
+          "width": 121.53125,
+          "height": 44,
+          "top": 229.390625,
+          "right": 416.125,
+          "bottom": 273.390625,
+          "left": 294.59375
+        }
+      ]
+    },
+    {
+      "name": "recovery-1440",
+      "viewport": 1440,
+      "width": 1440,
+      "controls": [
+        {
+          "label": "Restore Draft",
+          "x": 301,
+          "y": 314.421875,
+          "width": 132.25,
+          "height": 47,
+          "top": 314.421875,
+          "right": 433.25,
+          "bottom": 361.421875,
+          "left": 301
+        },
+        {
+          "label": "Start Fresh",
+          "x": 449.25,
+          "y": 314.421875,
+          "width": 117.0625,
+          "height": 47,
+          "top": 314.421875,
+          "right": 566.3125,
+          "bottom": 361.421875,
+          "left": 449.25
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 582.3125,
+          "y": 315.921875,
+          "width": 121.53125,
+          "height": 44,
+          "top": 315.921875,
+          "right": 703.84375,
+          "bottom": 359.921875,
+          "left": 582.3125
+        }
+      ]
+    },
+    {
+      "name": "restored-1440",
+      "viewport": 1440,
+      "width": 1440,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 294.59375,
+          "y": 211.390625,
+          "width": 121.53125,
+          "height": 44,
+          "top": 211.390625,
+          "right": 416.125,
+          "bottom": 255.390625,
+          "left": 294.59375
+        }
+      ]
+    },
+    {
+      "name": "corrupt-1440",
+      "viewport": 1440,
+      "width": 1440,
+      "controls": [
+        {
+          "label": "Start Fresh",
+          "x": 301,
+          "y": 314.421875,
+          "width": 117.0625,
+          "height": 47,
+          "top": 314.421875,
+          "right": 418.0625,
+          "bottom": 361.421875,
+          "left": 301
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 434.0625,
+          "y": 315.921875,
+          "width": 121.53125,
+          "height": 44,
+          "top": 315.921875,
+          "right": 555.59375,
+          "bottom": 359.921875,
+          "left": 434.0625
+        }
+      ]
+    },
+    {
+      "name": "saved-390",
+      "viewport": 390,
+      "width": 390,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 36.59375,
+          "y": 427.15625,
+          "width": 316.8125,
+          "height": 44,
+          "top": 427.15625,
+          "right": 353.40625,
+          "bottom": 471.15625,
+          "left": 36.59375
+        }
+      ]
+    },
+    {
+      "name": "recovery-390",
+      "viewport": 390,
+      "width": 390,
+      "controls": [
+        {
+          "label": "Restore Draft",
+          "x": 31,
+          "y": 485.21875,
+          "width": 328,
+          "height": 47,
+          "top": 485.21875,
+          "right": 359,
+          "bottom": 532.21875,
+          "left": 31
+        },
+        {
+          "label": "Start Fresh",
+          "x": 31,
+          "y": 542.609375,
+          "width": 328,
+          "height": 47,
+          "top": 542.609375,
+          "right": 359,
+          "bottom": 589.609375,
+          "left": 31
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 31,
+          "y": 600,
+          "width": 328,
+          "height": 44,
+          "top": 600,
+          "right": 359,
+          "bottom": 644,
+          "left": 31
+        }
+      ]
+    },
+    {
+      "name": "restored-390",
+      "viewport": 390,
+      "width": 390,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 36.59375,
+          "y": -7.84375,
+          "width": 316.8125,
+          "height": 44,
+          "top": -7.84375,
+          "right": 353.40625,
+          "bottom": 36.15625,
+          "left": 36.59375
+        }
+      ]
+    },
+    {
+      "name": "corrupt-390",
+      "viewport": 390,
+      "width": 390,
+      "controls": [
+        {
+          "label": "Start Fresh",
+          "x": 31,
+          "y": 495.21875,
+          "width": 328,
+          "height": 47,
+          "top": 495.21875,
+          "right": 359,
+          "bottom": 542.21875,
+          "left": 31
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 31,
+          "y": 552.609375,
+          "width": 328,
+          "height": 44,
+          "top": 552.609375,
+          "right": 359,
+          "bottom": 596.609375,
+          "left": 31
+        }
+      ]
+    },
+    {
+      "name": "saved-320",
+      "viewport": 320,
+      "width": 320,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 36.59375,
+          "y": 449.03125,
+          "width": 246.8125,
+          "height": 44,
+          "top": 449.03125,
+          "right": 283.40625,
+          "bottom": 493.03125,
+          "left": 36.59375
+        }
+      ]
+    },
+    {
+      "name": "recovery-320",
+      "viewport": 320,
+      "width": 320,
+      "controls": [
+        {
+          "label": "Restore Draft",
+          "x": 31,
+          "y": 507.09375,
+          "width": 258,
+          "height": 47,
+          "top": 507.09375,
+          "right": 289,
+          "bottom": 554.09375,
+          "left": 31
+        },
+        {
+          "label": "Start Fresh",
+          "x": 31,
+          "y": 564.484375,
+          "width": 258,
+          "height": 47,
+          "top": 564.484375,
+          "right": 289,
+          "bottom": 611.484375,
+          "left": 31
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 31,
+          "y": 621.875,
+          "width": 258,
+          "height": 44,
+          "top": 621.875,
+          "right": 289,
+          "bottom": 665.875,
+          "left": 31
+        }
+      ]
+    },
+    {
+      "name": "restored-320",
+      "viewport": 320,
+      "width": 320,
+      "controls": [
+        {
+          "label": "Delete Saved Draft",
+          "x": 36.59375,
+          "y": -16.96875,
+          "width": 246.8125,
+          "height": 44,
+          "top": -16.96875,
+          "right": 283.40625,
+          "bottom": 27.03125,
+          "left": 36.59375
+        }
+      ]
+    },
+    {
+      "name": "corrupt-320",
+      "viewport": 320,
+      "width": 320,
+      "controls": [
+        {
+          "label": "Start Fresh",
+          "x": 31,
+          "y": 519.09375,
+          "width": 258,
+          "height": 47,
+          "top": 519.09375,
+          "right": 289,
+          "bottom": 566.09375,
+          "left": 31
+        },
+        {
+          "label": "Delete Saved Draft",
+          "x": 31,
+          "y": 576.484375,
+          "width": 258,
+          "height": 44,
+          "top": 576.484375,
+          "right": 289,
+          "bottom": 620.484375,
+          "left": 31
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "name": "saved-1440",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "recovery-1440",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "restored-1440",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "saved-390",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "recovery-390",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "restored-390",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "saved-320",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "recovery-320",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "restored-320",
+      "violations": [],
+      "manual_review": [
+        "color-contrast"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "width": 1440,
+      "path": "/api/recommend",
+      "kind": "offline replay"
+    },
+    {
+      "width": 1440,
+      "path": "/api/journey",
+      "kind": "offline replay"
+    },
+    {
+      "width": 1440,
+      "path": "/api/recommend",
+      "kind": "offline replay"
+    },
+    {
+      "width": 1440,
+      "path": "/api/journey",
+      "kind": "offline replay"
+    },
+    {
+      "width": 390,
+      "path": "/api/recommend",
+      "kind": "offline replay"
+    },
+    {
+      "width": 390,
+      "path": "/api/journey",
+      "kind": "offline replay"
+    },
+    {
+      "width": 320,
+      "path": "/api/recommend",
+      "kind": "offline replay"
+    },
+    {
+      "width": 320,
+      "path": "/api/journey",
+      "kind": "offline replay"
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "saving-1440.png",
+    "saved-1440.png",
+    "recovery-1440.png",
+    "restored-1440.png",
+    "restored-editing-1440.png",
+    "replacement-1440.png",
+    "tab-conflict-1440.png",
+    "deleted-1440.png",
+    "corrupt-1440.png",
+    "saved-390.png",
+    "recovery-390.png",
+    "restored-390.png",
+    "restored-editing-390.png",
+    "deleted-390.png",
+    "corrupt-390.png",
+    "saved-320.png",
+    "recovery-320.png",
+    "restored-320.png",
+    "restored-editing-320.png",
+    "deleted-320.png",
+    "corrupt-320.png"
+  ]
+}

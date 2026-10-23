@@ -1,12 +1,11 @@
 import CatalogChecks from "./components/CatalogChecks";
 import { limitSummary } from "./evidence";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type {
   Activity,
   Candidate,
   Journey,
   Recommendation,
-  Suggestions,
   Teacher,
 } from "./types";
 import { api, errorMessage } from "./api";
@@ -26,6 +25,10 @@ import {
   StatusBadge,
 } from "./components/ProgramDetails";
 import LearningPlan from "./components/LearningPlan";
+import { useLocalDraft } from "./useLocalDraft";
+import { snapshotProgram, teacherSnapshot, teachingContent } from "./draftStorage";
+import type { DraftPayload, LocalDraft, ProgramSnapshot, TeachingContent } from "./draftStorage";
+import { DRAFT_PRIVACY, draftDate } from "./components/DraftDetails";
 const stepLabels = [
   "Teaching Goal",
   "Discover & Compare",
@@ -59,7 +62,7 @@ export default function App() {
     [showCompare, setShowCompare] = useState(false),
     [ack, setAck] = useState(false);
   const [journey, setJourney] = useState<Journey | null>(null),
-    [edited, setEdited] = useState<Suggestions | null>(null),
+    [edited, setEdited] = useState<TeachingContent | null>(null),
     [notes, setNotes] = useState(""),
     [inquiry, setInquiry] = useState(""),
     [reviewed, setReviewed] = useState(false);
@@ -71,6 +74,35 @@ export default function App() {
       "checking",
     ),
     [catalogCount, setCatalogCount] = useState<number | null>(null);
+  const [restored, setRestored] = useState<LocalDraft | null>(null);
+  const [snapshot, setSnapshot] = useState<ProgramSnapshot | null>(null);
+  const [recoveryDismissed, setRecoveryDismissed] = useState(false);
+  const payload = useMemo<DraftPayload | null>(() => {
+    const program = restored?.program ?? snapshot;
+    if (!program || !submitted || !edited || (!journey && !restored)) return null;
+    return {program, teacher: teacherSnapshot(submitted), original: teachingContent(restored?.original ?? journey!.ai_teaching_suggestions), edited: teachingContent(edited), notes, inquiry, reviewed};
+  }, [restored, snapshot, submitted, edited, journey, notes, inquiry, reviewed]);
+  const drafts = useLocalDraft(payload);
+  function restoreDraft() {
+    if (inFlight.current) return;
+    const value = drafts.refresh();
+    if (!value.draft) return;
+    if ((journey || restored || recommendation) && !window.confirm("Replace the plan open in this tab with the saved local copy? Unsaved edits in this tab will be lost.")) return;
+    token.current = null; setRecommendation(null); setSelected(null); setJourney(null); setSnapshot(null);
+    setActivity(null); setActivityError(""); setError(""); setCompare([]); setShowCompare(false); setAck(false);
+    setRestored(value.draft); setSubmitted(value.draft.teacher); setEdited(teachingContent(value.draft.edited));
+    setNotes(value.draft.notes); setInquiry(value.draft.inquiry); setReviewed(value.draft.reviewed);
+    drafts.adopt(value); setScreen("journey");
+  }
+  function deleteDraft() {
+    const value = drafts.refresh();
+    if (window.confirm("Delete the saved local copy from this browser? The plan currently open in this tab will remain. Automatic saving will pause until you explicitly save again.")) drafts.remove(value.raw);
+  }
+  function saveThisPlan() {
+    const value = drafts.refresh();
+    if (value.raw !== null && !window.confirm("Replace the saved local draft with this plan? Only one draft is kept in this browser. The previous saved copy will be permanently replaced.")) return;
+    drafts.authorize(value.raw);
+  }
   const headingRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     let active = true;
@@ -108,6 +140,8 @@ export default function App() {
   }, [recommendation, journey]);
   function restart() {
     if (inFlight.current) return;
+    drafts.release();
+    setRestored(null); setSnapshot(null); setRecoveryDismissed(true);
     token.current = null;
     setRecommendation(null);
     setSelected(null);
@@ -185,7 +219,10 @@ export default function App() {
         token.current,
       );
       setJourney(response);
-      setEdited(structuredClone(response.ai_teaching_suggestions));
+      setEdited(teachingContent(response.ai_teaching_suggestions));
+      setSnapshot(snapshotProgram(response, submitted!));
+      setRestored(null);
+      drafts.beginNew();
       setInquiry(
         inquiryDraft(response.museum_facts, response.eligibility, submitted!),
       );
@@ -240,7 +277,7 @@ export default function App() {
           <span className="eyebrow">YOUR PLANNING COMPASS</span>
           <div className="mobile-progress">
             <div>
-              <span>Step {step + 1} of 5</span>
+              <span>{restored ? "Saved local document" : `Step ${step + 1} of 5`}</span>
               <strong>{stepLabels[step]}</strong>
             </div>
             <button
@@ -251,7 +288,7 @@ export default function App() {
             >
               {mobileSteps ? "Hide steps" : "Show steps"}
             </button>
-            <progress max={5} value={step + 1} aria-label="Planning progress" />
+            {!restored && <progress max={5} value={step + 1} aria-label="Planning progress" />}
           </div>
           <nav
             id="planning-navigation"
@@ -259,7 +296,7 @@ export default function App() {
             aria-label="Planning steps"
           >
             <ol>
-              {stepLabels.map((label, i) => (
+              {restored ? ["journey", "review"].map((target) => <li key={target} className={screen === target ? "current" : ""}><button aria-current={screen === target ? "page" : undefined} onClick={() => setScreen(target as Screen)}>{target === "journey" ? "Edit Saved Plan" : "Review & Export"}</button></li>) : stepLabels.map((label, i) => (
                 <li
                   key={label}
                   className={
@@ -325,14 +362,37 @@ export default function App() {
               disabled={!!busy}
               onClick={restart}
             >
-              Start a new search
+              {restored ? "Start New Plan" : "Start a new search"}
             </button>
           )}
           <p className="sidebar-fine">
-            Keep this tab open. Refreshing ends your local planning session.
+            AI sessions end on refresh. Saved instructional drafts can be recovered on this device.
           </p>
         </aside>
         <main id="main">
+          {screen === "intake" && !recoveryDismissed && (drafts.stored.draft || drafts.stored.problem) && <section className="panel draft-recovery no-print" aria-label="Saved learning plan recovery">
+            <span className="eyebrow">CONTINUE YOUR TEACHING PLAN</span>
+            <h2>{drafts.stored.draft ? "You have a saved learning plan" : "Your saved draft is unavailable"}</h2>
+            {drafts.stored.draft ? <p>{drafts.stored.draft.program.name} · Grade(s) {gradeLabel(drafts.stored.draft.teacher.grades)} · Last edited {draftDate(drafts.stored.draft.edited_at)}</p> : <p>{drafts.stored.problem === "invalid" ? "This saved copy could not be read. It may be damaged or from an unsupported version. You can delete it and start fresh." : "Browser storage is unavailable. You can still plan and print; local recovery is not available."}</p>}
+            <p className="hint">{DRAFT_PRIVACY}</p>
+            <div className="draft-actions">
+              {drafts.stored.draft && <button className="primary action-accent" onClick={restoreDraft}>Restore Draft</button>}
+              <button className="secondary" onClick={() => setRecoveryDismissed(true)}>Start Fresh</button>
+              {drafts.stored.raw !== null && <button className="text-button" onClick={deleteDraft}>Delete Saved Draft</button>}
+            </div><p className="hint">Starting fresh keeps the saved copy until you choose to replace or delete it.</p>
+          </section>}
+          {payload && <section className="panel draft-toolbar no-print" aria-label="Local draft saving">
+            <p aria-live="polite"><strong>{drafts.status === "saving" ? "Saving…" : drafts.status === "saved" && drafts.stored.draft ? `Saved on this device · ${draftDate(drafts.stored.draft.edited_at)}` : drafts.status === "error" ? "Could not save locally. Please print a copy before leaving." : drafts.status === "replacement" ? "Another learning plan is already saved. Saving this plan will replace it." : drafts.status === "conflict" ? "The saved draft changed in another tab. Saving is paused to protect both versions." : drafts.status === "deleted" ? "Saved copy deleted. Your open plan remains; automatic saving is paused." : "Local saving is paused."}</strong></p>
+            <p className="hint">{DRAFT_PRIVACY}</p>
+            <div className="draft-actions">
+              {!drafts.enabled && <button className="secondary" onClick={saveThisPlan}>{drafts.stored.raw !== null ? "Replace Saved Draft" : "Save This Plan on This Device"}</button>}
+              {drafts.status === "conflict" && drafts.stored.draft && <button className="secondary" onClick={restoreDraft}>Restore Saved Copy</button>}
+              {drafts.stored.raw !== null && <button className="text-button" onClick={deleteDraft}>Delete Saved Draft</button>}
+            </div>
+          </section>}
+          {!payload && drafts.status === "error" && <p className="note warning no-print">Could not access or change the saved copy. Please print your plan and check browser storage permissions.</p>}
+          {!payload && drafts.status === "deleted" && <p className="note no-print" aria-live="polite">Saved copy deleted from this browser.</p>}
+
           <div
             ref={headingRef}
             tabIndex={-1}
@@ -642,11 +702,12 @@ export default function App() {
             </>
           )}
           {(screen === "journey" || screen === "review") &&
-            journey &&
+            (journey || restored) &&
             edited &&
             submitted && (
               <LearningPlan
-                journey={journey}
+                journey={journey ?? undefined}
+                saved={restored ?? undefined}
                 teacher={submitted}
                 edited={edited}
                 onEdit={setEdited}
