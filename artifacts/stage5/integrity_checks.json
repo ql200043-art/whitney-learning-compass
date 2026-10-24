@@ -1,0 +1,237 @@
+{
+  "checked_at": "2026-10-23T22:00:22.109259+00:00",
+  "checks": [
+    {
+      "check": "Frozen scenario hash matches result",
+      "passed": true
+    },
+    {
+      "check": "Exactly 24 unique scenario IDs preserved",
+      "passed": true
+    },
+    {
+      "check": "Scenario success denominator recomputed",
+      "passed": true
+    },
+    {
+      "check": "All offline scenarios explicitly non-live",
+      "passed": true
+    },
+    {
+      "check": "Scenario CSV agrees with JSON",
+      "passed": true
+    },
+    {
+      "check": "33 specified decisions independently counted",
+      "passed": true
+    },
+    {
+      "check": "Request cap and recorded count",
+      "passed": true
+    },
+    {
+      "check": "Per-agent limit, no automatic retries",
+      "passed": true
+    },
+    {
+      "check": "Observed input_tokens recomputed",
+      "passed": true
+    },
+    {
+      "check": "Observed cached_input_tokens recomputed",
+      "passed": true
+    },
+    {
+      "check": "Observed output_tokens recomputed",
+      "passed": true
+    },
+    {
+      "check": "Only requested course model observed",
+      "passed": true
+    },
+    {
+      "check": "Cache classes disjoint within input",
+      "passed": true
+    },
+    {
+      "check": "Repeated provider payload IDs separately deduplicated",
+      "passed": true
+    },
+    {
+      "check": "A01 equal teacher requests",
+      "passed": true
+    },
+    {
+      "check": "A01 filter loses no nonfailed candidates",
+      "passed": true
+    },
+    {
+      "check": "A01 fraction arithmetic",
+      "passed": true
+    },
+    {
+      "check": "A02 equal teacher requests",
+      "passed": true
+    },
+    {
+      "check": "A02 filter loses no nonfailed candidates",
+      "passed": true
+    },
+    {
+      "check": "A02 fraction arithmetic",
+      "passed": true
+    },
+    {
+      "check": "A03 equal teacher requests",
+      "passed": true
+    },
+    {
+      "check": "A03 filter loses no nonfailed candidates",
+      "passed": true
+    },
+    {
+      "check": "A03 fraction arithmetic",
+      "passed": true
+    },
+    {
+      "check": "12 historical projection rows, no failed attempt called completed",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 1/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 1/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 100/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 100/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 10000/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage3 10000/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 1/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 1/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 100/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 100/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 10000/1 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "historical_stage4 10000/3 cost arithmetic",
+      "passed": true
+    },
+    {
+      "check": "python-tests.xml results",
+      "passed": true
+    },
+    {
+      "check": "harness-tests.xml results",
+      "passed": true
+    },
+    {
+      "check": "153 frontend tests passed",
+      "passed": true
+    },
+    {
+      "check": "All originally tracked files unchanged",
+      "passed": true
+    },
+    {
+      "check": "Approved checkpoint unchanged",
+      "passed": true
+    },
+    {
+      "check": "Main branch",
+      "passed": true
+    },
+    {
+      "check": "No remotes",
+      "passed": true
+    },
+    {
+      "check": "No staged changes",
+      "passed": true
+    },
+    {
+      "check": "New files confined to evidence scope",
+      "passed": true
+    },
+    {
+      "check": "No configured secret values or private key patterns in new files",
+      "passed": true
+    },
+    {
+      "check": "Exported JSON has no unredacted capability fields",
+      "passed": true
+    },
+    {
+      "check": "safety_evaluation.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "impact_study_protocol.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "agent_run_evidence.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "tokenomics_analysis.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "evaluation_methodology.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "report_evidence_map.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "stage5a_b_validation.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "competitor_analysis.md single title and balanced fences",
+      "passed": true
+    },
+    {
+      "check": "New documentation local links resolve",
+      "passed": true
+    }
+  ],
+  "check_count": 56,
+  "passed": 56,
+  "failed": 0,
+  "original_tracked_files_checked": 331,
+  "changed_original_files": [],
+  "new_files_reviewed": 46,
+  "head": "a9ea536ad369fcd3f5abcc63dc0fe7edc3611232",
+  "scope_note": "All edits/tools write under project root; preserved-file hashes cover tracked project files, not a content audit of the entire outside workspace."
+}

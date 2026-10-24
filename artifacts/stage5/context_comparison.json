@@ -1,0 +1,228 @@
+{
+  "analyzed_at": "2026-10-23T21:49:54.656752+00:00",
+  "runs": 7,
+  "successful_runs": 6,
+  "pairs": [
+    {
+      "scenario": "A01",
+      "full": {
+        "artifact": "artifacts/stage5/A01-full-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 6069,
+          "cached_input_tokens": 0,
+          "output_tokens": 347
+        },
+        "cache_write_tokens": 5253,
+        "model_request_count": 2,
+        "latency_seconds": 6.166
+      },
+      "shortlist": {
+        "artifact": "artifacts/stage5/A01-shortlist-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 5103,
+          "cached_input_tokens": 0,
+          "output_tokens": 381
+        },
+        "cache_write_tokens": 4287,
+        "model_request_count": 2,
+        "latency_seconds": 3.048
+      },
+      "input_reduction_fraction": 0.15916955017301038,
+      "candidate_counts": {
+        "full": 20,
+        "shortlist": 16
+      },
+      "tool_context_bytes": {
+        "full": 21812,
+        "shortlist": 17219
+      },
+      "choices": {
+        "full": [
+          "ewm-marble-roller-coaster",
+          "ewm-catapult",
+          "ewm-simple-machines"
+        ],
+        "shortlist": [
+          "ewm-catapult",
+          "ewm-marble-roller-coaster",
+          "ewm-sustainable-energy-wind-power"
+        ]
+      }
+    },
+    {
+      "scenario": "A02",
+      "full": {
+        "artifact": "artifacts/stage5/A02-full-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 6074,
+          "cached_input_tokens": 0,
+          "output_tokens": 167
+        },
+        "cache_write_tokens": 5259,
+        "model_request_count": 2,
+        "latency_seconds": 2.258
+      },
+      "shortlist": {
+        "artifact": "artifacts/stage5/A02-shortlist-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 5076,
+          "cached_input_tokens": 0,
+          "output_tokens": 169
+        },
+        "cache_write_tokens": 4261,
+        "model_request_count": 2,
+        "latency_seconds": 5.625
+      },
+      "input_reduction_fraction": 0.1643068817912413,
+      "candidate_counts": {
+        "full": 20,
+        "shortlist": 16
+      },
+      "tool_context_bytes": {
+        "full": 21856,
+        "shortlist": 17113
+      },
+      "choices": {
+        "full": [
+          "ewm-sustainable-energy-wind-power"
+        ],
+        "shortlist": [
+          "ewm-sustainable-energy-wind-power"
+        ]
+      }
+    },
+    {
+      "scenario": "A03",
+      "full": {
+        "artifact": "artifacts/stage5/A03-full-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 6160,
+          "cached_input_tokens": 0,
+          "output_tokens": 154
+        },
+        "cache_write_tokens": 5344,
+        "model_request_count": 2,
+        "latency_seconds": 3.088
+      },
+      "shortlist": {
+        "artifact": "artifacts/stage5/A03-shortlist-advisor.json",
+        "status": "passed",
+        "usage": {
+          "input_tokens": 2337,
+          "cached_input_tokens": 0,
+          "output_tokens": 156
+        },
+        "cache_write_tokens": 1521,
+        "model_request_count": 2,
+        "latency_seconds": 2.578
+      },
+      "input_reduction_fraction": 0.6206168831168831,
+      "candidate_counts": {
+        "full": 20,
+        "shortlist": 4
+      },
+      "tool_context_bytes": {
+        "full": 22358,
+        "shortlist": 4305
+      },
+      "choices": {
+        "full": [
+          "ewm-tangrams"
+        ],
+        "shortlist": [
+          "ewm-tangrams"
+        ]
+      }
+    }
+  ],
+  "advisor_totals": {
+    "full": {
+      "usage": {
+        "input_tokens": 18303,
+        "cached_input_tokens": 0,
+        "output_tokens": 668
+      },
+      "cache_write_tokens": 15856,
+      "requests": 6,
+      "passed_runs": 3,
+      "runs": 3,
+      "median_latency_seconds": 3.088
+    },
+    "shortlist": {
+      "usage": {
+        "input_tokens": 12516,
+        "cached_input_tokens": 0,
+        "output_tokens": 706
+      },
+      "cache_write_tokens": 10069,
+      "requests": 6,
+      "passed_runs": 3,
+      "runs": 3,
+      "median_latency_seconds": 3.048
+    }
+  },
+  "validation": {
+    "accepted_choices": 10,
+    "correct_labels": 10,
+    "valid_ids": 10,
+    "valid_references": 20,
+    "references": 20,
+    "authoritative_fact_checks": 70,
+    "authoritative_fact_checks_passed": 70,
+    "operational_warnings_checked": 60,
+    "operational_warnings_retained": 60
+  },
+  "complete_workflows": [
+    {
+      "condition": "full",
+      "status": "failed",
+      "usage": {
+        "input_tokens": 10638,
+        "cached_input_tokens": 0,
+        "output_tokens": 1268
+      },
+      "cache_write_tokens": 8608,
+      "requests": 4,
+      "latency_seconds": 15.55,
+      "illustrative_usd_min": 0.001913,
+      "illustrative_usd_max": 0.001913,
+      "course_cost": null,
+      "sources": [
+        "artifacts/stage5/A01-full-advisor.json",
+        "artifacts/stage5/A01-full-designer.json"
+      ]
+    }
+  ],
+  "new_gateway_requests": 14,
+  "reported_transaction_usage": {
+    "input_tokens": 35388,
+    "cached_input_tokens": 0,
+    "output_tokens": 2295
+  },
+  "cache_write_tokens": 29280,
+  "unique_provider_response_ids": 11,
+  "unique_response_usage": {
+    "input_tokens": 33319,
+    "cached_input_tokens": 0,
+    "output_tokens": 2250
+  },
+  "response_id_caveat": "Repeated first-round response IDs were observed in equivalent prompts across conditions. All outbound gateway requests are counted; unique response-payload usage is separately deduplicated. This may reflect gateway response reuse, but cache headers/billing are unavailable. Do not call summed transaction usage unique new provider computation or actual charges.",
+  "pricing": {
+    "source": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "cache_semantics_source": "https://developers.openai.com/api/docs/guides/prompt-caching",
+    "accessed_on": "2026-10-23",
+    "usd_per_million": {
+      "ordinary_input": 0.1,
+      "cached_input": 0.01,
+      "cache_write": 0.125,
+      "output": 0.5
+    },
+    "course_rates": null,
+    "assumptions": "Standard public price, no regional premium, no gateway/hosting/support fees; writes and cache reads are disjoint subsets of input. Historical missing writes range from zero to all noncached input."
+  }
+}

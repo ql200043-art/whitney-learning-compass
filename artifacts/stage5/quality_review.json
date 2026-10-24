@@ -1,0 +1,133 @@
+{
+  "reviewed_at": "2026-10-23T21:50:44.777505+00:00",
+  "rater": "AI assistant qualitative audit after inspecting actual saved outputs; not independent educator or participant feedback",
+  "rubric": "docs/evaluation_methodology.md",
+  "new_advisor_reviews": [
+    {
+      "artifact": "artifacts/stage5/A01-full-advisor.json",
+      "alignment_1_5": 4,
+      "specificity_1_5": 3,
+      "comparison_clarity_1_5": 3,
+      "prose_factual_accuracy": "fail",
+      "identified_unsupported_fact_count": 1,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Catapult explanation substitutes a marble for the supplied ping-pong ball. The other choices connect to motion/design, but this factual/safety-relevant error passed the prose validator."
+    },
+    {
+      "artifact": "artifacts/stage5/A01-shortlist-advisor.json",
+      "alignment_1_5": 4,
+      "specificity_1_5": 5,
+      "comparison_clarity_1_5": 4,
+      "prose_factual_accuracy": "no_error_identified_in_manual_review",
+      "identified_unsupported_fact_count": 0,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Distinct force, banked-curve and adjustable-vane explanations. Wind Power is a plausible but broader energy/mechanics option; choices differ from Full, which offered Simple Machines."
+    },
+    {
+      "artifact": "artifacts/stage5/A02-full-advisor.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 5,
+      "comparison_clarity_1_5": 3,
+      "prose_factual_accuracy": "no_error_identified_in_manual_review",
+      "identified_unsupported_fact_count": 0,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Directly links vane settings, gearing and lifting weight to wind energy. Only one option; no explicit comparison with Solar Sunflower, which remains eligible."
+    },
+    {
+      "artifact": "artifacts/stage5/A02-shortlist-advisor.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 5,
+      "comparison_clarity_1_5": 3,
+      "prose_factual_accuracy": "no_error_identified_in_manual_review",
+      "identified_unsupported_fact_count": 0,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Specific wind-energy reasoning, similarly one option. No comparative advantage established."
+    },
+    {
+      "artifact": "artifacts/stage5/A03-full-advisor.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 4,
+      "comparison_clarity_1_5": 3,
+      "prose_factual_accuracy": "no_error_identified_in_manual_review",
+      "identified_unsupported_fact_count": 0,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Tangram pattern rearrangement fits Grade 2 geometry. Clear spatial reasoning; single option means limited comparison."
+    },
+    {
+      "artifact": "artifacts/stage5/A03-shortlist-advisor.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 4,
+      "comparison_clarity_1_5": 3,
+      "prose_factual_accuracy": "no_error_identified_in_manual_review",
+      "identified_unsupported_fact_count": 0,
+      "required_structured_uncertainty_omissions": 0,
+      "rationale": "Specific geometry/pattern explanation. Similar useful content to Full, but one run cannot establish equivalence."
+    }
+  ],
+  "historical_advisor_reviews": [
+    {
+      "artifact": "artifacts/agent_runs/case-a-advisor.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 4,
+      "comparison_clarity_1_5": 4,
+      "identified_unsupported_fact_count": 0,
+      "note": "Three distinct mechanisms connect to force/motion. Reasoning useful but explicit tradeoff summary limited."
+    },
+    {
+      "artifact": "artifacts/stage4/browser-live.json#records[0]",
+      "alignment_1_5": 5,
+      "specificity_1_5": 4,
+      "comparison_clarity_1_5": 4,
+      "identified_unsupported_fact_count": 0,
+      "note": "Catapult, track design and chain-reaction reasoning are source-consistent. No measured educational benefit inferred."
+    },
+    {
+      "artifact": "artifacts/agent_runs/case-c-validated.json",
+      "alignment_1_5": 5,
+      "specificity_1_5": 4,
+      "comparison_clarity_1_5": 3,
+      "identified_unsupported_fact_count": 0,
+      "note": "Capacity uncertainty is explicit in prose. Missing duration appears in structured eligibility, not the reasoning paragraph; distinguish prose omission from a hidden system warning."
+    }
+  ],
+  "journey_reviews": [
+    {
+      "artifact": "artifacts/agent_runs/case-a-journey.json",
+      "status_at_execution": "accepted_historically",
+      "age_appropriateness_1_5": 4,
+      "workshop_specificity_1_5": 5,
+      "phase_coherence_1_5": 4,
+      "objective_assessment_alignment_1_5": 4,
+      "practicality_1_5": 3,
+      "facts_suggestions_separation": "explicit",
+      "observation_integrity": "needs_correction",
+      "note": "The follow-up asks for a made-up observation labeled as an example. It does not invent an actual completed experiment, but is unnecessary for evidence-based assessment. Later Stage 4 instructions/guard reject this style; historical output is preserved."
+    },
+    {
+      "artifact": "artifacts/stage4/browser-live.json#records[1]",
+      "status_at_execution": "accepted",
+      "age_appropriateness_1_5": 4,
+      "workshop_specificity_1_5": 5,
+      "phase_coherence_1_5": 5,
+      "objective_assessment_alignment_1_5": 5,
+      "practicality_1_5": 4,
+      "facts_suggestions_separation": "explicit",
+      "observation_integrity": "actual_observations_or_blank_records",
+      "note": "Specific band-count/ball-position prompts, staff-directed activity and objective-linked assessment. Long text and several abstract concepts still require teacher adaptation."
+    },
+    {
+      "artifact": "artifacts/stage5/A01-full-designer.json",
+      "status_at_execution": "rejected_false_positive",
+      "age_appropriateness_1_5": 4,
+      "workshop_specificity_1_5": 5,
+      "phase_coherence_1_5": 5,
+      "objective_assessment_alignment_1_5": 5,
+      "practicality_1_5": 4,
+      "facts_suggestions_separation": "tool-grounded suggestions; not returned as accepted plan",
+      "observation_integrity": "actual_observations_or_blank_records",
+      "note": "Good paper-based track/curve inquiry and assessment; some language needs Grade 4 simplification. Validator rejects a prohibition against invented evidence. These ratings assess rejected text, not a delivered workflow."
+    }
+  ],
+  "human_ratings": null,
+  "limitation": "Small purposive sample, subjective internal rubric, no classroom observation or blinded independent assessment. Zero identified errors does not prove all prose entailed."
+}

@@ -1,0 +1,13 @@
+
+> whitney-learning-compass@0.4.0 test
+> vitest run src/DraftWorkflow.test.tsx
+
+
+ RUN  v5.0.5 /Users/qiaoliang/Library/Mobile Documents/com~apple~CloudDocs/Downloads/乔良 Yale/MGT 409 AI Foundation for Managers/AI Foundations/Final Project/whitney-learning-compass/frontend
+
+
+ Test Files  1 passed (1)
+      Tests  13 passed (13)
+   Start at  17:58:12
+   Duration  1.90s (tests 72%, environment 20%, setup 5%, transform 2%, import 1%)
+

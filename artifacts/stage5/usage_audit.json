@@ -1,0 +1,664 @@
+{
+  "audited_at": "2026-10-23T21:44:08.698391+00:00",
+  "rows": [
+    {
+      "source": "artifacts/agent_runs/case-a-advisor.json",
+      "record_index": null,
+      "run_id": "e0bd4346-a8f2-4004-a440-aeca4d61f9d3",
+      "stage": 3,
+      "agent": "Program Advisor",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:01:43.651082+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 5127,
+        "cached_input_tokens": 0,
+        "output_tokens": 355
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 8.09,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:01:43.704061+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 702,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:01:47.662182+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4425,
+          "cached_input_tokens": 0,
+          "output_tokens": 340,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/case-a-journey.json",
+      "record_index": null,
+      "run_id": "ecf8b22b-0604-4ed2-a6a6-3d6a007d3eb3",
+      "stage": 3,
+      "agent": "Learning Journey Designer",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:06:18.023720+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 4403,
+        "cached_input_tokens": 0,
+        "output_tokens": 772
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 11.721,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:06:18.037034+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 1007,
+          "cached_input_tokens": 0,
+          "output_tokens": 14,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:06:21.775905+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 3396,
+          "cached_input_tokens": 0,
+          "output_tokens": 758,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/case-b-advisor.json",
+      "record_index": null,
+      "run_id": "8266830d-9003-430e-b797-5c16e0c41fcf",
+      "stage": 3,
+      "agent": "Program Advisor",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:02:10.410315+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 1418,
+        "cached_input_tokens": 0,
+        "output_tokens": 60
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 4.471,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:02:10.449679+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 695,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:02:13.001931+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 723,
+          "cached_input_tokens": 0,
+          "output_tokens": 45,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/case-c-advisor.json",
+      "record_index": null,
+      "run_id": "134f4cdc-1b56-4936-961e-c0a6c2f27d41",
+      "stage": 3,
+      "agent": "Program Advisor",
+      "status": "failed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:02:55.376095+00:00",
+      "provider_responded": true,
+      "model_requests": 3,
+      "usage": {
+        "input_tokens": 11143,
+        "cached_input_tokens": 4504,
+        "output_tokens": 199
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 5.759,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": {
+        "code": "invalid_model_output",
+        "message": "Independent output validation rejected the result.",
+        "exception_type": "OutputRejected"
+      },
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:02:55.383617+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 699,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:02:57.356591+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4630,
+          "cached_input_tokens": 0,
+          "output_tokens": 23,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:02:58.625284+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 5814,
+          "cached_input_tokens": 4504,
+          "output_tokens": 161,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/case-c-diagnostic.json",
+      "record_index": null,
+      "run_id": "1c6a7094-806e-4566-8a54-983793fd935a",
+      "stage": 3,
+      "agent": "Program Advisor",
+      "status": "failed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:04:29.037572+00:00",
+      "provider_responded": true,
+      "model_requests": 3,
+      "usage": {
+        "input_tokens": 11143,
+        "cached_input_tokens": 4504,
+        "output_tokens": 199
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 1.84,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": {
+        "code": "invalid_model_output",
+        "message": "Independent output validation rejected the result.",
+        "exception_type": "OutputRejected"
+      },
+      "validation_failure": "Invalid or unverified evidence reference",
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:04:29.089561+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 699,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:04:30.389558+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4630,
+          "cached_input_tokens": 0,
+          "output_tokens": 23,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:04:30.636011+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 5814,
+          "cached_input_tokens": 4504,
+          "output_tokens": 161,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/case-c-validated.json",
+      "record_index": null,
+      "run_id": "d53fbdb2-1353-474c-af25-dc8c14d75379",
+      "stage": 3,
+      "agent": "Program Advisor",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T05:05:24.288539+00:00",
+      "provider_responded": true,
+      "model_requests": 3,
+      "usage": {
+        "input_tokens": 11143,
+        "cached_input_tokens": 4504,
+        "output_tokens": 199
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 1.307,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T05:05:24.356878+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 699,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:05:25.233286+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4630,
+          "cached_input_tokens": 0,
+          "output_tokens": 23,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T05:05:25.462188+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 5814,
+          "cached_input_tokens": 4504,
+          "output_tokens": 161,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/smoke-4ac88173-1e0b-431f-8eba-5b58dd8e35e1.json",
+      "record_index": null,
+      "run_id": "4ac88173-1e0b-431f-8eba-5b58dd8e35e1",
+      "stage": 3,
+      "agent": "connectivity_smoke",
+      "status": "failed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T04:48:05.015858+00:00",
+      "provider_responded": false,
+      "model_requests": 1,
+      "usage": {
+        "input_tokens": null,
+        "cached_input_tokens": null,
+        "output_tokens": null
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 0.119,
+      "reported_models": [],
+      "error": {
+        "code": "workflow_failed",
+        "http_status": 500,
+        "message": "The workflow could not complete safely.",
+        "exception_type": "ModelAPIError"
+      },
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T04:48:05.131443+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": null,
+          "http_status": null,
+          "input_tokens": null,
+          "cached_input_tokens": null,
+          "output_tokens": null,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/agent_runs/smoke-bef916e7-9aa2-46ba-8c0c-1e2d4585de6f.json",
+      "record_index": null,
+      "run_id": "bef916e7-9aa2-46ba-8c0c-1e2d4585de6f",
+      "stage": 3,
+      "agent": "connectivity_smoke",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T04:53:47.131095+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 344,
+        "cached_input_tokens": 0,
+        "output_tokens": 32
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 5.172,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T04:53:47.225524+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 158,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T04:53:50.931156+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 186,
+          "cached_input_tokens": 0,
+          "output_tokens": 17,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/stage4/browser-attempt-1.json",
+      "record_index": 0,
+      "run_id": "bce5aa44-5fde-42ec-bfd3-29858855ae30",
+      "stage": 4,
+      "agent": "Program Advisor",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T23:56:40.978994+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 5127,
+        "cached_input_tokens": 0,
+        "output_tokens": 355
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 6.37,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T23:56:41.061745+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 702,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T23:56:44.245619+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4425,
+          "cached_input_tokens": 0,
+          "output_tokens": 340,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/stage4/browser-attempt-1.json",
+      "record_index": 1,
+      "run_id": "b00ab73e-0a44-4c27-b7c6-2250ae2d1f91",
+      "stage": 4,
+      "agent": "Learning Journey Designer",
+      "status": "failed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T23:56:48.203935+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 4581,
+        "cached_input_tokens": 0,
+        "output_tokens": 887
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 8.351,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": {
+        "code": "invalid_model_output",
+        "message": "Independent output validation rejected the result.",
+        "exception_type": "OutputRejected"
+      },
+      "validation_failure": "Invented empirical evidence suggestion",
+      "requests": [
+        {
+          "timestamp": "2026-10-22T23:56:48.211975+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 1096,
+          "cached_input_tokens": 0,
+          "output_tokens": 14,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T23:56:49.473928+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 3485,
+          "cached_input_tokens": 0,
+          "output_tokens": 873,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/stage4/browser-live.json",
+      "record_index": 0,
+      "run_id": "e1600d80-61d2-4904-bbbf-a5c9d439efc7",
+      "stage": 4,
+      "agent": "Program Advisor",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T23:58:49.031004+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 5127,
+        "cached_input_tokens": 0,
+        "output_tokens": 355
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 2.006,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T23:58:49.084426+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 702,
+          "cached_input_tokens": 0,
+          "output_tokens": 15,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T23:58:50.725177+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 4425,
+          "cached_input_tokens": 0,
+          "output_tokens": 340,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    },
+    {
+      "source": "artifacts/stage4/browser-live.json",
+      "record_index": 1,
+      "run_id": "d04b79bf-8753-49a3-8206-3db29b82864b",
+      "stage": 4,
+      "agent": "Learning Journey Designer",
+      "status": "passed",
+      "execution_kind": "real_portkey",
+      "timestamp": "2026-10-22T23:58:51.784658+00:00",
+      "provider_responded": true,
+      "model_requests": 2,
+      "usage": {
+        "input_tokens": 4581,
+        "cached_input_tokens": 0,
+        "output_tokens": 887
+      },
+      "cache_write_tokens": null,
+      "provider_request_ids": null,
+      "latency_seconds": 0.552,
+      "reported_models": [
+        "gpt-6-luna-2026-09-22"
+      ],
+      "error": null,
+      "validation_failure": null,
+      "requests": [
+        {
+          "timestamp": "2026-10-22T23:58:51.792577+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 1096,
+          "cached_input_tokens": 0,
+          "output_tokens": 14,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        },
+        {
+          "timestamp": "2026-10-22T23:58:52.110917+00:00",
+          "requested_model": "gpt-6-luna",
+          "reported_model": "gpt-6-luna-2026-09-22",
+          "http_status": 200,
+          "input_tokens": 3485,
+          "cached_input_tokens": 0,
+          "output_tokens": 873,
+          "cache_write_tokens": null,
+          "provider_response_id": null
+        }
+      ]
+    }
+  ],
+  "stage_totals": {
+    "3": {
+      "responded_agent_runs": 7,
+      "passed": 5,
+      "failed": 2,
+      "model_requests": 17,
+      "usage": {
+        "input_tokens": 44721,
+        "cached_input_tokens": 13512,
+        "output_tokens": 1816
+      },
+      "cache_write_tokens": null
+    },
+    "4": {
+      "responded_agent_runs": 4,
+      "passed": 3,
+      "failed": 1,
+      "model_requests": 8,
+      "usage": {
+        "input_tokens": 19416,
+        "cached_input_tokens": 0,
+        "output_tokens": 2484
+      },
+      "cache_write_tokens": null
+    }
+  },
+  "classification_notes": [
+    "Each Case C artifact has a distinct run ID and outbound request timestamps. The diagnostic and validated artifacts are real new attempts, not local validator-only replays. Identical usage is not sufficient evidence of a duplicated provider response.",
+    "Provider response/request IDs and cache-write fields were not retained historically. Run-ID/request-index deduplication prevents counting duplicated exports; upstream gateway cache reuse cannot be reconstructed.",
+    "Stage 4 browser-attempt-1 contains a successful Advisor and failed Designer; browser-live contains the successful two-agent retry. Both are retained.",
+    "Sandbox smoke failure records an outbound attempt without provider response; usage stays null and is excluded from observed-token sums.",
+    "Historical Stage 4.1\u20134.4 browser responses and frontend fixtures replay earlier content; all FunctionModel tests and local validator re-executions add zero live usage and are excluded.",
+    "The two successful historical complete workflows are Case A Stage 3 and browser-live Stage 4. Summed agent latency excludes human selection."
+  ]
+}

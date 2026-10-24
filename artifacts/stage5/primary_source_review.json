@@ -1,0 +1,37 @@
+{
+  "access_date": "2026-10-23",
+  "sources": [
+    {
+      "url": "https://zlisto.github.io/mgt_409_fa26/project_requirements.html",
+      "method": "Full official HTML retrieved after the web reader failed",
+      "observations": "100-point rubric; eight report sections; real agent, token, safety and impact evidence required. Deadline October 26, 2026; user specifies 6 PM Eastern."
+    },
+    {
+      "url": "https://www.eliwhitney.org/workshop/school-programs",
+      "method": "Official page opened with web reader",
+      "observations": "Title keyword search, Grade, Subject, Next Gen Standard, Apply, program details and Book a Program links observed."
+    },
+    {
+      "url": "https://www.magicschool.ai/tools/lesson-plan",
+      "method": "Official page opened with web reader",
+      "observations": "Structured lesson planning with grade, subject, standards, objectives and time; teacher refinement described. Vendor benefit statistics not reused."
+    },
+    {
+      "url": "https://trytripslip.com/",
+      "method": "Official page opened with web reader",
+      "observations": "Venue discovery/booking, parent communication, permissions, payment collection and coordination described; no museum-specific entitlement inferred."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "method": "Official model page opened and pricing section inspected",
+      "observations": "Standard USD per million: input .10, cached read .01, cache write .125, output .50. Does not establish course gateway charges."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "method": "Official guide opened and cache_write_tokens calculation inspected",
+      "observations": "Ordinary input equals total input minus cached reads minus cache writes. Provider accounting unavailable historically; new traces record the reported field."
+    }
+  ],
+  "course_pricing_search": "Reviewed assignment and searched the course domain for Portkey pricing/credits/gpt-6-luna. No authoritative course-specific billing rate established; public list pricing is explicitly illustrative.",
+  "limitations": "Public descriptions, not paid-account competitor testing; no course billing statement or participant data available."
+}
