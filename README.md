@@ -1,49 +1,87 @@
 # Whitney Learning Compass
 
-Independent MGT 409 educational prototype for the Eli Whitney Museum & Workshop. Stage 4 adds a React/TypeScript teacher experience to the two PydanticAI agents, local FastAPI backend, and preserved 20-program catalog and matching engine. Not an official museum product or booking service.
+**From Curriculum Goals to Hands-On Discovery** — Anthony Qiao's Yale MGT 409 AI Foundations for Managers Final Project.
 
-## Setup
+Whitney Learning Compass helps educators, initially teaching Grades 2–7, connect curriculum goals to hands-on experiences at the Eli Whitney Museum & Workshop. It combines a curated catalog of 20 real programs, deterministic grade/fee/duration checks, AI-assisted educational reasoning, explicit teacher selection, and editable Before / During / After learning plans.
 
-Use Python 3.11 or later; validated here with Python 3.14. From the project root:
+**Independent educational prototype based on publicly available Eli Whitney Museum & Workshop program information. Not affiliated with, endorsed by, or operated by the museum.** It does not book visits, send inquiries, take payments, or confirm availability.
+
+## Quick Start for teaching staff
+
+Allow approximately 10 minutes with compatible runtimes, package-network access, and your own authorized course-gateway credentials already available. This is a setup target, **not a completed fresh-clone verification**. No GitHub remote or repository URL has been established yet; obtain the project folder from the authorized submission, then open a terminal at its root (the directory containing this README). A real clone URL will be supplied later.
+
+### 1. Check prerequisites and install dependencies
+
+- **Python 3.11+** is the documented minimum; the existing validated environment used **Python 3.14.7**. Other Python versions have not been freshly validated here.
+- **Node 24 is recommended**, previously validated with **Node 24.20.0 / npm 11.19.0**. The application manifest declares Node ≥22.12.0, but the pinned Vitest test dependency supports `^22.12.0 || ^24.0.0 || >=26.0.0`; do not assume odd-numbered Node releases satisfy the complete toolchain. Other supported versions are not separately validated.
+- Internet access is needed to install dependencies and use the course gateway. Google Chrome is needed only for the optional browser-regression scripts; the normal application runs in a modern browser.
+
+From the project root on macOS/Linux:
 
 ~~~sh
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.lock
-~~~
-
-The lock file pins the complete validated runtime/development environment. Direct runtime requirements are in requirements.txt; requirements-dev.txt includes test dependencies. On Windows use .venv\Scripts\python.exe.
-
-For live inference, provide the course key through the process environment or a local .env file based on [.env.example](.env.example). Never put secrets into requests, screenshots, artifacts or Git. Precedence: existing process environment → project .env → parent .env, filling only absent values. A selected blank/invalid key is not silently replaced. PORTKEY_VIRTUAL_KEY is optional course-provided routing.
-
-The only model path is gpt-6-luna through https://api.portkey.ai/v1/chat/completions with reasoning_effort=none. Headers include x-portkey-api-key and x-portkey-provider=openai. No direct-provider/model fallback exists.
-
-## Frontend setup
-
-Use Node.js 22.12 or newer (validated with Node 24.20.0 and npm 11.19.0). From the project root:
-
-~~~sh
 npm ci --prefix frontend
 ~~~
 
-The committed package-lock.json pins the frontend and test dependencies. No museum images or remote fonts are required. All model credentials stay in Python; do not create Vite credential variables.
+On Windows PowerShell:
 
-## Run the complete application locally
+~~~powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.lock
+npm ci --prefix frontend
+~~~
 
-Open two terminals at the project root. In terminal 1, start the backend:
+The tracked `requirements.lock` pins the validated Python runtime/development dependencies; direct dependencies are in `requirements.txt` and `requirements-dev.txt`. The tracked `frontend/package-lock.json` pins the frontend and test dependencies. No museum images or remote fonts are required by the application.
+
+### 2. Configure your authorized credentials
+
+Teaching staff must obtain their **own authorized course-gateway access**; access is not bundled or guaranteed. In a text editor, create `.env` at the project root using [.env.example](.env.example), then replace only its placeholder with your authorized key. Do not overwrite an existing credential file. Alternatively, set the values in the backend process environment.
+
+~~~dotenv
+PORTKEY_API_KEY=replace-with-course-key
+# Optional: use only if supplied by the course.
+PORTKEY_VIRTUAL_KEY=
+~~~
+
+Precedence is **existing process environment → project `.env` → parent `.env`**, filling only missing variables. A selected blank/invalid key is not silently replaced. Keep credentials server-side; never put them in requests, screenshots, Git, or Vite variables.
+
+The only inference path is **gpt-6-luna** through Portkey's `https://api.portkey.ai/v1/chat/completions`, with `reasoning_effort=none`. Headers include `x-portkey-api-key` and `x-portkey-provider=openai`; an optional virtual-key header supports course-provided routing. There is no provider/model fallback.
+
+### 3. Start both local servers
+
+Open two terminals at the project root. In terminal 1:
 
 ~~~sh
 .venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8008 --no-access-log
 ~~~
 
-In terminal 2, start the frontend:
+Windows equivalent:
+
+~~~powershell
+.\.venv\Scripts\python.exe -m uvicorn backend.main:app --host 127.0.0.1 --port 8008 --no-access-log
+~~~
+
+In terminal 2, on either platform:
 
 ~~~sh
 npm run dev --prefix frontend
 ~~~
 
-Open **http://127.0.0.1:5173**. Vite proxies /api to 127.0.0.1:8008; it does not contact Portkey. Exact local frontend/backend origins are permitted, with no wildcard CORS. Port 5173 is strict: free it rather than silently switching ports.
+### 4. Open the app and complete a plan
 
-Health/catalog work without credentials; recommendations and journeys require the server-side course key. “Local service connected” means the backend is reachable, not that provider credentials are valid. Keep both servers on loopback with one backend worker. This prototype has no production authentication or persistent workflow database.
+Open **http://127.0.0.1:5173** and follow the teacher walkthrough below. Vite proxies `/api` to `127.0.0.1:8008`; the browser never contacts Portkey directly. Port 5173 is strict: free it rather than silently switching ports. Keep both servers running on loopback with one backend worker.
+
+Health/catalog work without credentials; recommendations and journeys require the server-side course key. “Local service connected” means the backend is reachable, not that provider credentials are valid. If the page cannot reach the local service, check both terminal processes and the exact URL. If the gateway rejects the request, verify authorized server-side configuration; no fallback is attempted.
+
+## Architecture
+
+The React/Vite/TypeScript frontend calls FastAPI. FastAPI coordinates two specialized **PydanticAI agents** using the existing deterministic matching engine:
+
+1. **Program Advisor:** uses read-only catalog/matching tools to explain educational fit among actual programs. Independent code validates every proposed recommendation.
+2. **Learning Journey Designer:** runs only after the teacher explicitly selects an offered program and the backend rechecks identity, authorization, and eligibility. It retrieves selected-program facts and generates structured teaching suggestions, followed by independent output validation.
+
+AI reasoning cannot override verified hard constraints. Mandatory unknowns remain provisional; booking and operational confirmation remain separate. Official museum facts are read-only, while teaching suggestions can be edited. The local prototype has no production authentication or persistent workflow database.
 
 ### Teacher walkthrough
 
@@ -119,9 +157,17 @@ Journeys separate museum_facts from ai_teaching_suggestions, include before/duri
 PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider --basetemp=.test-tmp
 ~~~
 
-No credentials are required. FunctionModel and mock HTTP responses are labeled simulated; backend tests disable real model requests. Original Stage 2 tests remain unchanged. This command does not overwrite historical validation artifacts.
+This standard suite follows `pytest.ini` and collects `tests/`. No credentials are required. FunctionModel and mock HTTP responses are labeled simulated; backend tests disable real model requests. Original Stage 2 tests remain unchanged. This command does not overwrite historical validation artifacts.
 
-The deterministic engine remains available through matching.load_catalog(), match_catalog() and match_program(). Its optional python -m matching.audit command regenerates Stage 2 audit/coverage files without inference; it was not needed to change preserved Stage 2 evidence during Stage 3.
+The **separate evaluation harness** is not collected by the default suite. Run it explicitly from the project root:
+
+~~~sh
+PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest evaluation/test_harness.py -q -p no:cacheprovider --basetemp=.test-tmp/evaluation
+~~~
+
+It checks evaluation budgets, context membership, and cost arithmetic offline; it does not rerun the live Tokenomics experiment. On Windows, use `.\.venv\Scripts\python.exe` and set `$env:PYTHONDONTWRITEBYTECODE="1"` before the pytest command instead of the POSIX environment prefix.
+
+The deterministic engine remains available through `matching.load_catalog()`, `match_catalog()` and `match_program()`.
 
 Frontend validation (no credentials or real model calls):
 
@@ -131,16 +177,13 @@ npm run typecheck --prefix frontend
 npm run build --prefix frontend
 ~~~
 
-Vitest/Testing Library tests use explicitly mocked API responses; they are not live inference. Optional Chrome checks require Google Chrome installed and the Vite server running:
+Vitest/Testing Library tests use explicitly mocked API responses; they are not live inference.
 
-~~~sh
-cd frontend
-node scripts/browser-regression.mjs
-~~~
+### Historical browser and artifact scripts
 
-The current Stage 4.2 regression is `node scripts/browser-stage4-2.mjs` (both local servers running). It replays saved POST responses across six viewport widths and writes only `artifacts/stage4_2/`. It makes no provider requests.
+Optional browser-regression scripts under `frontend/scripts/` use installed Google Chrome and local servers, with saved response replay where documented. They write to historical artifact directories. **Do not run them unchanged during ordinary setup or overwrite preserved evidence.** If a new browser run is later authorized, first select a separate output location and follow the script's documented prerequisites. `browser-walkthrough.mjs --live` performs paid inference; it is not part of the offline test commands.
 
-This offline browser check replays saved responses, scans eight screens with axe, and regenerates clearly named offline visual artifacts. It makes no provider requests. The separate `node scripts/browser-walkthrough.mjs --live` performs real inference and intentionally refuses to overwrite existing browser-live.json. Review and choose a new evidence directory in that script before a deliberate new run; never delete prior evidence merely to repeat it. It uses the documented Catapult demonstration selection.
+Likewise, `python -m matching.audit` regenerates catalog audit/coverage files. The existing evidence is already included; regeneration is not required to run the app.
 
 ## Explicit live demonstrations
 
@@ -161,18 +204,37 @@ Use unique labels: existing evidence cannot be overwritten. Sanitized class-leve
 
 Errors return an error object with code, message and optional run_id. Invalid input: 422; invalid workflow/token: 404; consumed/changed workflow: 409; execution limit: 429; missing configuration: 503; provider/output failure: 502; timeout: 504. Raw provider bodies and exception traces are not returned.
 
-## Review evidence
+## Final report and presentation
+
+Open these approved files directly in a browser; no application server is required:
+
+- [Final report](report.html) — 13 US Letter pages; screenshots, diagrams and styles are embedded.
+- [Final slides](slides.html) — 10 reveal.js slides; arrow keys navigate and **F** enters fullscreen. Screenshots and custom diagrams are embedded. Network access is required for the pinned reveal.js 5.2.1 CDN assets.
+- [Final report PDF](artifacts/stage5c/report-print.pdf) — 13 US Letter pages.
+- [Slide PDF overview](artifacts/stage5c/slides-overview.pdf) — 10 widescreen pages; retained as a convenient static review artifact.
+
+These four files are **frozen authoritative deliverables**. Do not run `artifacts/stage5c/build.py` (including `--report-only`) or earlier Stage 5C QA/authoring scripts to regenerate them: those historical scripts can overwrite the approved slide design, restore superseded report headings, or overwrite QA evidence. They are not an application build step. The report cover's GitHub URL placeholder remains intentionally unresolved until a real repository URL and a later targeted update are authorized.
+
+See the [submission manifest](docs/stage5d-submission-manifest.md) for the exact recommended tracking set and exclusions. It is a recommendation, not evidence that files have already been staged or published.
+
+## Review evidence and recorded validation
 
 - [Authoritative PRD](docs/project_scope.md), retaining its original stage-history wording.
-- [Stage 4.2 validation](docs/stage4_2_validation.md): museum CSS audit, Quick Start, mobile experience and offline test evidence.
-- [Stage 4.1 validation](docs/stage4_1_validation.md): input clarity, evidence presentation and print refinements.
-- [Stage 4 validation](docs/stage4_validation.md): frontend, browser evidence, tests and remaining limitations.
-- [Stage 3 validation](docs/stage3_validation.md): actual runs, usage, safety tests, failures and limitations.
-- [Stage 2 validation](docs/stage2_validation.md): original checkpoint.
-- [Matching rules](docs/matching_rules.md) and [data dictionary](docs/data_dictionary.md).
-- [Catalog research](docs/catalog_research.md) and [coverage](docs/catalog_coverage.md).
+- [Report evidence map](docs/report_evidence_map.md), [Tokenomics analysis](docs/tokenomics_analysis.md), and [Safety evaluation](docs/safety_evaluation.md).
+- [P01 exploratory impact study](docs/impact_study_results.md): one graduate-student proxy participant, not a K–12 educator; timing excludes AI waiting and is not a causal or generalizable productivity result.
+- [Stage 5A–5B validation](docs/stage5a_b_validation.md) and [targeted reliability repairs](docs/stage5b1_reliability_validation.md).
+- [Stage 4.4 validation](docs/stage4_4_validation.md): local draft saving/recovery and historical print checks.
+- [Stage 4.3 validation](docs/stage4_3_validation.md) and [Stage 4.2 validation](docs/stage4_2_validation.md): museum-inspired design, Quick Start and mobile experience.
+- [Stage 4.1 validation](docs/stage4_1_validation.md), [Stage 4 validation](docs/stage4_validation.md), and [Stage 3 validation](docs/stage3_validation.md): interface, actual runs, usage, failures and limitations.
+- [Stage 2 validation](docs/stage2_validation.md), [matching rules](docs/matching_rules.md), [data dictionary](docs/data_dictionary.md), [catalog research](docs/catalog_research.md), and [coverage](docs/catalog_coverage.md).
 - [Actual Stage 3 run artifacts](artifacts/agent_runs/).
 
-Generated prose has deterministic safety/claim guards, but they are conservative heuristics, not proof of every sentence's factual entailment or educational quality. Educator review remains required. Teacher impact evaluation and full Tokenomics experiments remain future work.
+Previously recorded Stage 5B.1 receipts report **284 passing Python product tests**, **153 passing frontend tests**, **six passing separate evaluation-harness tests**, and successful TypeScript/build checks. See [Python receipt](artifacts/stage5b1/python-tests.txt), [frontend receipt](artifacts/stage5b1/frontend-tests.txt), [harness receipt](artifacts/stage5b1/harness-tests.txt), [typecheck receipt](artifacts/stage5b1/typecheck.txt), and [build receipt](artifacts/stage5b1/build.txt). These are historical results, not new test execution or fresh-clone verification in Stage 5D-2. Genuine live execution, offline replay and simulated tests remain distinctly labeled.
 
-Stage 4 is ready for review. No deployment, booking, payments, email sending, runtime scraping, report.html or slides.html is included. Stage 5, measured teacher impact and full Tokenomics require separate authorization. No Stage 4 Git commit or GitHub push is performed automatically.
+## Current limitations
+
+Generated-prose guards are conservative heuristics, not proof of factual entailment or educational quality. Educator review remains required. Missing catalog facts and booking conditions remain unconfirmed; recorded facts are not live museum availability or binding quotes. Fees exclude transport and other unverified trip costs.
+
+The reported Advisor context/cost comparison is limited; output quality was not proven equivalent, the paired Designer comparison was not completed, and public-rate estimates are not gateway billing. P01 offers exploratory proxy-user evidence, not measured classroom impact or teacher validation. Further educator/museum evaluation, operational feasibility and full deployment costs remain future work.
+
+The application is a local academic prototype. No online deployment, booking, payments, email sending, runtime scraping or production authentication is included. Repository publication and fresh-clone validation remain pending separate authorization.

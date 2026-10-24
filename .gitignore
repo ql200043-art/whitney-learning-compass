@@ -23,3 +23,6 @@ coverage/
 /artifacts/stage4/attempt-1-selection-live.png
 /artifacts/stage4_2/after-mobile-viewport.png
 /artifacts/stage4_2/before-mobile.png
+
+# Historical Stage 5C Chrome QA profile; never publish browser state.
+/artifacts/stage5c/.qa-browser-profile/

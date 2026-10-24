@@ -1,0 +1,95 @@
+{
+  "source": "artifacts/stage4/browser-live.json",
+  "source_sha256": "ccee803cb58e18e50a9ddbb593aebb2d544c47ccb797040ce2e9ce1530d59470",
+  "execution_kind": "real_portkey_browser",
+  "timestamp": "2026-10-22T23:58:48.637Z",
+  "same_workflow_verified": true,
+  "request": {
+    "grades": [
+      4
+    ],
+    "student_count": 24,
+    "learning_goal": "I want my fourth-grade students to explore force, motion, and engineering design through hands-on experiments.",
+    "max_program_fee": 400,
+    "budget_currency": "USD",
+    "assume_usd": true,
+    "max_duration_minutes": 90,
+    "preferences": [],
+    "required_standards": [],
+    "mandatory_operational": {}
+  },
+  "advisor_tool": "search_matching_programs",
+  "advisor_tool_arguments": {},
+  "candidate_count": 16,
+  "candidate_status_counts": {
+    "pass": 14,
+    "unknown": 2,
+    "fail": 0
+  },
+  "recommendations": [
+    {
+      "program_id": "ewm-catapult",
+      "reasoning": "The catapult activity directly connects hands-on experiments with force and motion: students vary the setup and can compare how those changes affect the ball's movement."
+    },
+    {
+      "program_id": "ewm-marble-roller-coaster",
+      "reasoning": "Designing and testing a marble track offers a way to investigate how track features relate to motion, with opportunities to reason from each test when refining the design."
+    },
+    {
+      "program_id": "ewm-whitney-relay",
+      "reasoning": "Arranging a chain reaction with ramps, marbles, and connecting parts can support inquiry into motion and energy transfer, alongside collaborative engineering-style planning and testing."
+    }
+  ],
+  "explicit_selection": {
+    "program_id": "ewm-catapult",
+    "teacher_selected": true,
+    "acknowledge_unknown": false
+  },
+  "designer_tool": "get_selected_program",
+  "designer_tool_arguments": {},
+  "designer_phases": [
+    "before",
+    "during",
+    "after"
+  ],
+  "structured_output_call": [
+    [
+      "search_matching_programs",
+      "final_result"
+    ],
+    [
+      "get_selected_program",
+      "final_result"
+    ]
+  ],
+  "validation": "Both input and output validations passed",
+  "checks": [
+    "Real Advisor response succeeded",
+    "No Designer call before explicit selection",
+    "Real program comparison visible",
+    "Catapult returned as a genuine candidate",
+    "Selection review does not run Designer automatically",
+    "Real Designer response succeeded",
+    "Prepare & Wonder rendered",
+    "Explore & Observe rendered",
+    "Reflect & Extend rendered",
+    "Observation notes initially blank",
+    "Teacher edit persists in review",
+    "Print stylesheet hides navigation",
+    "Print stylesheet hides export controls",
+    "Print heading appears",
+    "Edited inquiry copied locally",
+    "Mobile view has no document overflow",
+    "No capability stored in browser storage",
+    "Workflow capability absent from DOM",
+    "Exactly two deliberate inference actions; none for editing, comparison, printing or copying",
+    "Authenticated actual run trace retrieved",
+    "Independent backend output validation passed",
+    "Authenticated actual run trace retrieved",
+    "Independent backend output validation passed",
+    "No browser page errors"
+  ],
+  "trace_presentation": "Manually typeset summary of actual recorded tools and outputs, not a literal log screenshot",
+  "new_model_calls": 0,
+  "historical_failure": "Previous rejected output and repair chronology remain in browser-attempt-1.json and docs/stage4_validation.md; successful run shown follows the guard correction."
+}

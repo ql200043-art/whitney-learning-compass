@@ -1,0 +1,106 @@
+[
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/advisor-facts.png",
+    "source": "artifacts/stage4/recommendations-live.png",
+    "source_sha256": "c7d73b2d2c04d7c82b98100534b737b4eb74953887b0107b73ce9d31d4d0b23c",
+    "crop_xywh": [
+      270,
+      570,
+      365,
+      445
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/advisor-reasoning.png",
+    "source": "artifacts/stage4/recommendations-live.png",
+    "source_sha256": "c7d73b2d2c04d7c82b98100534b737b4eb74953887b0107b73ce9d31d4d0b23c",
+    "crop_xywh": [
+      290,
+      1138,
+      330,
+      174
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/selected-catapult.png",
+    "source": "artifacts/stage4/selection-live.png",
+    "source_sha256": "adc6ea08cc5e887f459e461d7960a071943ef97a40e11ab014e97b337fb17e1a",
+    "crop_xywh": [
+      295,
+      339,
+      350,
+      67
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/selection-action.png",
+    "source": "artifacts/stage4/selection-live.png",
+    "source_sha256": "adc6ea08cc5e887f459e461d7960a071943ef97a40e11ab014e97b337fb17e1a",
+    "crop_xywh": [
+      1188,
+      1218,
+      216,
+      65
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/before-preparation.png",
+    "source": "artifacts/stage4/journey-live.png",
+    "source_sha256": "93db48caf1c13a4af088101e36b293decfd7d68184bbb17953973e37047c4bf9",
+    "crop_xywh": [
+      873,
+      1298,
+      500,
+      94
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/during-evidence.png",
+    "source": "artifacts/stage4/journey-live.png",
+    "source_sha256": "93db48caf1c13a4af088101e36b293decfd7d68184bbb17953973e37047c4bf9",
+    "crop_xywh": [
+      873,
+      2305,
+      500,
+      100
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/after-assessment.png",
+    "source": "artifacts/stage4/journey-live.png",
+    "source_sha256": "93db48caf1c13a4af088101e36b293decfd7d68184bbb17953973e37047c4bf9",
+    "crop_xywh": [
+      355,
+      3110,
+      500,
+      136
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  },
+  {
+    "asset": "artifacts/stage5c/revision-pages2-6/images/teacher-review.png",
+    "source": "artifacts/stage4/review-live.png",
+    "source_sha256": "8ab670c32c869443cf7b37d8632dc8ddc1ed866fc4ab07b9b8db1807a8228814",
+    "crop_xywh": [
+      295,
+      3850,
+      690,
+      110
+    ],
+    "operation": "Unaltered rectangular crop; no rewriting, stitching or replay",
+    "provenance": "Successful real Portkey browser workflow on 2026-10-22; artifacts/stage4/browser-live.json"
+  }
+]

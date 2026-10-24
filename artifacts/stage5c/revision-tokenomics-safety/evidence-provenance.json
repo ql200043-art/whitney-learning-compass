@@ -1,0 +1,84 @@
+{
+  "usage": {
+    "source": "artifacts/stage5/A01-full-advisor.json",
+    "json_pointer": "/model_requests/1",
+    "execution_kind": "real_portkey",
+    "scenario": "A01",
+    "condition": "full",
+    "request_ordinal": 2,
+    "request_count": 2,
+    "fields": {
+      "input_tokens": 5379,
+      "cached_input_tokens": 0,
+      "cache_write_tokens": 5253,
+      "output_tokens": 332
+    },
+    "provider_usage_details": {
+      "audio_tokens": 0,
+      "cache_write_tokens": 5253,
+      "cached_tokens": 0
+    },
+    "first_request": {
+      "input_tokens": 690,
+      "output_tokens": 15
+    },
+    "aggregate_usage": {
+      "input_tokens": 6069,
+      "cached_input_tokens": 0,
+      "output_tokens": 347
+    },
+    "format": "Allowlisted structured rendering of preserved gateway record, not screenshot",
+    "unavailable_displayed_fields": []
+  },
+  "historical_workflow": {
+    "source": "artifacts/stage4/browser-live.json",
+    "usage": [
+      {
+        "input_tokens": 5127,
+        "cached_input_tokens": 0,
+        "output_tokens": 355
+      },
+      {
+        "input_tokens": 4581,
+        "cached_input_tokens": 0,
+        "output_tokens": 887
+      }
+    ],
+    "cache_writes": "not retained, remains unknown"
+  },
+  "defense": {
+    "source": "artifacts/stage5/evaluation_results.json",
+    "selector": "results[id=B12]",
+    "fixture_source": "artifacts/stage5/evaluation_scenarios.json",
+    "fixture_code": "evaluation/offline.py:35",
+    "teacher": {
+      "grades": [
+        4
+      ],
+      "student_count": 24,
+      "learning_goal": "Understand force, motion and engineering design.",
+      "max_program_fee": 335,
+      "budget_currency": "USD",
+      "assume_usd": true,
+      "max_duration_minutes": 90
+    },
+    "execution_method": "offline_function_model",
+    "real_model": false,
+    "model_proposal": "eligible",
+    "program_id": "ewm-catapult",
+    "subtotal": "336.00",
+    "deterministic_status": "fail",
+    "validator_code": "invalid_model_output",
+    "validation_failure": "Eligibility override",
+    "accepted": false,
+    "acceptance_derivation": "error outcome and failed output_validation; no response field returned",
+    "test_passed": true,
+    "format": "Faithful rendering of preserved offline receipt; no test rerun"
+  },
+  "new_inference_calls": 0,
+  "external_links_checked": [
+    "https://developers.openai.com/api/docs/models/gpt-6-luna",
+    "https://developers.openai.com/api/docs/guides/prompt-caching",
+    "https://www.eliwhitney.org/catapult"
+  ]
+}
