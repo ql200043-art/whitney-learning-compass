@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-10-24T00:24:54.648836+00:00",
+  "evidence_checkpoint": "2b54f2c650e4097cb30fd7782a04d1de70df1fcf",
+  "checks": [
+    {
+      "check": "Repository root is project directory",
+      "passed": true
+    },
+    {
+      "check": "Main branch, evidence parent is Stage 4.4",
+      "passed": true
+    },
+    {
+      "check": "No remotes",
+      "passed": true
+    },
+    {
+      "check": "Evidence checkpoint adds exactly 47 files",
+      "passed": true
+    },
+    {
+      "check": "Only production modification is authorized validator",
+      "passed": true
+    },
+    {
+      "check": "331 original files, 330 byte-identical except validator",
+      "passed": true
+    },
+    {
+      "check": "All 47 evidence checkpoint files byte-identical",
+      "passed": true
+    },
+    {
+      "check": "Frozen manifest retains only documented P01 map difference",
+      "passed": true
+    },
+    {
+      "check": "P01 stays linked and separate",
+      "passed": true
+    },
+    {
+      "check": "New files confined to repair tests report and evidence",
+      "passed": true
+    },
+    {
+      "check": "No sensitive runtime or cache filenames",
+      "passed": true
+    },
+    {
+      "check": "No configured credential values or bearer/private-key patterns",
+      "passed": true
+    },
+    {
+      "check": "All inspected JSON/CSV valid; capability fields redacted",
+      "passed": true
+    },
+    {
+      "check": "Reviewed Markdown titles fences and local links resolve",
+      "passed": true
+    },
+    {
+      "check": "All 222 original Python test identities retained",
+      "passed": true
+    },
+    {
+      "check": "python-tests.xml exact counts and zero failures errors skips",
+      "passed": true
+    },
+    {
+      "check": "harness-tests.xml exact counts and zero failures errors skips",
+      "passed": true
+    },
+    {
+      "check": "153 frontend and 62 focused tests passed",
+      "passed": true
+    },
+    {
+      "check": "TypeScript and build logs present",
+      "passed": true
+    },
+    {
+      "check": "Before replay reproduces both observed defects",
+      "passed": true
+    },
+    {
+      "check": "After replay fixes both outcomes without changing source outputs",
+      "passed": true
+    },
+    {
+      "check": "Revalidation uses current production validator",
+      "passed": true
+    },
+    {
+      "check": "24 frozen scenario outcomes pass in isolated replay",
+      "passed": true
+    },
+    {
+      "check": "E24 draft subset passed in isolated location",
+      "passed": true
+    },
+    {
+      "check": "Historical live request ledger still 14",
+      "passed": true
+    },
+    {
+      "check": "Git working diff whitespace and object integrity pass",
+      "passed": true
+    }
+  ],
+  "passed": 26,
+  "failed": 0,
+  "original_files": 331,
+  "unchanged_original_files": 330,
+  "preserved_evidence_files": 47,
+  "manifest_exception": [
+    "docs/report_evidence_map.md"
+  ],
+  "reviewed_files": 66,
+  "live_calls": 0,
+  "scope_note": "Reads and writes confined to project; original tracked and evidence hashes checked. No whole-workspace content audit claimed."
+}

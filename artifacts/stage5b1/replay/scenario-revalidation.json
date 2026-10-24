@@ -1,0 +1,605 @@
+{
+  "method": "Offline technical regression; FunctionModel where applicable, not new model evidence or human impact.",
+  "scenario_sha256": "6b05136ff9f3e70d51972a6cfa0f969cfd9cf9bd5dcbe8c8a7201e55588b1a87",
+  "live_calls": 0,
+  "passed": 24,
+  "failed": 0,
+  "results": [
+    {
+      "id": "A01",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "grade:4",
+          "expected": "pass",
+          "actual": "pass",
+          "passed": true
+        },
+        {
+          "constraint": "program_fee_budget",
+          "expected": "pass",
+          "actual": "pass",
+          "passed": true
+        },
+        {
+          "constraint": "duration",
+          "expected": "pass",
+          "actual": "pass",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "expected": "336.00",
+        "actual": "336.00",
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "A02",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "A03",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-tangrams",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "A04",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-simple-machines",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "A05",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-rubber-band-car",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "A06",
+      "expected": "pass",
+      "actual": "pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "pass"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B07",
+      "expected": "fail",
+      "actual": "fail",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-art-and-light",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-bridges",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-camera-obscura",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-catapult",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-cultures",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-ecosystems-magnetic-pendulum",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-electromagnet",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-inventive-arm",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-marble-roller-coaster",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-mill",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-orrery",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-resourceful-schools",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-rocks-connecticut",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-rubber-band-car",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-simple-machines",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-solar-sunflower",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-sustainable-birdhouse",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-sustainable-energy-wind-power",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-tangrams",
+          "status": "fail"
+        },
+        {
+          "program_id": "ewm-whitney-relay",
+          "status": "fail"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B08",
+      "expected": "fail",
+      "actual": "fail",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "grade:2",
+          "expected": "fail",
+          "actual": "fail",
+          "passed": true
+        },
+        {
+          "constraint": "grade:4",
+          "expected": "pass",
+          "actual": "pass",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "fail"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B09",
+      "expected": "fail",
+      "actual": "fail",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "duration",
+          "expected": "fail",
+          "actual": "fail",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "fail"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B10",
+      "expected": "fail",
+      "actual": "fail",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "grade:2",
+          "expected": "fail",
+          "actual": "fail",
+          "passed": true
+        },
+        {
+          "constraint": "duration",
+          "expected": "unknown",
+          "actual": "unknown",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-bridges",
+          "status": "fail"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B11",
+      "expected": "input_rejected",
+      "actual": "input_rejected",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "B12",
+      "expected": "invalid_model_output",
+      "actual": "invalid_model_output",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [
+        "search_matching_programs"
+      ],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "C13",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "duration",
+          "expected": "unknown",
+          "actual": "unknown",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-bridges",
+          "status": "unknown"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "C14",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "duration",
+          "expected": "unknown",
+          "actual": "unknown",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-rubber-band-car",
+          "status": "unknown"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "C15",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "unknown"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "C16",
+      "expected": "unknown",
+      "actual": "unknown",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [
+        {
+          "constraint": "program_fee_budget",
+          "expected": "unknown",
+          "actual": "unknown",
+          "passed": true
+        }
+      ],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [
+        {
+          "program_id": "ewm-catapult",
+          "status": "unknown"
+        }
+      ],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D17",
+      "expected": "input_rejected",
+      "actual": "input_rejected",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D18",
+      "expected": "invalid_catalog",
+      "actual": "invalid_catalog",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D19",
+      "expected": "invalid_model_output",
+      "actual": "invalid_model_output",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [
+        "search_matching_programs"
+      ],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D20",
+      "expected": "input_rejected",
+      "actual": "input_rejected",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D21",
+      "expected": "invalid_model_output",
+      "actual": "invalid_model_output",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [
+        "search_matching_programs",
+        "get_selected_program"
+      ],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "D22",
+      "expected": "execution_limit",
+      "actual": "execution_limit",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [
+        "search_matching_programs",
+        "search_matching_programs",
+        "search_matching_programs",
+        "search_matching_programs"
+      ],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "E23",
+      "expected": "workflow_not_found",
+      "actual": "workflow_not_found",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [
+        "search_matching_programs",
+        "search_matching_programs"
+      ],
+      "live_requests": 0,
+      "frontend_exit_code": null
+    },
+    {
+      "id": "E24",
+      "expected": "expired_authorization_blocked_and_local_document_tests_pass",
+      "actual": "expired_authorization_blocked_and_local_document_tests_pass",
+      "passed": true,
+      "real_model": false,
+      "explicit_checks": [],
+      "fee_check": {
+        "passed": true
+      },
+      "decisions": [],
+      "tools": [],
+      "live_requests": 0,
+      "frontend_exit_code": 0
+    }
+  ]
+}

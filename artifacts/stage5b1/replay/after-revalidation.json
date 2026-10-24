@@ -1,0 +1,31 @@
+{
+  "method": "Offline revalidation of previously generated real-model output; recorded genuine tool context, recomputed matching and recorded selection. No new inference or authorization.",
+  "validator_sha256": "8c33621f073ae08dc956bac9035d0429e599d2f2f3b4ca0b0be878dadb5f05aa",
+  "live_calls": 0,
+  "results": [
+    {
+      "role": "advisor",
+      "source": "artifacts/stage5/A01-full-advisor.json",
+      "sha256": "3f9fe25445a20135e0ba4af1cfe6c51349aa7fd22dfdea3a3177b8ab580b8619",
+      "historical_tool_names": [
+        "search_matching_programs"
+      ],
+      "outcome": "rejected",
+      "reason": "Catapult material contradicts supplied ping-pong ball",
+      "expected": "rejected",
+      "passed": true
+    },
+    {
+      "role": "designer",
+      "source": "artifacts/stage5/A01-full-designer.json",
+      "sha256": "eb22f88bbccad0ca56b2805963952d31435cf2ba560085c8272261ad682fc7bf",
+      "historical_tool_names": [
+        "get_selected_program"
+      ],
+      "outcome": "accepted",
+      "reason": null,
+      "expected": "accepted",
+      "passed": true
+    }
+  ]
+}

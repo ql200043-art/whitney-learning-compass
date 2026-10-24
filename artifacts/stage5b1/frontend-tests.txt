@@ -1,0 +1,12 @@
+
+> whitney-learning-compass@0.4.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/qiaoliang/Library/Mobile Documents/com~apple~CloudDocs/Downloads/乔良 Yale/MGT 409 AI Foundation for Managers/AI Foundations/Final Project/whitney-learning-compass/frontend
+
+
+ Test Files  10 passed (10)
+      Tests  153 passed (153)
+   Start at  20:20:40
+   Duration  4.93s (tests 48%, environment 38%, setup 8%, import 4%, transform 1%)

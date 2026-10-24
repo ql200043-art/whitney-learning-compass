@@ -1,0 +1,28 @@
+{
+  "method": "Offline revalidation of previously generated real-model output; recorded genuine tool context, recomputed matching, no inference.",
+  "baseline_commit": "2b54f2c650e4097cb30fd7782a04d1de70df1fcf",
+  "validator_sha256": "a4978cef31cea91be19fd161f58d22cce6d5378b051bf10300b8a7c91b44d6b9",
+  "live_calls": 0,
+  "results": [
+    {
+      "role": "advisor",
+      "source": "artifacts/stage5/A01-full-advisor.json",
+      "sha256": "3f9fe25445a20135e0ba4af1cfe6c51349aa7fd22dfdea3a3177b8ab580b8619",
+      "historical_tool_names": [
+        "search_matching_programs"
+      ],
+      "outcome": "accepted",
+      "reason": null
+    },
+    {
+      "role": "designer",
+      "source": "artifacts/stage5/A01-full-designer.json",
+      "sha256": "eb22f88bbccad0ca56b2805963952d31435cf2ba560085c8272261ad682fc7bf",
+      "historical_tool_names": [
+        "get_selected_program"
+      ],
+      "outcome": "rejected",
+      "reason": "Invented empirical evidence suggestion"
+    }
+  ]
+}
